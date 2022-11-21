@@ -1,0 +1,1599 @@
+﻿Log file open, 11/16/22 09:27:24
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: MyProject2
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1064888460) SRandInit(1064888460).
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.311944
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: D:/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2022.11.16-00.27.24:924][  0]LogInit: Selected Device Profile: [Windows]
+[2022.11.16-00.27.24:924][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.11.16-00.27.24:931][  0]LogInit: Computer: KBC12006034
+[2022.11.16-00.27.24:931][  0]LogInit: User: kbc12006034
+[2022.11.16-00.27.24:931][  0]LogInit: CPU Page size=4096, Cores=6
+[2022.11.16-00.27.24:931][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.11.16-00.27.24:931][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2022.11.16-00.27.24:931][  0]LogMemory: Platform Memory Stats for Windows
+[2022.11.16-00.27.24:931][  0]LogMemory: Process Physical Memory: 280.95 MB used, 280.96 MB peak
+[2022.11.16-00.27.24:931][  0]LogMemory: Process Virtual Memory: 280.64 MB used, 280.64 MB peak
+[2022.11.16-00.27.24:931][  0]LogMemory: Physical Memory: 7620.24 MB used,  8609.68 MB free, 16229.92 MB total
+[2022.11.16-00.27.24:931][  0]LogMemory: Virtual Memory: 4799.75 MB used,  8609.68 MB free, 134217728.00 MB total
+[2022.11.16-00.27.25:117][  0]LogInit: Using OS detected language (ja-JP).
+[2022.11.16-00.27.25:117][  0]LogInit: Using OS detected locale (ja-JP).
+[2022.11.16-00.27.25:120][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
+[2022.11.16-00.27.25:512][  0]LogD3D11RHI: D3D11 adapters:
+[2022.11.16-00.27.25:594][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1650 with Max-Q Design' (Feature Level 11_0)
+[2022.11.16-00.27.25:594][  0]LogD3D11RHI:       3962/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2022.11.16-00.27.25:621][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2022.11.16-00.27.25:621][  0]LogD3D11RHI:       128/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2022.11.16-00.27.25:622][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.11.16-00.27.25:622][  0]LogD3D11RHI:       0/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.11.16-00.27.25:622][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2022.11.16-00.27.25:647][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.11.16-00.27.25:647][  0]LogD3D11RHI:     GPU DeviceId: 0x1f91 (for the marketing name, search the web for "GPU Device Id")
+[2022.11.16-00.27.25:647][  0]LogWindows: EnumDisplayDevices:
+[2022.11.16-00.27.25:647][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2022.11.16-00.27.25:647][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2022.11.16-00.27.25:647][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2022.11.16-00.27.25:647][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2022.11.16-00.27.25:647][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1650 with Max-Q Design
+[2022.11.16-00.27.25:647][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2022.11.16-00.27.25:647][  0]LogD3D11RHI:      Driver Date: Unknown
+[2022.11.16-00.27.25:647][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2022.11.16-00.27.25:716][  0]LogD3D11RHI: Async texture creation enabled
+[2022.11.16-00.27.25:737][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2022.11.16-00.27.25:737][  0]LogShaderCompilers: Guid format shader working directory is -2 characters bigger than the processId version (C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Intermediate/Shaders/WorkingDirectory/12108/).
+[2022.11.16-00.27.25:737][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kbc12006034/AppData/Local/Temp/UnrealShaderWorkingDir/AE98362D45E3285C40628A89C71418A6/'.
+[2022.11.16-00.27.25:737][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.11.16-00.27.26:494][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2022.11.16-00.27.26:547][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2022.11.16-00.27.26:597][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2022.11.16-00.27.26:637][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2022.11.16-00.27.26:677][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2022.11.16-00.27.26:723][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2022.11.16-00.27.26:771][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2022.11.16-00.27.26:820][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2022.11.16-00.27.26:864][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2022.11.16-00.27.26:910][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2022.11.16-00.27.26:950][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2022.11.16-00.27.27:001][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2022.11.16-00.27.27:054][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2022.11.16-00.27.27:097][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2022.11.16-00.27.27:140][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2022.11.16-00.27.27:229][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2022.11.16-00.27.27:229][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2022.11.16-00.27.27:265][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2022.11.16-00.27.27:345][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2022.11.16-00.27.27:369][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2022.11.16-00.27.27:408][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2022.11.16-00.27.27:447][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2022.11.16-00.27.27:488][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2022.11.16-00.27.27:528][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2022.11.16-00.27.27:528][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2022.11.16-00.27.27:935][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.11.16-00.27.28:000][  0]LogDerivedDataCache: Loaded boot cache 0.07s 93MB C:/Users/kbc12006034/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2022.11.16-00.27.28:000][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kbc12006034/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2022.11.16-00.27.28:000][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.11.16-00.27.28:000][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.11.16-00.27.28:000][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.11.16-00.27.28:000][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.11.16-00.27.28:012][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.11.16-00.27.28:025][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kbc12006034/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.11.16-00.27.28:033][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2022.11.16-00.27.28:033][  0]LogSlate: Using Freetype 2.6.0
+[2022.11.16-00.27.28:034][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.11.16-00.27.28:034][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.11.16-00.27.28:263][  0]LogAssetRegistry: FAssetRegistry took 0.0259 seconds to start up
+[2022.11.16-00.27.28:373][  0]LogInit: Selected Device Profile: [Windows]
+[2022.11.16-00.27.28:480][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2022.11.16-00.27.28:726][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2022.11.16-00.27.28:758][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2022.11.16-00.27.28:758][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.11.16-00.27.28:758][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2022.11.16-00.27.28:758][  0]LogMeshReduction: No automatic mesh merging module available
+[2022.11.16-00.27.28:758][  0]LogMeshMerging: No automatic mesh merging module available
+[2022.11.16-00.27.29:040][  0]LogNetVersion: MyProject2 , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 237949846)
+[2022.11.16-00.27.29:208][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.032262 seconds
+[2022.11.16-00.27.29:214][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2022.11.16-00.27.29:214][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2022.11.16-00.27.29:214][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.11.16-00.27.29:268][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2022.11.16-00.27.31:330][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.11.16-00.27.31:363][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.11.16-00.27.31:892][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2022.11.16-00.27.32:230][  0]SourceControl: ソースコントロールは無効です
+[2022.11.16-00.27.32:230][  0]SourceControl: ソースコントロールは無効です
+[2022.11.16-00.27.32:265][  0]SourceControl: ソースコントロールは無効です
+[2022.11.16-00.27.32:301][  0]SourceControl: ソースコントロールは無効です
+[2022.11.16-00.27.32:763][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.11.16-00.27.32:962][  0]LogOcInput: OculusInput pre-init called
+[2022.11.16-00.27.33:182][  0]LogEngine: Initializing Engine...
+[2022.11.16-00.27.33:184][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.11.16-00.27.33:346][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2022.11.16-00.27.33:346][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2022.11.16-00.27.33:459][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.11.16-00.27.33:519][  0]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.11.16-00.27.33:672][  0]LogInit: FAudioDevice initialized.
+[2022.11.16-00.27.33:716][  0]LogDerivedDataCache: Saved boot cache 0.04s 93MB C:/Users/kbc12006034/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2022.11.16-00.27.33:724][  0]LogInit: Texture streaming: Enabled
+[2022.11.16-00.27.33:825][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.11.16-00.27.34:007][  0]LogInit: Transaction tracking system initialized
+[2022.11.16-00.27.34:267][  0]BlueprintLog: New page: エディタの読み込み
+[2022.11.16-00.27.35:022][  0]LocalizationService: ローカライズのサービスが無効になりました
+[2022.11.16-00.27.35:640][  0]LogConsoleResponse: Display: 
+[2022.11.16-00.27.35:778][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2022.11.16-00.27.35:778][  0]LogCook: Display: Mobile HDR setting 1
+[2022.11.16-00.27.35:778][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2022.11.16-00.27.36:698][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Content/' took 0.02s
+[2022.11.16-00.27.36:698][  0]SourceControl: ソースコントロールは無効です
+[2022.11.16-00.27.36:698][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.11.16-00.27.36:698][  0]LightingResults: New page: ライティングのビルド
+[2022.11.16-00.27.36:731][  0]MapCheck: New page: マップをチェック
+[2022.11.16-00.27.36:731][  0]LightingResults: New page: <何も選択されていません>
+[2022.11.16-00.27.36:870][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2022.11.16-00.27.36:876][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.11.16-00.27.36:888][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.11.16-00.27.36:922][  0]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 33.639ミリ秒かかりました。
+[2022.11.16-00.27.36:922][  0]LogFileHelpers: Loading map 'Template_Default' took 0.225
+[2022.11.16-00.27.36:990][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
+[2022.11.16-00.27.37:019][  0]LogCollectionManager: Loaded 0 collections in 0.000753 seconds
+[2022.11.16-00.27.37:091][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Saved/Collections/' took 0.01s
+[2022.11.16-00.27.37:091][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Content/Developers/kbc12006034/Collections/' took 0.01s
+[2022.11.16-00.27.37:091][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Content/Collections/' took 0.01s
+[2022.11.16-00.27.37:091][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2022.11.16-00.27.37:098][  0]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 2386 classes and 500 folders.
+[2022.11.16-00.27.37:150][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2022.11.16-00.27.37:176][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2022.11.16-00.27.37:254][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2022.11.16-00.27.37:306][  0]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.11.16-00.27.37:309][  0]LogSlate: Took 0.002202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2022.11.16-00.27.37:310][  0]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.11.16-00.27.37:313][  0]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.11.16-00.27.37:398][  0]LogRenderer: Reallocating scene render targets to support 968x388 Format 10 NumSamples 1 (Frame:1).
+[2022.11.16-00.27.37:561][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2022.11.16-00.27.37:561][  0]LogLoad: (Engine Initialization) Total time: 14.19 seconds
+[2022.11.16-00.27.37:561][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.11.16-00.27.37:562][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2022.11.16-00.27.37:590][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.11.16-00.27.37:646][  0]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2022.11.16-00.27.37:656][  1]LogAssetRegistry: Asset discovery search completed in 9.4155 seconds
+[2022.11.16-00.27.37:657][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2022.11.16-00.27.37:657][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000035 seconds (updated 0 objects)
+[2022.11.16-00.27.50:946][578]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2022.11.16-00.27.50:984][578]LogAIModule: Creating AISystem for world NewMap
+[2022.11.16-00.27.51:001][578]Cmd: MAP LOAD FILE="C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Content/Maps/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.11.16-00.27.51:001][578]LightingResults: New page: ライティングのビルド
+[2022.11.16-00.27.51:002][578]LoadErrors: New page: マップをロード中: NewMap.umap
+[2022.11.16-00.27.51:002][578]MapCheck: New page: マップをチェック
+[2022.11.16-00.27.51:002][578]LightingResults: New page: <何も選択されていません>
+[2022.11.16-00.27.51:048][578]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.11.16-00.27.51:070][578]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.11.16-00.27.51:104][578]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 34.686ミリ秒かかりました。
+[2022.11.16-00.27.51:105][578]LogFileHelpers: Loading map 'NewMap' took 0.104
+[2022.11.16-00.28.48:684][659]LogHttp: Warning: 0000015CC7C9E500: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.11.16-00.28.48:684][659]LogHttp: Warning: 0000015CC7C9E500: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.11.16-00.28.48:684][659]LogHttp: Warning: 0000015CC7C9E500: libcurl info message cache 1 (Closing connection 0)
+[2022.11.16-00.30.48:699][995]LogHttp: Warning: 0000015CE9B4B700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.11.16-00.30.48:699][995]LogHttp: Warning: 0000015CE9B4B700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.11.16-00.30.48:699][995]LogHttp: Warning: 0000015CE9B4B700: libcurl info message cache 1 (Closing connection 1)
+[2022.11.16-00.32.53:692][171]LogMaterial: Missing cached shader map for material M_PLains_Fern01, compiling. 
+[2022.11.16-00.32.53:869][181]LogActorFactory: Actor Factory created SM_Plains_Grass01
+[2022.11.16-00.32.56:996][451]LogActorFactory: Actor Factory created SM_Plains_Grass01
+[2022.11.16-00.33.08:138][639]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-00.33.08:149][639]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2022.11.16-00.33.34:359][737]LogActorFactory: Actor Factory created SM_Plains_Floors_Block03
+[2022.11.16-00.33.35:816][908]LogActorFactory: Actor Factory created SM_Plains_Floors_Block03
+[2022.11.16-00.33.37:537][109]Cmd: DELETE
+[2022.11.16-00.33.37:537][109]Cmd: ACTOR DELETE
+[2022.11.16-00.33.37:538][109]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-00.33.37:549][109]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2022.11.16-00.33.40:246][429]LogStaticMesh: スタティックメッシュ SM_Plains_Floors_Block05 をビルド中...
+[2022.11.16-00.33.40:260][429]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_Block05.SM_Plains_Floors_Block05
+[2022.11.16-00.33.40:355][439]LogActorFactory: Actor Factory created SM_Plains_Floors_Block05
+[2022.11.16-00.33.43:844][854]LogActorFactory: Actor Factory created SM_Plains_Floors_Block05
+[2022.11.16-00.33.46:202][128]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block05)
+[2022.11.16-00.33.46:336][140]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2022.11.16-00.33.47:337][211]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2022.11.16-00.33.47:437][221]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (SM_Plains_Floors_Block05)
+[2022.11.16-00.33.47:987][284]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block05)
+[2022.11.16-00.33.48:069][292]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2022.11.16-00.33.52:080][763]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-00.33.52:091][763]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2022.11.16-00.33.56:716][304]LogActorFactory: Actor Factory created SM_Plains_Floors_Block01
+[2022.11.16-00.33.57:822][435]LogActorFactory: Actor Factory created SM_Plains_Floors_Block01
+[2022.11.16-00.34.05:418][334]LogHttp: Warning: 0000015CE560EF80: request failed, libcurl error: 35 (SSL connect error)
+[2022.11.16-00.34.05:418][334]LogHttp: Warning: 0000015CE560EF80: libcurl info message cache 0 (  Trying 52.22.195.189...)
+[2022.11.16-00.34.05:418][334]LogHttp: Warning: 0000015CE560EF80: libcurl info message cache 1 (Connected to datarouter.ol.epicgames.com (52.22.195.189) port 443 (#2))
+[2022.11.16-00.34.05:418][334]LogHttp: Warning: 0000015CE560EF80: libcurl info message cache 2 (ALPN, offering http/1.1)
+[2022.11.16-00.34.05:418][334]LogHttp: Warning: 0000015CE560EF80: libcurl info message cache 3 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2022.11.16-00.34.05:418][334]LogHttp: Warning: 0000015CE560EF80: libcurl info message cache 4 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2022.11.16-00.34.05:418][334]LogHttp: Warning: 0000015CE560EF80: libcurl info message cache 5 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2022.11.16-00.34.05:418][334]LogHttp: Warning: 0000015CE560EF80: libcurl info message cache 6 (Unknown SSL protocol error in connection to datarouter.ol.epicgames.com:443 )
+[2022.11.16-00.34.05:418][334]LogHttp: Warning: 0000015CE560EF80: libcurl info message cache 7 (Closing connection 2)
+[2022.11.16-00.34.16:628][617]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.11.16-00.34.16:783][630]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.11.16-00.34.29:366][ 61]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block01)
+[2022.11.16-00.34.35:447][777]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.11.16-00.34.39:639][273]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block01)
+[2022.11.16-00.34.52:736][797]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.11.16-00.34.58:652][453]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block01)
+[2022.11.16-00.34.59:838][576]LogSlate: Took 0.038840 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.11.16-00.35.21:984][187]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block01)
+[2022.11.16-00.35.30:416][194]Cmd: TRANSACTION UNDO
+[2022.11.16-00.35.30:416][194]LogEditorTransaction: Undo アクタ を移動
+[2022.11.16-00.35.30:423][194]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2022.11.16-00.35.40:004][277]Cmd: DELETE
+[2022.11.16-00.35.40:004][277]Cmd: ACTOR DELETE
+[2022.11.16-00.35.40:004][277]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-00.35.40:019][277]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2022.11.16-00.35.42:123][522]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.11.16-00.35.50:567][456]LogStaticMesh: スタティックメッシュ SM_Plains_Floors_TrimFlat02 をビルド中...
+[2022.11.16-00.35.50:578][456]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_TrimFlat02.SM_Plains_Floors_TrimFlat02
+[2022.11.16-00.35.50:741][473]LogActorFactory: Actor Factory created SM_Plains_Floors_TrimFlat02
+[2022.11.16-00.35.53:507][783]LogActorFactory: Actor Factory created SM_Plains_Floors_TrimFlat02
+[2022.11.16-00.36.05:447][676]LogHttp: Warning: 0000015CF5ED1D80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.11.16-00.36.05:447][676]LogHttp: Warning: 0000015CF5ED1D80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.11.16-00.36.05:447][676]LogHttp: Warning: 0000015CF5ED1D80: libcurl info message cache 1 (Closing connection 3)
+[2022.11.16-00.36.06:091][714]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-00.36.06:103][714]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2022.11.16-00.36.12:732][112]LogStaticMesh: スタティックメッシュ SM_Plains_Floors_TrimDesign02 をビルド中...
+[2022.11.16-00.36.12:743][112]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_TrimDesign02.SM_Plains_Floors_TrimDesign02
+[2022.11.16-00.36.13:480][112]LogSlate: Took 0.000263 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.11.16-00.36.13:830][112]LogRenderer: Reallocating scene render targets to support 1144x708 Format 10 NumSamples 1 (Frame:1).
+[2022.11.16-00.36.20:747][521]LogStaticMesh: スタティックメッシュ SM_Plains_Floors_Trim03 をビルド中...
+[2022.11.16-00.36.20:758][521]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_Trim03.SM_Plains_Floors_Trim03
+[2022.11.16-00.36.24:868][751]LogStaticMesh: スタティックメッシュ SM_Plains_Floors_Trim02_Rev をビルド中...
+[2022.11.16-00.36.24:880][751]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_Trim02_Rev.SM_Plains_Floors_Trim02_Rev
+[2022.11.16-00.36.28:068][926]LogStaticMesh: スタティックメッシュ SM_Plains_Floors_Trim02 をビルド中...
+[2022.11.16-00.36.28:077][926]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_Trim02.SM_Plains_Floors_Trim02
+[2022.11.16-00.36.31:170][ 95]LogStaticMesh: スタティックメッシュ SM_Plains_Floors_Trim01 をビルド中...
+[2022.11.16-00.36.31:178][ 95]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_Trim01.SM_Plains_Floors_Trim01
+[2022.11.16-00.36.49:439][157]LogActorFactory: Actor Factory created SM_Plains_Floors_Flat02
+[2022.11.16-00.36.50:824][240]LogActorFactory: Actor Factory created SM_Plains_Floors_Flat02
+[2022.11.16-00.37.30:375][605]Cmd: TRANSACTION UNDO
+[2022.11.16-00.37.30:375][605]LogEditorTransaction: Undo アクタ を移動
+[2022.11.16-00.37.34:629][860]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.11.16-00.37.36:540][973]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.11.16-00.37.38:891][112]Cmd: DELETE
+[2022.11.16-00.37.38:891][112]Cmd: ACTOR DELETE
+[2022.11.16-00.37.38:891][112]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-00.37.38:905][112]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2022.11.16-00.37.42:553][331]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat02)
+[2022.11.16-00.38.01:017][434]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.11.16-00.38.05:121][678]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube14)
+[2022.11.16-00.38.06:142][737]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat02)
+[2022.11.16-00.38.12:937][140]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-00.38.21:409][646]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat3)
+[2022.11.16-00.38.24:070][803]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.11.16-00.38.32:545][309]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat3)
+[2022.11.16-00.38.40:728][791]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.11.16-00.38.45:344][ 65]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat4)
+[2022.11.16-00.38.53:300][538]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-00.38.56:466][726]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-00.38.56:535][728]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2022.11.16-00.39.26:901][539]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-00.39.27:838][592]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-00.40.08:587][ 28]Cmd: TRANSACTION UNDO
+[2022.11.16-00.40.08:587][ 28]LogEditorTransaction: Undo アクタをクリック
+[2022.11.16-00.40.20:463][737]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat02)
+[2022.11.16-00.40.25:777][ 54]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.11.16-00.40.30:696][347]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat02)
+[2022.11.16-00.40.33:685][524]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-00.40.41:824][ 10]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat3)
+[2022.11.16-00.40.43:210][ 91]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat3)
+[2022.11.16-00.40.49:083][439]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.11.16-00.40.53:875][724]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat3)
+[2022.11.16-00.40.58:640][  3]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-00.41.05:594][418]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube53)
+[2022.11.16-00.41.06:465][468]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat4)
+[2022.11.16-00.41.11:695][777]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-00.41.20:767][318]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat4)
+[2022.11.16-00.41.25:461][597]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-00.41.35:398][191]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-00.41.41:572][557]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-00.43.47:262][ 59]LogActorFactory: Actor Factory created SM_Plains_Ruin_BuildingLOD01
+[2022.11.16-00.43.47:865][ 95]LogActorFactory: Actor Factory created SM_Plains_Ruin_BuildingLOD01
+[2022.11.16-00.44.44:076][459]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.11.16-00.44.49:378][771]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Ruin_BuildingLOD01)
+[2022.11.16-00.45.03:682][624]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.11.16-00.45.09:436][967]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Ruin_BuildingLOD01)
+[2022.11.16-00.45.18:332][497]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.11.16-00.46.02:831][159]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Ruin_BuildingLOD01)
+[2022.11.16-00.46.18:508][ 94]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube51)
+[2022.11.16-00.46.19:105][128]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Ruin_BuildingLOD2)
+[2022.11.16-00.46.38:904][313]Cmd: TRANSACTION UNDO
+[2022.11.16-00.46.38:904][313]LogEditorTransaction: Undo アクタ を回転
+[2022.11.16-00.46.39:857][370]Cmd: TRANSACTION UNDO
+[2022.11.16-00.46.39:857][370]LogEditorTransaction: Undo アクタ を回転
+[2022.11.16-00.46.41:857][490]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat4)
+[2022.11.16-00.46.42:568][531]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Ruin_BuildingLOD2)
+[2022.11.16-00.46.48:831][905]Cmd: TRANSACTION UNDO
+[2022.11.16-00.46.48:831][905]LogEditorTransaction: Undo アクタ を回転
+[2022.11.16-00.46.51:247][ 50]LogEditorViewport: Clicking Background
+[2022.11.16-00.46.52:466][123]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Ruin_BuildingLOD2)
+[2022.11.16-00.46.56:513][364]Cmd: TRANSACTION UNDO
+[2022.11.16-00.46.56:513][364]LogEditorTransaction: Undo アクタ を回転
+[2022.11.16-00.46.59:515][543]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Ruin_BuildingLOD2)
+[2022.11.16-00.47.04:247][824]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Ruin_BuildingLOD2)
+[2022.11.16-00.47.20:270][783]LogEditorViewport: Clicking Background
+[2022.11.16-00.47.22:371][909]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Ruin_BuildingLOD2)
+[2022.11.16-00.47.28:967][302]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Ruin_BuildingLOD01)
+[2022.11.16-00.48.04:754][444]LogEditorViewport: Clicking Background
+[2022.11.16-00.48.36:980][356]LogActorFactory: Actor Factory created SM_Plains_Wall_Straight_01
+[2022.11.16-00.48.37:616][394]LogActorFactory: Actor Factory created SM_Plains_Wall_Straight_01
+[2022.11.16-00.49.21:844][ 31]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube53)
+[2022.11.16-00.49.23:828][148]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2022.11.16-00.49.57:435][156]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-00.49.59:193][260]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2022.11.16-00.50.30:676][145]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-00.50.54:573][575]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2022.11.16-00.51.17:668][953]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_3)
+[2022.11.16-00.51.38:008][168]LogEditorViewport: Clicking Background
+[2022.11.16-00.51.54:297][144]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_4)
+[2022.11.16-00.52.01:178][554]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat3)
+[2022.11.16-00.52.04:849][772]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube50)
+[2022.11.16-00.52.06:349][860]Cmd: DELETE
+[2022.11.16-00.52.06:349][860]Cmd: ACTOR DELETE
+[2022.11.16-00.52.06:349][860]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-00.52.06:361][860]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2022.11.16-00.52.14:110][325]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube53)
+[2022.11.16-00.52.16:473][465]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube53)
+[2022.11.16-00.52.17:416][521]Cmd: DELETE
+[2022.11.16-00.52.17:416][521]Cmd: ACTOR DELETE
+[2022.11.16-00.52.17:416][521]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-00.52.17:428][521]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2022.11.16-00.52.22:540][828]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube51)
+[2022.11.16-00.52.23:254][869]Cmd: DELETE
+[2022.11.16-00.52.23:254][869]Cmd: ACTOR DELETE
+[2022.11.16-00.52.23:254][869]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-00.52.23:266][869]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2022.11.16-00.52.29:850][264]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube52)
+[2022.11.16-00.52.30:678][312]Cmd: DELETE
+[2022.11.16-00.52.30:678][312]Cmd: ACTOR DELETE
+[2022.11.16-00.52.30:678][312]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-00.52.30:688][312]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2022.11.16-00.52.41:079][935]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_2)
+[2022.11.16-00.52.52:862][635]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-00.52.58:376][961]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-00.52.59:239][  9]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-00.53.04:172][304]LogEditorActor: Deleted Actor: SpotLight
+[2022.11.16-00.53.04:183][304]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2022.11.16-00.53.14:057][896]Cmd: DELETE
+[2022.11.16-00.53.14:057][896]Cmd: ACTOR DELETE
+[2022.11.16-00.53.14:058][896]LogEditorActor: Deleted Actor: DirectionalLight
+[2022.11.16-00.53.14:080][896]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2022.11.16-00.53.25:243][564]LogEditorActor: Deleted Actor: SkyLight
+[2022.11.16-00.53.25:254][564]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2022.11.16-00.53.29:081][794]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Ruin_BuildingLOD4)
+[2022.11.16-00.53.34:920][141]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat02)
+[2022.11.16-00.53.38:688][364]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Ruin_BuildingLOD4)
+[2022.11.16-00.53.47:653][899]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.11.16-00.53.52:053][161]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Ruin_BuildingLOD4)
+[2022.11.16-00.53.59:646][614]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-00.54.04:111][880]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Ruin_BuildingLOD4)
+[2022.11.16-00.54.13:342][430]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.11.16-00.54.18:634][745]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_2)
+[2022.11.16-00.54.23:145][ 12]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-00.54.27:678][282]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Ruin_BuildingLOD01)
+[2022.11.16-00.54.32:639][577]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-00.54.33:559][631]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Ruin_BuildingLOD01)
+[2022.11.16-00.54.36:965][833]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-00.54.40:922][ 68]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Ruin_BuildingLOD01)
+[2022.11.16-00.54.46:147][378]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.11.16-00.54.51:550][700]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Ruin_BuildingLOD01)
+[2022.11.16-00.54.57:340][ 44]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-00.55.05:116][509]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Ruin_BuildingLOD01)
+[2022.11.16-00.55.10:510][828]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-00.55.17:477][244]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Ruin_BuildingLOD2)
+[2022.11.16-00.55.22:635][551]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-00.55.25:211][704]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Ruin_BuildingLOD2)
+[2022.11.16-00.55.30:395][ 12]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-00.55.37:258][422]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Ruin_BuildingLOD3)
+[2022.11.16-00.55.38:631][502]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Plains_Ruin_BuildingLOD3)
+[2022.11.16-00.55.48:841][106]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.11.16-00.56.00:224][787]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Ruin_BuildingLOD3)
+[2022.11.16-00.56.05:041][ 73]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.11.16-00.56.23:409][171]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Ruin_BuildingLOD4)
+[2022.11.16-00.56.27:009][384]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-00.56.42:393][304]LogActorFactory: Actor Factory created SM_Plains_Wall_Straight_01
+[2022.11.16-00.56.43:149][349]LogActorFactory: Actor Factory created SM_Plains_Wall_Straight_01
+[2022.11.16-00.58.37:223][168]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat3)
+[2022.11.16-00.58.44:677][609]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_5)
+[2022.11.16-00.58.53:618][141]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat3)
+[2022.11.16-00.58.55:100][228]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_6)
+[2022.11.16-00.58.59:020][460]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat3)
+[2022.11.16-00.59.03:085][702]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_5)
+[2022.11.16-00.59.33:357][510]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-00.59.37:550][757]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_7)
+[2022.11.16-00.59.42:981][ 78]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-00.59.46:115][264]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_8)
+[2022.11.16-01.00.11:288][766]Cmd: TRANSACTION UNDO
+[2022.11.16-01.00.11:288][766]LogEditorTransaction: Undo アクタ を移動
+[2022.11.16-01.00.40:641][525]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat3)
+[2022.11.16-01.00.51:556][176]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube29)
+[2022.11.16-01.00.52:755][246]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_9)
+[2022.11.16-01.01.16:234][648]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-01.01.21:627][968]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_10)
+[2022.11.16-01.01.25:906][222]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-01.01.27:474][314]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_10)
+[2022.11.16-01.01.48:734][588]LogHttp: Warning: 0000015D1BBB1C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.11.16-01.01.48:734][588]LogHttp: Warning: 0000015D1BBB1C00: libcurl info message cache 0 (Connection 12 seems to be dead!)
+[2022.11.16-01.01.48:734][588]LogHttp: Warning: 0000015D1BBB1C00: libcurl info message cache 1 (Closing connection 12)
+[2022.11.16-01.01.48:734][588]LogHttp: Warning: 0000015D1BBB1C00: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2022.11.16-01.01.48:734][588]LogHttp: Warning: 0000015D1BBB1C00: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.11.16-01.01.48:734][588]LogHttp: Warning: 0000015D1BBB1C00: libcurl info message cache 4 (Closing connection 13)
+[2022.11.16-01.01.48:944][600]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-01.01.51:239][733]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_7)
+[2022.11.16-01.01.52:462][804]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_10)
+[2022.11.16-01.02.00:778][301]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-01.02.02:126][380]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_10)
+[2022.11.16-01.02.22:661][609]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-01.02.27:908][921]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_10)
+[2022.11.16-01.02.40:074][648]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-01.03.01:189][913]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.11.16-01.03.02:540][992]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_10)
+[2022.11.16-01.03.10:954][489]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-01.03.12:706][592]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_11)
+[2022.11.16-01.03.36:840][ 34]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-01.03.42:104][347]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_11)
+[2022.11.16-01.03.59:440][382]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_5)
+[2022.11.16-01.04.00:389][437]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_5)
+[2022.11.16-01.04.33:599][424]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat3)
+[2022.11.16-01.04.46:340][184]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_12)
+[2022.11.16-01.05.06:453][383]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-01.05.10:590][627]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_13)
+[2022.11.16-01.05.18:465][ 93]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-01.05.20:424][207]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_13)
+[2022.11.16-01.05.32:411][922]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.11.16-01.05.40:383][396]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-01.06.03:069][751]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_11)
+[2022.11.16-01.06.08:973][102]Cmd: TRANSACTION UNDO
+[2022.11.16-01.06.08:974][102]LogEditorTransaction: Undo アクタ を移動
+[2022.11.16-01.06.10:866][215]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_11)
+[2022.11.16-01.06.29:084][304]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-01.06.37:377][799]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_14)
+[2022.11.16-01.07.21:148][415]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-01.07.24:710][625]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_15)
+[2022.11.16-01.07.31:827][ 49]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_15)
+[2022.11.16-01.07.37:135][367]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat4)
+[2022.11.16-01.07.38:113][424]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_15)
+[2022.11.16-01.07.41:919][650]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat4)
+[2022.11.16-01.07.58:052][611]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_15)
+[2022.11.16-01.08.06:057][ 86]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat4)
+[2022.11.16-01.08.55:081][ 19]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Saved/Autosaves/Game/Maps/NewMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.11.16-01.08.55:177][ 19]LogSavePackage: Save=83.85ms
+[2022.11.16-01.08.55:177][ 19]LogSavePackage: Moving 'C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Saved/NewMap_Auto12E5A7ED94838A614ED27A0A3898187ED.tmp' to 'C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Saved/Autosaves/Game/Maps/NewMap_Auto1.umap'
+[2022.11.16-01.08.55:179][ 19]LogSavePackage: Display: Finished SavePackage C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Saved/Autosaves/Game/Maps/NewMap_Auto1.umap
+[2022.11.16-01.08.55:180][ 19]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/NewMap' took 0.113
+[2022.11.16-01.08.55:180][ 19]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.113
+[2022.11.16-01.21.54:107][831]LogHttp: Warning: 0000015D17185480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.11.16-01.21.54:107][831]LogHttp: Warning: 0000015D17185480: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x15cce5d3c28 [can pipeline])
+[2022.11.16-01.21.54:107][831]LogHttp: Warning: 0000015D17185480: libcurl info message cache 1 (Re-using existing connection! (#18) with host datarouter.ol.epicgames.com)
+[2022.11.16-01.21.54:107][831]LogHttp: Warning: 0000015D17185480: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.214.132.27) port 443 (#18))
+[2022.11.16-01.21.54:107][831]LogHttp: Warning: 0000015D17185480: libcurl info message cache 3 (upload completely sent off: 363 out of 363 bytes)
+[2022.11.16-01.21.54:107][831]LogHttp: Warning: 0000015D17185480: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2022.11.16-01.21.54:107][831]LogHttp: Warning: 0000015D17185480: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2022.11.16-01.21.54:107][831]LogHttp: Warning: 0000015D17185480: libcurl info message cache 6 (Closing connection 18)
+[2022.11.16-01.21.54:108][831]LogHttp: Warning: 0000015D17185480: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2022.11.16-01.21.54:108][831]LogHttp: Warning: 0000015D17185480: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB7D4F31D-43E3-DFE7-54BC-9383137B23D0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=fa24a18a48a876eaf6b355955fc8aa67%7Ce8b3fdf15aca489e9e785367966abd62%7Cbf50e6b5-b8ad-4e2d-9277-7f0a6487721a&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2022.11.16-01.21.54:108][831]LogHttp: Warning: 0000015D17185480: libcurl info message cache 9 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.11.16-01.21.54:108][831]LogHttp: Warning: 0000015D17185480: libcurl info message cache 10 (Closing connection 19)
+[2022.11.16-01.22.01:837][293]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube27)
+[2022.11.16-01.22.10:622][815]Cmd: DELETE
+[2022.11.16-01.22.10:622][815]Cmd: ACTOR DELETE
+[2022.11.16-01.22.10:623][815]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.22.10:633][815]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2022.11.16-01.22.12:073][902]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_15)
+[2022.11.16-01.22.18:532][285]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-01.22.20:545][404]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat4)
+[2022.11.16-01.22.22:603][524]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_15)
+[2022.11.16-01.22.24:224][619]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube48)
+[2022.11.16-01.22.28:475][870]Cmd: DELETE
+[2022.11.16-01.22.28:475][870]Cmd: ACTOR DELETE
+[2022.11.16-01.22.28:475][870]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.22.28:485][870]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2022.11.16-01.22.29:727][945]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_17)
+[2022.11.16-01.22.37:401][401]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-01.22.38:382][458]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube37)
+[2022.11.16-01.22.40:112][560]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-01.22.46:093][916]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_18)
+[2022.11.16-01.22.53:127][334]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-01.22.54:792][432]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_19)
+[2022.11.16-01.22.56:832][552]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-01.23.03:700][960]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_19)
+[2022.11.16-01.23.13:549][545]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-01.23.18:027][810]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_20)
+[2022.11.16-01.23.22:067][ 48]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-01.23.28:411][424]Cmd: TRANSACTION UNDO
+[2022.11.16-01.23.28:411][424]LogEditorTransaction: Undo アクタ を移動
+[2022.11.16-01.23.30:951][575]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_20)
+[2022.11.16-01.23.39:832][102]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-01.23.41:817][219]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_21)
+[2022.11.16-01.23.46:364][487]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-01.23.52:094][827]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_22)
+[2022.11.16-01.23.55:385][ 21]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-01.24.07:703][756]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube42)
+[2022.11.16-01.24.08:607][808]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_19)
+[2022.11.16-01.24.27:633][944]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-01.24.36:972][501]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_23)
+[2022.11.16-01.24.43:069][863]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-01.24.48:840][206]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_24)
+[2022.11.16-01.24.50:922][329]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_24)
+[2022.11.16-01.24.55:804][619]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat02)
+[2022.11.16-01.24.56:837][679]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_25)
+[2022.11.16-01.24.57:984][746]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_25)
+[2022.11.16-01.25.17:107][889]Cmd: TRANSACTION UNDO
+[2022.11.16-01.25.17:107][889]LogEditorTransaction: Undo アクタ を移動
+[2022.11.16-01.25.22:786][229]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat02)
+[2022.11.16-01.25.27:983][538]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_25)
+[2022.11.16-01.25.47:215][689]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube33)
+[2022.11.16-01.25.48:249][749]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-01.25.48:901][787]LogHttp: Warning: 0000015D1BA98D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.11.16-01.25.48:901][787]LogHttp: Warning: 0000015D1BA98D00: libcurl info message cache 0 (Connection 20 seems to be dead!)
+[2022.11.16-01.25.48:901][787]LogHttp: Warning: 0000015D1BA98D00: libcurl info message cache 1 (Closing connection 20)
+[2022.11.16-01.25.48:901][787]LogHttp: Warning: 0000015D1BA98D00: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2022.11.16-01.25.48:901][787]LogHttp: Warning: 0000015D1BA98D00: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.11.16-01.25.48:901][787]LogHttp: Warning: 0000015D1BA98D00: libcurl info message cache 4 (Closing connection 21)
+[2022.11.16-01.25.49:446][819]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat3)
+[2022.11.16-01.26.00:109][457]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_5)
+[2022.11.16-01.26.02:680][609]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_19)
+[2022.11.16-01.26.04:029][688]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_24)
+[2022.11.16-01.26.20:794][689]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_27)
+[2022.11.16-01.26.23:629][858]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-01.26.25:144][947]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_27)
+[2022.11.16-01.26.28:051][119]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-01.26.30:000][234]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_27)
+[2022.11.16-01.26.33:250][426]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat3)
+[2022.11.16-01.26.33:983][468]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube47)
+[2022.11.16-01.26.36:398][611]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_19)
+[2022.11.16-01.26.45:419][147]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-01.26.48:085][305]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat4)
+[2022.11.16-01.26.49:401][382]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube45)
+[2022.11.16-01.26.50:466][444]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat4)
+[2022.11.16-01.26.55:686][751]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_17)
+[2022.11.16-01.27.04:221][256]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat3)
+[2022.11.16-01.27.11:443][686]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_23)
+[2022.11.16-01.27.19:302][152]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-01.27.20:534][224]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_30)
+[2022.11.16-01.27.38:314][281]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-01.27.39:549][353]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_19)
+[2022.11.16-01.27.39:636][356]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2022.11.16-01.27.40:622][414]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2022.11.16-01.27.40:685][417]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (SM_Plains_Wall_Straight_19)
+[2022.11.16-01.28.00:261][569]LogHttp: Warning: 0000015CE88C5480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.11.16-01.28.00:261][569]LogHttp: Warning: 0000015CE88C5480: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.11.16-01.28.00:261][569]LogHttp: Warning: 0000015CE88C5480: libcurl info message cache 1 (Closing connection 22)
+[2022.11.16-01.28.16:764][552]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_31)
+[2022.11.16-01.28.55:953][473]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_31)
+[2022.11.16-01.28.56:023][474]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Saved/Autosaves/Game/Maps/NewMap_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.11.16-01.28.56:123][474]LogSavePackage: Save=95.48ms
+[2022.11.16-01.28.56:123][474]LogSavePackage: Moving 'C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Saved/NewMap_Auto265206E8847DDFDAF59BCB09DDAA6392F.tmp' to 'C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Saved/Autosaves/Game/Maps/NewMap_Auto2.umap'
+[2022.11.16-01.28.56:124][474]LogSavePackage: Display: Finished SavePackage C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Saved/Autosaves/Game/Maps/NewMap_Auto2.umap
+[2022.11.16-01.28.56:126][474]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/NewMap' took 0.115
+[2022.11.16-01.28.56:126][474]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.115
+[2022.11.16-01.28.57:175][537]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_31)
+[2022.11.16-01.29.16:540][691]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_32)
+[2022.11.16-01.29.24:042][140]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2022.11.16-01.29.28:809][421]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_32)
+[2022.11.16-01.29.31:713][592]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_32)
+[2022.11.16-01.29.37:168][918]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat4)
+[2022.11.16-01.29.41:735][185]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_32)
+[2022.11.16-01.30.04:178][527]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2022.11.16-01.30.05:287][590]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube30)
+[2022.11.16-01.30.06:388][654]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_17)
+[2022.11.16-01.30.10:141][872]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_32)
+[2022.11.16-01.30.11:601][958]LogHttp: Warning: 0000015D00938D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.11.16-01.30.11:601][958]LogHttp: Warning: 0000015D00938D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.11.16-01.30.11:601][958]LogHttp: Warning: 0000015D00938D00: libcurl info message cache 1 (Closing connection 23)
+[2022.11.16-01.30.15:977][219]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2022.11.16-01.30.19:377][419]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_17)
+[2022.11.16-01.30.23:628][669]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-01.30.31:993][164]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_19)
+[2022.11.16-01.30.36:755][446]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-01.30.40:219][647]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_30)
+[2022.11.16-01.30.45:416][955]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-01.31.03:274][ 23]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_30)
+[2022.11.16-01.31.27:233][451]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-01.31.30:656][653]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_34)
+[2022.11.16-01.31.39:412][171]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat4)
+[2022.11.16-01.31.53:385][  6]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.11.16-01.32.09:547][972]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube7)
+[2022.11.16-01.32.10:991][ 56]Cmd: DELETE
+[2022.11.16-01.32.10:991][ 56]Cmd: ACTOR DELETE
+[2022.11.16-01.32.10:991][ 56]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.32.11:002][ 56]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2022.11.16-01.32.12:276][133]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
+[2022.11.16-01.32.13:112][181]Cmd: DELETE
+[2022.11.16-01.32.13:112][181]Cmd: ACTOR DELETE
+[2022.11.16-01.32.13:113][181]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.32.13:124][181]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2022.11.16-01.32.14:598][270]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube27)
+[2022.11.16-01.32.15:372][314]Cmd: DELETE
+[2022.11.16-01.32.15:372][314]Cmd: ACTOR DELETE
+[2022.11.16-01.32.15:373][314]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.32.15:384][314]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2022.11.16-01.32.16:991][411]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat4)
+[2022.11.16-01.32.17:758][455]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube32)
+[2022.11.16-01.32.18:540][500]Cmd: DELETE
+[2022.11.16-01.32.18:541][500]Cmd: ACTOR DELETE
+[2022.11.16-01.32.18:541][500]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.32.18:552][500]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2022.11.16-01.32.19:960][585]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube31)
+[2022.11.16-01.32.20:975][644]Cmd: DELETE
+[2022.11.16-01.32.20:975][644]Cmd: ACTOR DELETE
+[2022.11.16-01.32.20:976][644]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.32.20:987][644]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2022.11.16-01.32.22:277][722]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2022.11.16-01.32.23:276][780]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2022.11.16-01.32.24:219][836]Cmd: DELETE
+[2022.11.16-01.32.24:219][836]Cmd: ACTOR DELETE
+[2022.11.16-01.32.24:220][836]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.32.24:231][836]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2022.11.16-01.32.25:854][934]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2022.11.16-01.32.26:658][980]Cmd: DELETE
+[2022.11.16-01.32.26:659][980]Cmd: ACTOR DELETE
+[2022.11.16-01.32.26:659][980]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.32.26:670][980]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2022.11.16-01.32.28:127][ 68]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
+[2022.11.16-01.32.29:096][123]Cmd: DELETE
+[2022.11.16-01.32.29:096][123]Cmd: ACTOR DELETE
+[2022.11.16-01.32.29:097][123]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.32.29:108][123]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2022.11.16-01.32.30:382][200]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube12)
+[2022.11.16-01.32.31:062][239]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube12)
+[2022.11.16-01.32.31:857][286]Cmd: DELETE
+[2022.11.16-01.32.31:857][286]Cmd: ACTOR DELETE
+[2022.11.16-01.32.31:857][286]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.32.31:869][286]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2022.11.16-01.32.34:364][436]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube11)
+[2022.11.16-01.32.35:128][480]Cmd: DELETE
+[2022.11.16-01.32.35:128][480]Cmd: ACTOR DELETE
+[2022.11.16-01.32.35:128][480]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.32.35:140][480]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2022.11.16-01.32.36:315][551]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube9)
+[2022.11.16-01.32.37:064][594]Cmd: DELETE
+[2022.11.16-01.32.37:064][594]Cmd: ACTOR DELETE
+[2022.11.16-01.32.37:065][594]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.32.37:075][594]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2022.11.16-01.32.39:298][728]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.11.16-01.32.40:384][791]Cmd: DELETE
+[2022.11.16-01.32.40:384][791]Cmd: ACTOR DELETE
+[2022.11.16-01.32.40:385][791]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.32.40:396][791]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2022.11.16-01.32.41:737][872]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2022.11.16-01.32.42:481][914]Cmd: DELETE
+[2022.11.16-01.32.42:481][914]Cmd: ACTOR DELETE
+[2022.11.16-01.32.42:482][914]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.32.42:493][914]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2022.11.16-01.32.47:457][212]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2022.11.16-01.32.48:831][292]Cmd: DELETE
+[2022.11.16-01.32.48:831][292]Cmd: ACTOR DELETE
+[2022.11.16-01.32.48:832][292]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.32.48:842][292]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2022.11.16-01.32.54:701][643]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube10)
+[2022.11.16-01.32.56:094][724]Cmd: DELETE
+[2022.11.16-01.32.56:094][724]Cmd: ACTOR DELETE
+[2022.11.16-01.32.56:095][724]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.32.56:112][724]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2022.11.16-01.32.59:567][929]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2022.11.16-01.33.00:331][973]Cmd: DELETE
+[2022.11.16-01.33.00:331][973]Cmd: ACTOR DELETE
+[2022.11.16-01.33.00:331][973]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.33.00:343][973]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2022.11.16-01.33.05:626][290]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube28)
+[2022.11.16-01.33.06:292][328]Cmd: DELETE
+[2022.11.16-01.33.06:292][328]Cmd: ACTOR DELETE
+[2022.11.16-01.33.06:293][328]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.33.06:302][328]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2022.11.16-01.33.08:704][472]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube40)
+[2022.11.16-01.33.09:794][535]Cmd: DELETE
+[2022.11.16-01.33.09:794][535]Cmd: ACTOR DELETE
+[2022.11.16-01.33.09:795][535]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.33.09:806][535]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2022.11.16-01.33.11:707][648]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube46)
+[2022.11.16-01.33.12:353][684]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube46)
+[2022.11.16-01.33.13:186][733]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube46)
+[2022.11.16-01.33.13:714][764]Cmd: DELETE
+[2022.11.16-01.33.13:714][764]Cmd: ACTOR DELETE
+[2022.11.16-01.33.13:715][764]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.33.13:725][764]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2022.11.16-01.33.18:307][ 39]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube35)
+[2022.11.16-01.33.19:176][ 89]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube35)
+[2022.11.16-01.33.19:940][134]Cmd: DELETE
+[2022.11.16-01.33.19:940][134]Cmd: ACTOR DELETE
+[2022.11.16-01.33.19:940][134]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.33.19:951][134]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2022.11.16-01.33.22:223][271]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube36)
+[2022.11.16-01.33.23:091][321]Cmd: DELETE
+[2022.11.16-01.33.23:091][321]Cmd: ACTOR DELETE
+[2022.11.16-01.33.23:091][321]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.33.23:102][321]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2022.11.16-01.33.26:336][515]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube44)
+[2022.11.16-01.33.26:991][552]Cmd: DELETE
+[2022.11.16-01.33.26:991][552]Cmd: ACTOR DELETE
+[2022.11.16-01.33.26:992][552]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.33.27:003][552]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2022.11.16-01.33.33:120][917]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube34)
+[2022.11.16-01.33.33:737][952]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube34)
+[2022.11.16-01.33.34:300][985]Cmd: DELETE
+[2022.11.16-01.33.34:300][985]Cmd: ACTOR DELETE
+[2022.11.16-01.33.34:301][985]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.33.34:311][985]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2022.11.16-01.33.35:269][ 43]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube43)
+[2022.11.16-01.33.35:905][ 78]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube43)
+[2022.11.16-01.33.36:450][110]Cmd: DELETE
+[2022.11.16-01.33.36:450][110]Cmd: ACTOR DELETE
+[2022.11.16-01.33.36:450][110]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.33.36:462][110]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2022.11.16-01.33.37:502][173]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube16)
+[2022.11.16-01.33.38:268][217]Cmd: DELETE
+[2022.11.16-01.33.38:268][217]Cmd: ACTOR DELETE
+[2022.11.16-01.33.38:268][217]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.33.38:280][217]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2022.11.16-01.33.39:486][290]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube33)
+[2022.11.16-01.33.40:253][334]Cmd: DELETE
+[2022.11.16-01.33.40:253][334]Cmd: ACTOR DELETE
+[2022.11.16-01.33.40:253][334]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.33.40:265][334]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2022.11.16-01.33.42:717][481]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube17)
+[2022.11.16-01.33.43:617][533]Cmd: DELETE
+[2022.11.16-01.33.43:617][533]Cmd: ACTOR DELETE
+[2022.11.16-01.33.43:618][533]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.33.43:635][533]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2022.11.16-01.33.46:389][698]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube21)
+[2022.11.16-01.33.47:480][761]Cmd: DELETE
+[2022.11.16-01.33.47:480][761]Cmd: ACTOR DELETE
+[2022.11.16-01.33.47:480][761]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.33.47:491][761]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2022.11.16-01.33.48:431][818]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube38)
+[2022.11.16-01.33.49:083][855]Cmd: DELETE
+[2022.11.16-01.33.49:083][855]Cmd: ACTOR DELETE
+[2022.11.16-01.33.49:083][855]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.33.49:093][855]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2022.11.16-01.33.50:084][915]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube19)
+[2022.11.16-01.33.50:736][952]Cmd: DELETE
+[2022.11.16-01.33.50:737][952]Cmd: ACTOR DELETE
+[2022.11.16-01.33.50:737][952]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.33.50:751][952]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2022.11.16-01.33.51:813][ 16]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube18)
+[2022.11.16-01.33.52:596][ 61]Cmd: DELETE
+[2022.11.16-01.33.52:596][ 61]Cmd: ACTOR DELETE
+[2022.11.16-01.33.52:597][ 61]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.33.52:608][ 61]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2022.11.16-01.33.54:782][191]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube42)
+[2022.11.16-01.33.55:602][238]Cmd: DELETE
+[2022.11.16-01.33.55:603][238]Cmd: ACTOR DELETE
+[2022.11.16-01.33.55:603][238]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.33.55:614][238]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2022.11.16-01.33.57:884][374]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube47)
+[2022.11.16-01.34.00:322][518]Cmd: DELETE
+[2022.11.16-01.34.00:322][518]Cmd: ACTOR DELETE
+[2022.11.16-01.34.00:323][518]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.34.00:334][518]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2022.11.16-01.34.01:357][580]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube20)
+[2022.11.16-01.34.02:093][622]Cmd: DELETE
+[2022.11.16-01.34.02:093][622]Cmd: ACTOR DELETE
+[2022.11.16-01.34.02:094][622]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.34.02:105][622]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2022.11.16-01.34.07:154][925]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube41)
+[2022.11.16-01.34.08:326][993]Cmd: DELETE
+[2022.11.16-01.34.08:326][993]Cmd: ACTOR DELETE
+[2022.11.16-01.34.08:327][993]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.34.08:338][993]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2022.11.16-01.34.10:320][112]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube23)
+[2022.11.16-01.34.10:941][147]Cmd: DELETE
+[2022.11.16-01.34.10:941][147]Cmd: ACTOR DELETE
+[2022.11.16-01.34.10:942][147]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.34.10:957][147]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2022.11.16-01.34.12:014][211]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube26)
+[2022.11.16-01.34.12:779][255]Cmd: DELETE
+[2022.11.16-01.34.12:779][255]Cmd: ACTOR DELETE
+[2022.11.16-01.34.12:779][255]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.34.12:792][255]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2022.11.16-01.34.15:505][418]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube25)
+[2022.11.16-01.34.16:136][454]Cmd: DELETE
+[2022.11.16-01.34.16:136][454]Cmd: ACTOR DELETE
+[2022.11.16-01.34.16:136][454]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.34.16:148][454]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2022.11.16-01.34.18:263][581]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube14)
+[2022.11.16-01.34.18:951][620]Cmd: DELETE
+[2022.11.16-01.34.18:951][620]Cmd: ACTOR DELETE
+[2022.11.16-01.34.18:951][620]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.34.18:962][620]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2022.11.16-01.34.19:901][677]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube15)
+[2022.11.16-01.34.20:548][714]Cmd: DELETE
+[2022.11.16-01.34.20:548][714]Cmd: ACTOR DELETE
+[2022.11.16-01.34.20:548][714]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.34.20:560][714]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2022.11.16-01.34.22:574][835]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube13)
+[2022.11.16-01.34.23:222][872]Cmd: DELETE
+[2022.11.16-01.34.23:222][872]Cmd: ACTOR DELETE
+[2022.11.16-01.34.23:222][872]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.34.23:233][872]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2022.11.16-01.34.28:697][200]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube22)
+[2022.11.16-01.34.29:461][244]Cmd: DELETE
+[2022.11.16-01.34.29:461][244]Cmd: ACTOR DELETE
+[2022.11.16-01.34.29:461][244]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.34.29:473][244]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2022.11.16-01.34.32:437][422]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube29)
+[2022.11.16-01.34.33:352][475]Cmd: DELETE
+[2022.11.16-01.34.33:352][475]Cmd: ACTOR DELETE
+[2022.11.16-01.34.33:353][475]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.34.33:366][475]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2022.11.16-01.34.34:556][547]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube30)
+[2022.11.16-01.34.35:354][593]Cmd: DELETE
+[2022.11.16-01.34.35:354][593]Cmd: ACTOR DELETE
+[2022.11.16-01.34.35:355][593]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.34.35:365][593]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2022.11.16-01.35.37:337][298]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-01.35.57:911][526]LogEditorActor: Deleted Actor: DirectionalLight
+[2022.11.16-01.35.57:922][526]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2022.11.16-01.36.13:011][429]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube39)
+[2022.11.16-01.36.13:853][477]Cmd: DELETE
+[2022.11.16-01.36.13:853][477]Cmd: ACTOR DELETE
+[2022.11.16-01.36.13:854][477]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.36.13:865][477]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2022.11.16-01.36.26:982][264]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube45)
+[2022.11.16-01.36.27:737][308]Cmd: DELETE
+[2022.11.16-01.36.27:737][308]Cmd: ACTOR DELETE
+[2022.11.16-01.36.27:737][308]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.36.27:749][308]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2022.11.16-01.36.30:306][462]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube37)
+[2022.11.16-01.36.30:913][497]Cmd: DELETE
+[2022.11.16-01.36.30:913][497]Cmd: ACTOR DELETE
+[2022.11.16-01.36.30:913][497]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.36.30:926][497]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2022.11.16-01.36.33:101][628]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube48)
+[2022.11.16-01.36.34:347][701]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube48)
+[2022.11.16-01.36.35:198][752]Cmd: DELETE
+[2022.11.16-01.36.35:198][752]Cmd: ACTOR DELETE
+[2022.11.16-01.36.35:198][752]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.36.35:210][752]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2022.11.16-01.36.37:216][873]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube49)
+[2022.11.16-01.36.38:072][923]Cmd: DELETE
+[2022.11.16-01.36.38:072][923]Cmd: ACTOR DELETE
+[2022.11.16-01.36.38:072][923]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.36.38:084][923]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2022.11.16-01.36.47:676][499]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat3)
+[2022.11.16-01.36.52:908][811]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.11.16-01.37.49:442][198]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_33)
+[2022.11.16-01.37.51:585][325]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Plains_Floors_Flat4)
+[2022.11.16-01.37.51:764][332]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (StaticMeshComponent0)
+[2022.11.16-01.37.53:115][411]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-01.38.00:379][844]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_8)
+[2022.11.16-01.38.12:937][595]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat4)
+[2022.11.16-01.38.14:229][671]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_8)
+[2022.11.16-01.38.22:511][166]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat4)
+[2022.11.16-01.38.27:794][481]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_8)
+[2022.11.16-01.38.30:188][623]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_33)
+[2022.11.16-01.38.31:372][692]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_8)
+[2022.11.16-01.38.34:248][863]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat3)
+[2022.11.16-01.38.35:439][933]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_8)
+[2022.11.16-01.38.45:719][548]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat3)
+[2022.11.16-01.38.51:875][915]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_7)
+[2022.11.16-01.38.59:796][387]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_7)
+[2022.11.16-01.39.00:346][420]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_14)
+[2022.11.16-01.39.01:219][471]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_7)
+[2022.11.16-01.39.06:661][796]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat4)
+[2022.11.16-01.39.15:632][332]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_15)
+[2022.11.16-01.39.18:154][481]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat4)
+[2022.11.16-01.39.21:519][681]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_15)
+[2022.11.16-01.39.32:209][321]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat3)
+[2022.11.16-01.39.36:409][570]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_15)
+[2022.11.16-01.39.41:966][901]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat3)
+[2022.11.16-01.39.46:471][170]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_16)
+[2022.11.16-01.39.52:580][534]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat3)
+[2022.11.16-01.40.24:515][446]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_25)
+[2022.11.16-01.40.25:406][498]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_6)
+[2022.11.16-01.40.33:514][983]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat3)
+[2022.11.16-01.40.34:518][ 42]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_6)
+[2022.11.16-01.40.39:870][361]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat3)
+[2022.11.16-01.40.59:758][552]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_25)
+[2022.11.16-01.41.11:702][265]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat02)
+[2022.11.16-01.41.14:735][445]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_25)
+[2022.11.16-01.41.19:124][706]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat02)
+[2022.11.16-01.41.28:265][253]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_5)
+[2022.11.16-01.41.40:379][978]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat3)
+[2022.11.16-01.42.06:781][560]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-01.43.09:271][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Content/Maps/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.11.16-01.43.09:343][974]LogSavePackage: Save=56.48ms
+[2022.11.16-01.43.09:343][974]LogSavePackage: Moving 'C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Saved/NewMap49E2498040E3273D275222BA0F12B0A4.tmp' to 'C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Content/Maps/NewMap.umap'
+[2022.11.16-01.43.09:346][974]LogSavePackage: Display: Finished SavePackage C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Content/Maps/NewMap.umap
+[2022.11.16-01.43.09:358][974]LogFileHelpers: Saving map 'NewMap' took 0.130
+[2022.11.16-01.43.20:087][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Content/Maps/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.11.16-01.43.20:158][617]LogSavePackage: Save=56.71ms
+[2022.11.16-01.43.20:158][617]LogSavePackage: Moving 'C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Saved/NewMap3E273AB545FA3D5282DC63BF934B6C49.tmp' to 'C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Content/Maps/NewMap.umap'
+[2022.11.16-01.43.20:159][617]LogSavePackage: Display: Finished SavePackage C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Content/Maps/NewMap.umap
+[2022.11.16-01.43.20:172][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap_BuiltData" FILE="C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Content/Maps/NewMap_BuiltData.uasset" SILENT=true
+[2022.11.16-01.43.20:186][617]LogSavePackage: Save=10.14ms
+[2022.11.16-01.43.20:186][617]LogSavePackage: Moving 'C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Saved/NewMap_BuiltData90640EC94E1F4A5EEC782DB067BA80D8.tmp' to 'C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Content/Maps/NewMap_BuiltData.uasset'
+[2022.11.16-01.43.20:187][617]LogSavePackage: Display: Finished SavePackage C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Content/Maps/NewMap_BuiltData.uasset
+[2022.11.16-01.43.47:622][263]LogTemp: Repeating last play command: 選択ビューポート
+[2022.11.16-01.43.47:682][263]LogPackageName: Warning: String asset reference "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2022.11.16-01.43.47:682][263]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2022.11.16-01.43.47:735][263]LogPackageName: SearchForPackageOnDisk took   0.053s, but failed to resolve S_ClothTarps_03.
+[2022.11.16-01.43.47:735][263]LogPackageName: Warning: String asset reference "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" could not be resolved.
+[2022.11.16-01.43.47:878][263]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.16-01.43.47:878][263]PIE: New page: PIEセッション: NewMap (2022/11/16 19:43:47)
+[2022.11.16-01.43.47:878][263]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2022.11.16-01.43.47:881][263]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002821s)
+[2022.11.16-01.43.47:882][263]LogAIModule: Creating AISystem for world NewMap
+[2022.11.16-01.43.47:882][263]LogPlayLevel: PIE: World Init took: (0.000767s)
+[2022.11.16-01.43.47:882][263]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.003831s)
+[2022.11.16-01.43.47:902][263]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.11.16-01.43.47:932][263]LogInit: FAudioDevice initialized.
+[2022.11.16-01.43.47:976][263]LogLoad: Game class is 'GameModeBase'
+[2022.11.16-01.43.47:980][263]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.11.16-10.43.47
+[2022.11.16-01.43.47:981][263]LogWorld: Bringing up level for play took: 0.002325
+[2022.11.16-01.43.48:023][263]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2022.11.16-01.43.48:024][263]PIE: /Game/Maps/UEDPIE_0_NewMap 0.069のプレイ イン エディタの開始時間
+[2022.11.16-01.45.41:532][ 66]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_29)
+[2022.11.16-01.46.27:654][831]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2022.11.16-01.46.28:396][873]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.11.16-01.46.35:742][313]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_26)
+[2022.11.16-01.48.31:342][700]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat3)
+[2022.11.16-01.48.33:134][806]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.11.16-01.49.40:998][823]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-01.50.07:902][430]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_3)
+[2022.11.16-01.50.44:703][635]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.11.16-01.50.46:395][735]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_3)
+[2022.11.16-01.51.34:767][186]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_4)
+[2022.11.16-01.51.37:254][334]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_3)
+[2022.11.16-01.52.00:183][704]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2022.11.16-01.52.03:580][902]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_3)
+[2022.11.16-01.52.07:371][128]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_4)
+[2022.11.16-01.52.12:225][418]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_3)
+[2022.11.16-01.52.19:491][852]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-01.52.20:472][910]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_4)
+[2022.11.16-01.52.27:066][304]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-01.52.28:264][375]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2022.11.16-01.52.55:008][976]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_3)
+[2022.11.16-01.53.02:292][411]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Ruin_BuildingLOD2)
+[2022.11.16-01.53.13:202][ 64]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_3)
+[2022.11.16-01.53.25:328][789]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-01.53.35:814][416]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Ruin_BuildingLOD01)
+[2022.11.16-01.53.55:116][570]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-01.53.55:635][599]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-01.53.56:586][655]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-01.53.57:221][693]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Ruin_BuildingLOD01)
+[2022.11.16-01.53.59:611][834]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-01.54.16:289][833]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Ruin_BuildingLOD2)
+[2022.11.16-01.54.21:907][167]Cmd: TRANSACTION UNDO
+[2022.11.16-01.54.21:907][167]LogEditorTransaction: Undo アクタ を移動
+[2022.11.16-01.54.28:384][555]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-01.54.36:329][ 30]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat4)
+[2022.11.16-01.55.11:347][126]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_10)
+[2022.11.16-01.55.14:739][327]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2022.11.16-01.55.17:498][491]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_3)
+[2022.11.16-01.55.18:932][575]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_4)
+[2022.11.16-01.55.19:991][637]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_2)
+[2022.11.16-01.55.36:827][642]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.11.16-01.55.37:851][702]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Ruin_BuildingLOD4)
+[2022.11.16-01.55.43:224][ 22]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.11.16-01.55.52:585][581]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-01.56.20:916][276]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.11.16-01.56.21:735][324]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-01.56.23:796][446]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.11.16-01.56.26:168][587]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat02)
+[2022.11.16-01.56.29:507][785]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.11.16-01.56.31:424][899]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat02)
+[2022.11.16-01.56.33:866][ 44]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.11.16-01.56.39:874][403]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat4)
+[2022.11.16-01.56.51:440][ 95]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-01.56.52:795][174]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-01.56.54:232][260]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat4)
+[2022.11.16-01.57.08:598][118]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-01.57.09:429][167]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat4)
+[2022.11.16-01.57.22:523][950]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat4)
+[2022.11.16-01.58.06:192][569]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-01.58.15:939][152]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-01.58.48:312][ 88]Cmd: DELETE
+[2022.11.16-01.58.48:312][ 88]Cmd: ACTOR DELETE
+[2022.11.16-01.58.48:312][ 88]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.58.48:325][ 88]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2022.11.16-01.58.50:104][195]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat6)
+[2022.11.16-01.58.51:094][253]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-01.58.55:154][495]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat6)
+[2022.11.16-01.58.55:858][536]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat02)
+[2022.11.16-01.58.57:871][655]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat4)
+[2022.11.16-01.58.59:642][760]Cmd: DELETE
+[2022.11.16-01.58.59:643][760]Cmd: ACTOR DELETE
+[2022.11.16-01.58.59:643][760]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.58.59:654][760]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2022.11.16-01.59.01:065][845]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat3)
+[2022.11.16-01.59.01:994][899]Cmd: DELETE
+[2022.11.16-01.59.01:994][899]Cmd: ACTOR DELETE
+[2022.11.16-01.59.01:994][899]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.59.02:004][899]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2022.11.16-01.59.04:928][ 75]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-01.59.07:087][203]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Flat6)
+[2022.11.16-01.59.11:561][470]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Flat02)
+[2022.11.16-01.59.20:593][  8]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-01.59.24:200][223]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat7)
+[2022.11.16-01.59.56:333][147]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat5)
+[2022.11.16-01.59.59:811][353]Cmd: DELETE
+[2022.11.16-01.59.59:811][353]Cmd: ACTOR DELETE
+[2022.11.16-01.59.59:811][353]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-01.59.59:822][353]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2022.11.16-02.00.00:329][384]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat6)
+[2022.11.16-02.00.00:650][402]Cmd: DELETE
+[2022.11.16-02.00.00:650][402]Cmd: ACTOR DELETE
+[2022.11.16-02.00.00:651][402]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-02.00.00:662][402]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2022.11.16-02.00.01:174][433]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat02)
+[2022.11.16-02.00.01:464][449]Cmd: DELETE
+[2022.11.16-02.00.01:465][449]Cmd: ACTOR DELETE
+[2022.11.16-02.00.01:465][449]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-02.00.01:478][449]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2022.11.16-02.00.03:567][575]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat7)
+[2022.11.16-02.00.22:024][678]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-02.00.26:747][960]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat8)
+[2022.11.16-02.00.28:022][ 35]Cmd: DELETE
+[2022.11.16-02.00.28:022][ 35]Cmd: ACTOR DELETE
+[2022.11.16-02.00.28:022][ 35]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-02.00.28:035][ 35]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2022.11.16-02.00.29:660][133]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat3)
+[2022.11.16-02.00.30:434][178]Cmd: DELETE
+[2022.11.16-02.00.30:434][178]Cmd: ACTOR DELETE
+[2022.11.16-02.00.30:434][178]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-02.00.30:445][178]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2022.11.16-02.00.31:484][241]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat7)
+[2022.11.16-02.00.50:682][390]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.11.16-02.01.16:694][949]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat7)
+[2022.11.16-02.01.17:494][994]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat7)
+[2022.11.16-02.01.17:650][  3]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2022.11.16-02.01.21:385][226]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_11)
+[2022.11.16-02.01.21:480][230]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2022.11.16-02.01.26:012][501]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_10)
+[2022.11.16-02.01.28:535][651]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Wall_Straight_11)
+[2022.11.16-02.01.29:625][715]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Wall_Straight_21)
+[2022.11.16-02.01.30:349][757]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Wall_Straight_22)
+[2022.11.16-02.01.30:994][794]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Wall_Straight_13)
+[2022.11.16-02.01.31:902][847]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Wall_Straight_23)
+[2022.11.16-02.01.32:516][882]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Wall_Straight_6)
+[2022.11.16-02.01.33:800][957]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Wall_Straight_24)
+[2022.11.16-02.01.34:459][995]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Wall_Straight_25)
+[2022.11.16-02.01.35:433][ 52]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Wall_Straight_26)
+[2022.11.16-02.01.36:356][106]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Wall_Straight_5)
+[2022.11.16-02.01.37:149][152]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Wall_Straight_28)
+[2022.11.16-02.01.38:230][215]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Wall_Straight_27)
+[2022.11.16-02.01.39:270][276]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Wall_Straight_30)
+[2022.11.16-02.01.41:715][421]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Wall_Straight_20)
+[2022.11.16-02.01.42:682][477]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Wall_Straight_7)
+[2022.11.16-02.01.44:245][569]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Wall_Straight_8)
+[2022.11.16-02.01.45:076][617]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Wall_Straight_14)
+[2022.11.16-02.01.46:635][709]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Wall_Straight_32)
+[2022.11.16-02.01.47:686][770]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Wall_Straight_31)
+[2022.11.16-02.01.48:578][822]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Wall_Straight_18)
+[2022.11.16-02.01.49:690][887]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Wall_Straight_19)
+[2022.11.16-02.01.52:147][ 33]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Wall_Straight_12)
+[2022.11.16-02.01.53:109][ 89]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Wall_Straight_29)
+[2022.11.16-02.01.58:934][436]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Wall_Straight_16)
+[2022.11.16-02.01.59:498][468]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Wall_Straight_34)
+[2022.11.16-02.02.00:382][519]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Wall_Straight_33)
+[2022.11.16-02.02.01:360][576]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Wall_Straight_15)
+[2022.11.16-02.02.02:470][641]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Wall_Straight_9)
+[2022.11.16-02.02.09:796][ 78]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Wall_Straight_17)
+[2022.11.16-02.02.10:907][143]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Wall_Straight_35)
+[2022.11.16-02.04.39:322][ 21]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_42)
+[2022.11.16-02.04.40:667][100]Cmd: DELETE
+[2022.11.16-02.04.40:667][100]Cmd: ACTOR DELETE
+[2022.11.16-02.04.40:667][100]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-02.04.40:679][100]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2022.11.16-02.04.43:492][269]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_45)
+[2022.11.16-02.04.44:822][347]Cmd: DELETE
+[2022.11.16-02.04.44:822][347]Cmd: ACTOR DELETE
+[2022.11.16-02.04.44:822][347]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-02.04.44:834][347]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2022.11.16-02.04.46:942][474]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_38)
+[2022.11.16-02.04.56:958][ 73]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat7)
+[2022.11.16-02.05.04:806][542]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_39)
+[2022.11.16-02.05.20:827][501]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat7)
+[2022.11.16-02.05.29:044][991]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_105)
+[2022.11.16-02.05.30:067][ 49]Cmd: DELETE
+[2022.11.16-02.05.30:067][ 49]Cmd: ACTOR DELETE
+[2022.11.16-02.05.30:068][ 49]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-02.05.30:079][ 49]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2022.11.16-02.05.31:203][117]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_128)
+[2022.11.16-02.05.32:229][177]Cmd: DELETE
+[2022.11.16-02.05.32:229][177]Cmd: ACTOR DELETE
+[2022.11.16-02.05.32:229][177]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-02.05.32:241][177]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2022.11.16-02.05.40:196][654]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_110)
+[2022.11.16-02.05.40:941][697]Cmd: DELETE
+[2022.11.16-02.05.40:943][697]Cmd: ACTOR DELETE
+[2022.11.16-02.05.40:943][697]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-02.05.40:953][697]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2022.11.16-02.05.42:177][771]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_122)
+[2022.11.16-02.05.49:153][188]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat7)
+[2022.11.16-02.05.56:524][628]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_121)
+[2022.11.16-02.05.57:669][694]Cmd: DELETE
+[2022.11.16-02.05.57:669][694]Cmd: ACTOR DELETE
+[2022.11.16-02.05.57:669][694]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-02.05.57:681][694]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2022.11.16-02.06.22:408][177]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_119)
+[2022.11.16-02.06.23:366][233]Cmd: DELETE
+[2022.11.16-02.06.23:366][233]Cmd: ACTOR DELETE
+[2022.11.16-02.06.23:366][233]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-02.06.23:378][233]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2022.11.16-02.06.28:336][531]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_88)
+[2022.11.16-02.06.29:280][586]Cmd: DELETE
+[2022.11.16-02.06.29:280][586]Cmd: ACTOR DELETE
+[2022.11.16-02.06.29:281][586]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-02.06.29:292][586]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2022.11.16-02.07.38:819][754]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Saved/Autosaves/Game/Maps/NewMap_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.11.16-02.07.38:943][754]LogSavePackage: Save=120.89ms
+[2022.11.16-02.07.38:943][754]LogSavePackage: Moving 'C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Saved/NewMap_Auto37375826F43F58179E68A2CAD6EB124BA.tmp' to 'C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Saved/Autosaves/Game/Maps/NewMap_Auto3.umap'
+[2022.11.16-02.07.38:945][754]LogSavePackage: Display: Finished SavePackage C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Saved/Autosaves/Game/Maps/NewMap_Auto3.umap
+[2022.11.16-02.07.38:946][754]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/NewMap' took 0.141
+[2022.11.16-02.07.38:947][754]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.141
+[2022.11.16-02.07.49:350][378]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_41)
+[2022.11.16-02.07.50:449][442]Cmd: DELETE
+[2022.11.16-02.07.50:449][442]Cmd: ACTOR DELETE
+[2022.11.16-02.07.50:449][442]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-02.07.50:460][442]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2022.11.16-02.07.54:334][675]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_51)
+[2022.11.16-02.07.57:800][881]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.11.16-02.07.58:853][943]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_64)
+[2022.11.16-02.08.03:555][223]Cmd: TRANSACTION UNDO
+[2022.11.16-02.08.03:555][223]LogEditorTransaction: Undo アクタ を移動
+[2022.11.16-02.08.09:042][550]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat7)
+[2022.11.16-02.08.15:066][909]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_88)
+[2022.11.16-02.08.17:324][ 42]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_51)
+[2022.11.16-02.08.20:299][219]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat7)
+[2022.11.16-02.08.22:875][372]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_52)
+[2022.11.16-02.08.26:482][586]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat7)
+[2022.11.16-02.08.36:394][178]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-02.08.45:051][696]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.11.16-02.09.21:692][886]LogActorFactory: Actor Factory created SM_Plains_CastleDoorArch_01
+[2022.11.16-02.09.26:580][178]LogActorFactory: Actor Factory created SM_Plains_CastleDoorArch_01
+[2022.11.16-02.09.27:674][242]Cmd: DELETE
+[2022.11.16-02.09.27:674][242]Cmd: ACTOR DELETE
+[2022.11.16-02.09.27:675][242]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-02.09.27:687][242]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2022.11.16-02.09.49:091][526]LogHttp: Warning: 0000015CE8BCB280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.11.16-02.09.49:091][526]LogHttp: Warning: 0000015CE8BCB280: libcurl info message cache 0 (Connection 39 seems to be dead!)
+[2022.11.16-02.09.49:091][526]LogHttp: Warning: 0000015CE8BCB280: libcurl info message cache 1 (Closing connection 39)
+[2022.11.16-02.09.49:091][526]LogHttp: Warning: 0000015CE8BCB280: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2022.11.16-02.09.49:091][526]LogHttp: Warning: 0000015CE8BCB280: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.11.16-02.09.49:091][526]LogHttp: Warning: 0000015CE8BCB280: libcurl info message cache 4 (Closing connection 40)
+[2022.11.16-02.09.53:315][777]LogMaterial: Missing cached shader map for material M_Plains_Man_Statue, compiling. 
+[2022.11.16-02.09.53:472][785]LogActorFactory: Actor Factory created SM_Plains_Man_Statue_01
+[2022.11.16-02.09.54:211][829]LogActorFactory: Actor Factory created SM_Plains_Man_Statue_01
+[2022.11.16-02.10.29:077][906]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.11.16-02.10.37:850][431]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-02.10.38:365][461]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Man_Statue_01)
+[2022.11.16-02.10.45:932][913]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-02.11.20:379][976]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-02.11.27:560][406]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Man_Statue_01)
+[2022.11.16-02.11.37:183][980]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-02.11.51:873][859]LogActorFactory: Actor Factory created SM_Plains_Man_Statue_01_torch
+[2022.11.16-02.11.52:657][906]LogActorFactory: Actor Factory created SM_Plains_Man_Statue_01_torch
+[2022.11.16-02.11.59:437][311]Cmd: DELETE
+[2022.11.16-02.11.59:437][311]Cmd: ACTOR DELETE
+[2022.11.16-02.11.59:437][311]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-02.11.59:450][311]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2022.11.16-02.12.02:356][486]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Man_Statue_01)
+[2022.11.16-02.12.25:476][867]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-02.12.30:186][148]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Man_Statue_2)
+[2022.11.16-02.12.39:323][693]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-02.12.42:945][909]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-02.12.46:368][113]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Man_Statue_2)
+[2022.11.16-02.12.49:098][275]Cmd: DELETE
+[2022.11.16-02.12.49:098][275]Cmd: ACTOR DELETE
+[2022.11.16-02.12.49:098][275]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-02.12.49:110][275]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2022.11.16-02.12.55:152][638]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-02.12.55:827][677]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-02.12.56:549][720]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-02.13.01:978][ 43]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2022.11.16-02.13.03:312][122]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Content/Maps/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.11.16-02.13.03:451][122]LogSavePackage: Save=124.68ms
+[2022.11.16-02.13.03:452][122]LogSavePackage: Moving 'C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Saved/NewMap0A85FA5044A7D9FE276BBA994D3CDF1E.tmp' to 'C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Content/Maps/NewMap.umap'
+[2022.11.16-02.13.03:455][122]LogSavePackage: Display: Finished SavePackage C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Content/Maps/NewMap.umap
+[2022.11.16-02.13.03:468][122]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap_BuiltData" FILE="C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Content/Maps/NewMap_BuiltData.uasset" SILENT=true
+[2022.11.16-02.13.03:477][122]LogSavePackage: Save=6.11ms
+[2022.11.16-02.13.03:477][122]LogSavePackage: Moving 'C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Saved/NewMap_BuiltDataC914DBDD4CC9BAF30AA2A28D93251743.tmp' to 'C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Content/Maps/NewMap_BuiltData.uasset'
+[2022.11.16-02.13.03:479][122]LogSavePackage: Display: Finished SavePackage C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Content/Maps/NewMap_BuiltData.uasset
+[2022.11.16-02.13.08:114][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Content/Maps/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.11.16-02.13.08:255][399]LogSavePackage: Save=127.17ms
+[2022.11.16-02.13.08:255][399]LogSavePackage: Moving 'C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Saved/NewMapBC638CC84910AF8249ADAE8C5EE90352.tmp' to 'C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Content/Maps/NewMap.umap'
+[2022.11.16-02.13.08:256][399]LogSavePackage: Display: Finished SavePackage C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Content/Maps/NewMap.umap
+[2022.11.16-02.13.08:269][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap_BuiltData" FILE="C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Content/Maps/NewMap_BuiltData.uasset" SILENT=true
+[2022.11.16-02.13.08:276][399]LogSavePackage: Save=6.19ms
+[2022.11.16-02.13.08:276][399]LogSavePackage: Moving 'C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Saved/NewMap_BuiltData893A2CA144CD19559FCF2CA329FA4238.tmp' to 'C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Content/Maps/NewMap_BuiltData.uasset'
+[2022.11.16-02.13.08:278][399]LogSavePackage: Display: Finished SavePackage C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Content/Maps/NewMap_BuiltData.uasset
+[2022.11.16-02.13.10:267][507]Cmd: QUIT_EDITOR
+[2022.11.16-02.13.10:621][507]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
+[2022.11.16-02.13.10:637][507]LogExit: Preparing to exit.
+[2022.11.16-02.13.11:765][507]LogExit: Editor shut down
+[2022.11.16-02.13.11:777][507]LogExit: Transaction tracking system shut down
+[2022.11.16-02.13.11:978][507]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2022.11.16-02.13.11:979][507]LogDirectoryWatcher: A directory notification for 'C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Content/' was aborted.
+[2022.11.16-02.13.11:979][507]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2022.11.16-02.13.11:979][507]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2022.11.16-02.13.11:979][507]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2022.11.16-02.13.12:020][507]LogExit: Object subsystem successfully closed.
+[2022.11.16-02.13.12:046][507]LogD3D11RHI: Shutdown
+[2022.11.16-02.13.12:046][507]LogD3D11RHI: CleanupD3DDevice
+[2022.11.16-02.13.12:177][507]LogD3D11RHI: ~FD3D11DynamicRHI
+[2022.11.16-02.13.12:185][507]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (534)
+[2022.11.16-02.13.12:185][507]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (532)
+[2022.11.16-02.13.12:185][507]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2022.11.16-02.13.12:185][507]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2022.11.16-02.13.12:185][507]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2022.11.16-02.13.12:185][507]LogDirectoryWatcher: A directory notification for 'D:/UE_4.17/FeaturePacks/' was aborted.
+[2022.11.16-02.13.12:188][507]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2022.11.16-02.13.12:188][507]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2022.11.16-02.13.12:188][507]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2022.11.16-02.13.12:188][507]LogDirectoryWatcher: A directory notification for 'C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Content/Collections/' was aborted.
+[2022.11.16-02.13.12:188][507]LogDirectoryWatcher: A directory notification for 'C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Content/Developers/kbc12006034/Collections/' was aborted.
+[2022.11.16-02.13.12:188][507]LogDirectoryWatcher: A directory notification for 'C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Saved/Collections/' was aborted.
+[2022.11.16-02.13.12:188][507]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2022.11.16-02.13.12:188][507]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2022.11.16-02.13.12:188][507]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2022.11.16-02.13.12:188][507]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2022.11.16-02.13.12:188][507]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2022.11.16-02.13.12:188][507]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2022.11.16-02.13.12:188][507]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2022.11.16-02.13.12:188][507]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2022.11.16-02.13.12:188][507]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2022.11.16-02.13.12:188][507]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2022.11.16-02.13.12:188][507]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2022.11.16-02.13.12:188][507]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2022.11.16-02.13.12:189][507]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2022.11.16-02.13.12:189][507]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2022.11.16-02.13.12:189][507]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2022.11.16-02.13.12:189][507]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2022.11.16-02.13.12:189][507]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2022.11.16-02.13.12:189][507]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2022.11.16-02.13.12:189][507]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2022.11.16-02.13.12:189][507]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2022.11.16-02.13.12:189][507]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2022.11.16-02.13.12:189][507]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2022.11.16-02.13.12:189][507]LogModuleManager: Shutting down and abandoning module Media (477)
+[2022.11.16-02.13.12:189][507]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2022.11.16-02.13.12:189][507]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2022.11.16-02.13.12:189][507]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2022.11.16-02.13.12:189][507]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2022.11.16-02.13.12:189][507]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2022.11.16-02.13.12:189][507]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2022.11.16-02.13.12:189][507]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2022.11.16-02.13.12:189][507]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2022.11.16-02.13.12:189][507]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2022.11.16-02.13.12:189][507]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2022.11.16-02.13.12:189][507]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2022.11.16-02.13.12:189][507]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2022.11.16-02.13.12:189][507]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2022.11.16-02.13.12:189][507]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2022.11.16-02.13.12:189][507]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2022.11.16-02.13.12:189][507]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2022.11.16-02.13.12:875][507]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2022.11.16-02.13.12:875][507]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2022.11.16-02.13.12:875][507]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2022.11.16-02.13.12:875][507]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2022.11.16-02.13.12:875][507]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2022.11.16-02.13.12:875][507]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2022.11.16-02.13.12:875][507]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2022.11.16-02.13.12:875][507]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2022.11.16-02.13.12:875][507]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2022.11.16-02.13.12:875][507]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2022.11.16-02.13.12:876][507]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2022.11.16-02.13.12:876][507]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2022.11.16-02.13.12:876][507]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2022.11.16-02.13.12:876][507]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2022.11.16-02.13.12:876][507]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2022.11.16-02.13.12:876][507]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2022.11.16-02.13.12:876][507]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2022.11.16-02.13.12:876][507]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2022.11.16-02.13.12:876][507]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2022.11.16-02.13.12:876][507]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2022.11.16-02.13.12:876][507]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2022.11.16-02.13.12:876][507]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2022.11.16-02.13.12:876][507]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2022.11.16-02.13.12:876][507]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2022.11.16-02.13.12:919][507]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2022.11.16-02.13.12:919][507]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2022.11.16-02.13.12:919][507]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2022.11.16-02.13.12:919][507]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2022.11.16-02.13.12:919][507]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2022.11.16-02.13.12:919][507]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2022.11.16-02.13.12:919][507]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2022.11.16-02.13.12:919][507]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2022.11.16-02.13.12:919][507]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2022.11.16-02.13.12:919][507]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2022.11.16-02.13.12:919][507]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2022.11.16-02.13.12:919][507]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2022.11.16-02.13.12:919][507]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2022.11.16-02.13.12:919][507]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2022.11.16-02.13.12:919][507]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2022.11.16-02.13.12:919][507]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2022.11.16-02.13.12:919][507]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2022.11.16-02.13.12:919][507]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2022.11.16-02.13.12:919][507]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2022.11.16-02.13.12:919][507]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2022.11.16-02.13.12:919][507]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2022.11.16-02.13.12:920][507]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2022.11.16-02.13.12:920][507]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2022.11.16-02.13.12:920][507]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2022.11.16-02.13.12:920][507]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2022.11.16-02.13.12:920][507]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2022.11.16-02.13.12:920][507]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2022.11.16-02.13.12:920][507]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2022.11.16-02.13.12:920][507]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2022.11.16-02.13.12:920][507]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2022.11.16-02.13.12:920][507]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2022.11.16-02.13.13:016][507]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2022.11.16-02.13.13:016][507]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2022.11.16-02.13.13:016][507]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2022.11.16-02.13.13:016][507]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2022.11.16-02.13.13:016][507]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2022.11.16-02.13.13:016][507]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2022.11.16-02.13.13:016][507]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2022.11.16-02.13.13:016][507]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2022.11.16-02.13.13:016][507]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2022.11.16-02.13.13:016][507]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2022.11.16-02.13.13:016][507]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2022.11.16-02.13.13:016][507]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2022.11.16-02.13.13:017][507]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2022.11.16-02.13.13:017][507]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2022.11.16-02.13.13:017][507]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2022.11.16-02.13.13:017][507]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2022.11.16-02.13.13:017][507]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2022.11.16-02.13.13:017][507]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2022.11.16-02.13.13:017][507]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2022.11.16-02.13.13:017][507]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2022.11.16-02.13.13:017][507]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2022.11.16-02.13.13:017][507]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2022.11.16-02.13.13:017][507]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2022.11.16-02.13.13:017][507]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2022.11.16-02.13.13:017][507]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2022.11.16-02.13.13:017][507]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2022.11.16-02.13.13:017][507]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2022.11.16-02.13.13:017][507]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2022.11.16-02.13.13:017][507]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2022.11.16-02.13.13:017][507]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2022.11.16-02.13.13:017][507]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2022.11.16-02.13.13:017][507]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2022.11.16-02.13.13:017][507]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2022.11.16-02.13.13:017][507]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2022.11.16-02.13.13:017][507]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2022.11.16-02.13.13:017][507]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2022.11.16-02.13.13:017][507]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2022.11.16-02.13.13:017][507]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2022.11.16-02.13.13:018][507]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2022.11.16-02.13.13:018][507]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2022.11.16-02.13.13:018][507]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2022.11.16-02.13.13:018][507]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2022.11.16-02.13.13:018][507]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2022.11.16-02.13.13:119][507]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2022.11.16-02.13.13:220][507]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2022.11.16-02.13.13:220][507]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2022.11.16-02.13.13:220][507]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2022.11.16-02.13.13:220][507]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2022.11.16-02.13.13:220][507]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2022.11.16-02.13.13:220][507]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2022.11.16-02.13.13:221][507]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2022.11.16-02.13.13:221][507]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2022.11.16-02.13.13:221][507]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2022.11.16-02.13.13:221][507]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2022.11.16-02.13.13:223][507]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2022.11.16-02.13.13:223][507]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2022.11.16-02.13.13:223][507]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2022.11.16-02.13.13:223][507]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2022.11.16-02.13.13:223][507]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2022.11.16-02.13.13:223][507]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2022.11.16-02.13.13:223][507]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2022.11.16-02.13.13:223][507]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2022.11.16-02.13.13:223][507]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2022.11.16-02.13.13:223][507]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2022.11.16-02.13.13:223][507]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2022.11.16-02.13.13:223][507]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2022.11.16-02.13.13:223][507]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2022.11.16-02.13.13:223][507]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2022.11.16-02.13.13:223][507]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2022.11.16-02.13.13:223][507]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2022.11.16-02.13.13:223][507]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2022.11.16-02.13.13:223][507]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2022.11.16-02.13.13:223][507]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2022.11.16-02.13.13:223][507]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2022.11.16-02.13.13:225][507]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2022.11.16-02.13.13:225][507]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2022.11.16-02.13.13:225][507]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2022.11.16-02.13.13:225][507]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2022.11.16-02.13.13:225][507]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2022.11.16-02.13.13:225][507]LogModuleManager: Shutting down and abandoning module Core (168)
+[2022.11.16-02.13.13:225][507]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2022.11.16-02.13.13:225][507]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2022.11.16-02.13.13:225][507]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2022.11.16-02.13.13:225][507]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2022.11.16-02.13.13:225][507]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2022.11.16-02.13.13:225][507]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2022.11.16-02.13.13:225][507]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2022.11.16-02.13.13:225][507]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2022.11.16-02.13.13:225][507]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2022.11.16-02.13.13:225][507]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2022.11.16-02.13.13:227][507]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2022.11.16-02.13.13:309][507]LogDerivedDataCache: Shutdown
+[2022.11.16-02.13.13:309][507]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2022.11.16-02.13.13:309][507]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2022.11.16-02.13.13:309][507]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2022.11.16-02.13.13:309][507]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2022.11.16-02.13.13:309][507]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2022.11.16-02.13.13:309][507]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2022.11.16-02.13.13:309][507]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2022.11.16-02.13.13:309][507]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2022.11.16-02.13.13:309][507]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2022.11.16-02.13.13:309][507]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2022.11.16-02.13.13:309][507]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2022.11.16-02.13.13:309][507]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2022.11.16-02.13.13:309][507]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2022.11.16-02.13.13:309][507]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2022.11.16-02.13.13:309][507]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2022.11.16-02.13.13:309][507]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2022.11.16-02.13.13:309][507]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2022.11.16-02.13.13:310][507]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2022.11.16-02.13.13:310][507]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2022.11.16-02.13.13:310][507]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2022.11.16-02.13.13:310][507]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2022.11.16-02.13.13:310][507]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2022.11.16-02.13.13:310][507]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2022.11.16-02.13.13:310][507]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2022.11.16-02.13.13:310][507]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2022.11.16-02.13.13:310][507]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2022.11.16-02.13.13:310][507]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2022.11.16-02.13.13:310][507]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2022.11.16-02.13.13:310][507]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2022.11.16-02.13.13:310][507]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2022.11.16-02.13.13:310][507]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2022.11.16-02.13.13:310][507]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2022.11.16-02.13.13:310][507]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2022.11.16-02.13.13:310][507]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2022.11.16-02.13.13:310][507]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2022.11.16-02.13.13:310][507]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2022.11.16-02.13.13:310][507]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2022.11.16-02.13.13:310][507]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2022.11.16-02.13.13:310][507]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2022.11.16-02.13.13:310][507]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2022.11.16-02.13.13:310][507]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2022.11.16-02.13.13:310][507]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2022.11.16-02.13.13:310][507]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2022.11.16-02.13.13:310][507]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2022.11.16-02.13.13:310][507]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2022.11.16-02.13.13:310][507]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2022.11.16-02.13.13:310][507]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2022.11.16-02.13.13:310][507]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2022.11.16-02.13.13:310][507]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2022.11.16-02.13.13:310][507]LogOnline: Display: Unloading online subsystem: NULL
+[2022.11.16-02.13.13:310][507]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2022.11.16-02.13.13:310][507]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2022.11.16-02.13.13:310][507]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2022.11.16-02.13.13:310][507]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB7D4F31D-43E3-DFE7-54BC-9383137B23D0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=fa24a18a48a876eaf6b355955fc8aa67%7Ce8b3fdf15aca489e9e785367966abd62%7Cbf50e6b5-b8ad-4e2d-9277-7f0a6487721a&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2022.11.16-02.13.13:323][507]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2022.11.16-02.13.13:347][507]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2022.11.16-02.13.13:347][507]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2022.11.16-02.13.13:347][507]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2022.11.16-02.13.13:347][507]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2022.11.16-02.13.13:347][507]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2022.11.16-02.13.13:348][507]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2022.11.16-02.13.13:348][507]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2022.11.16-02.13.13:355][507]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2022.11.16-02.13.13:355][507]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2022.11.16-02.13.13:355][507]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2022.11.16-02.13.13:355][507]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2022.11.16-02.13.13:355][507]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2022.11.16-02.13.13:355][507]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2022.11.16-02.13.13:355][507]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2022.11.16-02.13.13:355][507]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2022.11.16-02.13.13:355][507]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2022.11.16-02.13.13:355][507]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2022.11.16-02.13.13:355][507]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2022.11.16-02.13.13:362][507]LogExit: Exiting.
+[2022.11.16-02.13.13:381][507]Log file closed, 11/16/22 11:13:13
