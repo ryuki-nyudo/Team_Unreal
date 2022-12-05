@@ -1,0 +1,1403 @@
+﻿Log file open, 11/30/22 09:37:35
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: MyProject2
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1732323865) SRandInit(1732323865).
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 4.873652
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: D:/新しいフォルダー/Epic Games/DirectXRedist/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2022.11.30-00.37.37:476][  0]LogInit: Selected Device Profile: [Windows]
+[2022.11.30-00.37.37:476][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.11.30-00.37.37:501][  0]LogInit: Computer: KBC12006038
+[2022.11.30-00.37.37:501][  0]LogInit: User: kbc12006038
+[2022.11.30-00.37.37:501][  0]LogInit: CPU Page size=4096, Cores=6
+[2022.11.30-00.37.37:501][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.11.30-00.37.37:502][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2022.11.30-00.37.37:502][  0]LogMemory: Platform Memory Stats for Windows
+[2022.11.30-00.37.37:502][  0]LogMemory: Process Physical Memory: 280.22 MB used, 280.22 MB peak
+[2022.11.30-00.37.37:502][  0]LogMemory: Process Virtual Memory: 282.84 MB used, 282.84 MB peak
+[2022.11.30-00.37.37:502][  0]LogMemory: Physical Memory: 8517.18 MB used,  7712.74 MB free, 16229.92 MB total
+[2022.11.30-00.37.37:502][  0]LogMemory: Virtual Memory: 4806.62 MB used,  7712.74 MB free, 134217728.00 MB total
+[2022.11.30-00.37.38:566][  0]LogInit: Using OS detected language (ja-JP).
+[2022.11.30-00.37.38:566][  0]LogInit: Using OS detected locale (ja-JP).
+[2022.11.30-00.37.38:982][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
+[2022.11.30-00.37.41:501][  0]LogD3D11RHI: D3D11 adapters:
+[2022.11.30-00.37.41:604][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1650 with Max-Q Design' (Feature Level 11_0)
+[2022.11.30-00.37.41:604][  0]LogD3D11RHI:       3962/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2022.11.30-00.37.41:636][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2022.11.30-00.37.41:636][  0]LogD3D11RHI:       128/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2022.11.30-00.37.41:638][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.11.30-00.37.41:638][  0]LogD3D11RHI:       0/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.11.30-00.37.41:638][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2022.11.30-00.37.41:663][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.11.30-00.37.41:663][  0]LogD3D11RHI:     GPU DeviceId: 0x1f91 (for the marketing name, search the web for "GPU Device Id")
+[2022.11.30-00.37.41:663][  0]LogWindows: EnumDisplayDevices:
+[2022.11.30-00.37.41:663][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2022.11.30-00.37.41:664][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2022.11.30-00.37.41:664][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2022.11.30-00.37.41:664][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2022.11.30-00.37.41:664][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1650 with Max-Q Design
+[2022.11.30-00.37.41:664][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2022.11.30-00.37.41:664][  0]LogD3D11RHI:      Driver Date: Unknown
+[2022.11.30-00.37.41:664][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2022.11.30-00.37.41:724][  0]LogD3D11RHI: Async texture creation enabled
+[2022.11.30-00.37.42:123][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2022.11.30-00.37.42:190][  0]LogShaderCompilers: Guid format shader working directory is -1 characters bigger than the processId version (C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Intermediate/Shaders/WorkingDirectory/4520/).
+[2022.11.30-00.37.42:190][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kbc12006038/AppData/Local/Temp/UnrealShaderWorkingDir/2FD04ED64F9CB715FB4363BBD95888DB/'.
+[2022.11.30-00.37.42:193][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.11.30-00.37.45:079][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2022.11.30-00.37.45:132][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2022.11.30-00.37.45:184][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2022.11.30-00.37.45:233][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2022.11.30-00.37.45:297][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2022.11.30-00.37.45:343][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2022.11.30-00.37.45:389][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2022.11.30-00.37.45:435][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2022.11.30-00.37.45:480][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2022.11.30-00.37.45:550][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2022.11.30-00.37.45:636][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2022.11.30-00.37.45:706][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2022.11.30-00.37.45:769][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2022.11.30-00.37.45:830][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2022.11.30-00.37.45:895][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2022.11.30-00.37.46:045][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2022.11.30-00.37.46:045][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2022.11.30-00.37.46:120][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2022.11.30-00.37.46:327][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2022.11.30-00.37.46:356][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2022.11.30-00.37.46:402][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2022.11.30-00.37.46:448][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2022.11.30-00.37.46:493][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2022.11.30-00.37.46:554][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2022.11.30-00.37.46:554][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2022.11.30-00.37.48:005][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.11.30-00.37.48:180][  0]LogDerivedDataCache: Loaded boot cache 0.17s 93MB C:/Users/kbc12006038/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2022.11.30-00.37.48:180][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kbc12006038/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2022.11.30-00.37.48:180][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.11.30-00.37.48:180][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.11.30-00.37.48:180][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.11.30-00.37.48:180][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.11.30-00.37.48:242][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.11.30-00.37.48:255][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kbc12006038/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.11.30-00.37.48:298][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2022.11.30-00.37.48:381][  0]LogSlate: Using Freetype 2.6.0
+[2022.11.30-00.37.48:508][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.11.30-00.37.48:518][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.11.30-00.37.55:513][  0]LogAssetRegistry: FAssetRegistry took 0.0302 seconds to start up
+[2022.11.30-00.37.56:482][  0]LogInit: Selected Device Profile: [Windows]
+[2022.11.30-00.38.00:639][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2022.11.30-00.38.00:704][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2022.11.30-00.38.00:730][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.11.30-00.38.00:730][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2022.11.30-00.38.00:730][  0]LogMeshReduction: No automatic mesh merging module available
+[2022.11.30-00.38.00:730][  0]LogMeshMerging: No automatic mesh merging module available
+[2022.11.30-00.38.00:919][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2022.11.30-00.38.04:110][  0]LogNetVersion: MyProject2 , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 237949846)
+[2022.11.30-00.38.05:130][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.063419 seconds
+[2022.11.30-00.38.05:158][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2022.11.30-00.38.05:158][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2022.11.30-00.38.05:158][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.11.30-00.38.05:243][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2022.11.30-00.38.15:652][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.11.30-00.38.15:737][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.11.30-00.38.17:241][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2022.11.30-00.38.18:035][  0]SourceControl: ソースコントロールは無効です
+[2022.11.30-00.38.18:035][  0]SourceControl: ソースコントロールは無効です
+[2022.11.30-00.38.18:157][  0]SourceControl: ソースコントロールは無効です
+[2022.11.30-00.38.18:304][  0]SourceControl: ソースコントロールは無効です
+[2022.11.30-00.38.19:488][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.11.30-00.38.19:767][  0]LogOcInput: OculusInput pre-init called
+[2022.11.30-00.38.20:405][  0]LogEngine: Initializing Engine...
+[2022.11.30-00.38.20:426][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.11.30-00.38.21:076][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2022.11.30-00.38.21:076][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2022.11.30-00.38.21:536][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.11.30-00.38.21:698][  0]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.11.30-00.38.21:804][  0]LogInit: FAudioDevice initialized.
+[2022.11.30-00.38.21:862][  0]LogDerivedDataCache: Saved boot cache 0.06s 93MB C:/Users/kbc12006038/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2022.11.30-00.38.21:874][  0]LogInit: Texture streaming: Enabled
+[2022.11.30-00.38.22:077][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.11.30-00.38.22:077][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={06B48AB5-40DF-A150-3DC3-538418944A09}
+[2022.11.30-00.38.22:686][  0]LogInit: Transaction tracking system initialized
+[2022.11.30-00.38.23:204][  0]BlueprintLog: New page: エディタの読み込み
+[2022.11.30-00.38.24:892][  0]LocalizationService: ローカライズのサービスが無効になりました
+[2022.11.30-00.38.26:173][  0]LogConsoleResponse: Display: 
+[2022.11.30-00.38.28:427][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2022.11.30-00.38.28:427][  0]LogCook: Display: Mobile HDR setting 1
+[2022.11.30-00.38.28:475][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Content/' took 0.02s
+[2022.11.30-00.38.28:476][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2022.11.30-00.38.31:763][  0]SourceControl: ソースコントロールは無効です
+[2022.11.30-00.38.32:193][  0]LogSlate: Took 0.069452 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.11.30-00.38.32:409][  0]LogSlate: Took 0.216899 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2022.11.30-00.38.40:721][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
+[2022.11.30-00.38.43:484][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.11.30-00.38.43:528][  0]LightingResults: New page: ライティングのビルド
+[2022.11.30-00.38.43:663][  0]MapCheck: New page: マップをチェック
+[2022.11.30-00.38.43:663][  0]LightingResults: New page: <何も選択されていません>
+[2022.11.30-00.38.44:642][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2022.11.30-00.38.44:967][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.11.30-00.38.45:026][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.11.30-00.38.45:082][  0]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 56.872ミリ秒かかりました。
+[2022.11.30-00.38.45:082][  0]LogFileHelpers: Loading map 'Template_Default' took 1.619
+[2022.11.30-00.38.46:026][  0]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_30b8_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_1f0c_0///####STATCAT_Advanced####
+[2022.11.30-00.38.46:026][  0]LogCollectionManager: Loaded 0 collections in 0.000833 seconds
+[2022.11.30-00.38.46:221][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Saved/Collections/' took 0.01s
+[2022.11.30-00.38.46:221][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Content/Developers/kbc12006038/Collections/' took 0.01s
+[2022.11.30-00.38.46:221][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Content/Collections/' took 0.01s
+[2022.11.30-00.38.46:221][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2022.11.30-00.38.46:239][  0]LogContentBrowser: Native class hierarchy populated in 0.0153 seconds. Added 2386 classes and 500 folders.
+[2022.11.30-00.38.46:370][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0094 seconds. Added 0 classes and 0 folders.
+[2022.11.30-00.38.47:488][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2022.11.30-00.38.47:871][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2022.11.30-00.38.48:818][  0]LogSlate: Took 0.051500 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.11.30-00.38.48:840][  0]LogSlate: Took 0.017137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.11.30-00.38.49:171][  0]LogRenderer: Reallocating scene render targets to support 872x380 Format 10 NumSamples 1 (Frame:1).
+[2022.11.30-00.38.49:641][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2022.11.30-00.38.49:641][  0]LogLoad: (Engine Initialization) Total time: 89.04 seconds
+[2022.11.30-00.38.49:641][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.11.30-00.38.49:642][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2022.11.30-00.38.50:071][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.11.30-00.38.50:662][  2]LogAssetRegistry: Asset discovery search completed in 55.1713 seconds
+[2022.11.30-00.38.50:664][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2022.11.30-00.38.50:664][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000048 seconds (updated 0 objects)
+[2022.11.30-00.39.01:653][473]LogSlate: Took 0.021345 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2022.11.30-00.39.02:609][473]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 128X128)
+[2022.11.30-00.39.02:609][473]LogTexture: Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 128X128)
+[2022.11.30-00.39.02:609][473]LogTexture: Display: Building textures: HQ_Lightmap0_13 (AutoDXT, 128X128)
+[2022.11.30-00.39.02:609][473]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 128X128)
+[2022.11.30-00.39.02:609][473]LogTexture: Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 128X128)
+[2022.11.30-00.39.02:609][473]LogTexture: Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 128X128)
+[2022.11.30-00.39.02:609][473]LogTexture: Display: Building textures: HQ_Lightmap0_14 (AutoDXT, 128X128)
+[2022.11.30-00.39.02:609][473]LogTexture: Display: Building textures: HQ_Lightmap0_15 (AutoDXT, 128X128)
+[2022.11.30-00.39.02:609][473]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 128X128)
+[2022.11.30-00.39.02:609][473]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 256X256)
+[2022.11.30-00.39.02:609][473]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 128X128)
+[2022.11.30-00.39.02:609][473]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 128X128)
+[2022.11.30-00.39.02:609][473]LogTexture: Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 128X128)
+[2022.11.30-00.39.02:609][473]LogTexture: Display: Building textures: HQ_Lightmap1_17 (AutoDXT, 128X128)
+[2022.11.30-00.39.02:609][473]LogTexture: Display: Building textures: HQ_Lightmap1_16 (AutoDXT, 128X128)
+[2022.11.30-00.39.02:609][473]LogTexture: Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 512X512)
+[2022.11.30-00.39.02:609][473]LogTexture: Display: Building textures: HQ_Lightmap1_18 (AutoDXT, 128X128)
+[2022.11.30-00.39.02:609][473]LogTexture: Display: Building textures: HQ_Lightmap1_19 (AutoDXT, 128X128)
+[2022.11.30-00.39.02:610][473]LogTexture: Display: Building textures: HQ_Lightmap1_20 (AutoDXT, 128X128)
+[2022.11.30-00.39.02:610][473]LogTexture: Display: Building textures: HQ_Lightmap1_22 (AutoDXT, 128X128)
+[2022.11.30-00.39.02:610][473]LogTexture: Display: Building textures: HQ_Lightmap1_21 (AutoDXT, 128X128)
+[2022.11.30-00.39.02:610][473]LogTexture: Display: Building textures: HQ_Lightmap1_24 (AutoDXT, 128X128)
+[2022.11.30-00.39.02:610][473]LogTexture: Display: Building textures: HQ_Lightmap1_23 (AutoDXT, 128X128)
+[2022.11.30-00.39.02:610][473]LogTexture: Display: Building textures: HQ_Lightmap1_25 (AutoDXT, 128X128)
+[2022.11.30-00.39.02:610][473]LogTexture: Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 1024X1024)
+[2022.11.30-00.39.02:610][473]LogTexture: Display: Building textures: HQ_Lightmap1_26 (AutoDXT, 128X128)
+[2022.11.30-00.39.02:610][473]LogTexture: Display: Building textures: HQ_Lightmap1_27 (AutoDXT, 128X128)
+[2022.11.30-00.39.02:610][473]LogTexture: Display: Building textures: HQ_Lightmap1_28 (AutoDXT, 128X128)
+[2022.11.30-00.39.02:610][473]LogTexture: Display: Building textures: HQ_Lightmap1_29 (AutoDXT, 128X128)
+[2022.11.30-00.39.02:610][473]LogTexture: Display: Building textures: HQ_Lightmap1_31 (AutoDXT, 128X128)
+[2022.11.30-00.39.02:610][473]LogTexture: Display: Building textures: HQ_Lightmap1_30 (AutoDXT, 128X128)
+[2022.11.30-00.39.02:610][473]LogTexture: Display: Building textures: HQ_Lightmap1_32 (AutoDXT, 128X128)
+[2022.11.30-00.39.02:610][473]LogTexture: Display: Building textures: HQ_Lightmap1_33 (AutoDXT, 128X128)
+[2022.11.30-00.39.02:610][473]LogTexture: Display: Building textures: HQ_Lightmap1_34 (AutoDXT, 128X128)
+[2022.11.30-00.39.02:610][473]LogTexture: Display: Building textures: HQ_Lightmap1_37 (AutoDXT, 128X128)
+[2022.11.30-00.39.02:610][473]LogTexture: Display: Building textures: HQ_Lightmap1_35 (AutoDXT, 256X256)
+[2022.11.30-00.39.02:610][473]LogTexture: Display: Building textures: HQ_Lightmap1_36 (AutoDXT, 128X128)
+[2022.11.30-00.39.02:610][473]LogTexture: Display: Building textures: HQ_Lightmap1_38 (AutoDXT, 128X128)
+[2022.11.30-00.39.02:610][473]LogTexture: Display: Building textures: HQ_Lightmap1_39 (AutoDXT, 64X64)
+[2022.11.30-00.39.02:610][473]LogTexture: Display: Building textures: HQ_Lightmap1_40 (AutoDXT, 64X64)
+[2022.11.30-00.39.02:610][473]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 128X128)
+[2022.11.30-00.39.02:610][473]LogTexture: Display: Building textures: LQ_Lightmap_0_10 (DXT1, 128X128)
+[2022.11.30-00.39.02:610][473]LogTexture: Display: Building textures: LQ_Lightmap_0_11 (DXT1, 128X128)
+[2022.11.30-00.39.02:610][473]LogTexture: Display: Building textures: LQ_Lightmap_0_12 (DXT1, 128X128)
+[2022.11.30-00.39.02:610][473]LogTexture: Display: Building textures: LQ_Lightmap_0_13 (DXT1, 128X128)
+[2022.11.30-00.39.02:610][473]LogTexture: Display: Building textures: LQ_Lightmap_0_14 (DXT1, 128X128)
+[2022.11.30-00.39.02:610][473]LogTexture: Display: Building textures: LQ_Lightmap_0_15 (DXT1, 128X128)
+[2022.11.30-00.39.02:610][473]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 128X128)
+[2022.11.30-00.39.02:610][473]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 128X128)
+[2022.11.30-00.39.02:611][473]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 256X256)
+[2022.11.30-00.39.02:611][473]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 128X128)
+[2022.11.30-00.39.02:611][473]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 128X128)
+[2022.11.30-00.39.02:611][473]LogTexture: Display: Building textures: LQ_Lightmap_1_16 (DXT1, 128X128)
+[2022.11.30-00.39.02:611][473]LogTexture: Display: Building textures: LQ_Lightmap_0_9 (DXT1, 128X128)
+[2022.11.30-00.39.02:611][473]LogTexture: Display: Building textures: LQ_Lightmap_0_8 (DXT1, 512X512)
+[2022.11.30-00.39.02:611][473]LogTexture: Display: Building textures: LQ_Lightmap_1_17 (DXT1, 128X128)
+[2022.11.30-00.39.02:611][473]LogTexture: Display: Building textures: LQ_Lightmap_1_18 (DXT1, 128X128)
+[2022.11.30-00.39.02:611][473]LogTexture: Display: Building textures: LQ_Lightmap_1_19 (DXT1, 128X128)
+[2022.11.30-00.39.02:611][473]LogTexture: Display: Building textures: LQ_Lightmap_1_20 (DXT1, 128X128)
+[2022.11.30-00.39.02:611][473]LogTexture: Display: Building textures: LQ_Lightmap_1_21 (DXT1, 128X128)
+[2022.11.30-00.39.02:611][473]LogTexture: Display: Building textures: LQ_Lightmap_1_22 (DXT1, 128X128)
+[2022.11.30-00.39.02:611][473]LogTexture: Display: Building textures: LQ_Lightmap_1_23 (DXT1, 128X128)
+[2022.11.30-00.39.02:611][473]LogTexture: Display: Building textures: LQ_Lightmap_1_24 (DXT1, 128X128)
+[2022.11.30-00.39.02:611][473]LogTexture: Display: Building textures: LQ_Lightmap_1_25 (DXT1, 128X128)
+[2022.11.30-00.39.02:611][473]LogTexture: Display: Building textures: LQ_Lightmap_1_26 (DXT1, 128X128)
+[2022.11.30-00.39.02:611][473]LogTexture: Display: Building textures: LQ_Lightmap_1_27 (DXT1, 128X128)
+[2022.11.30-00.39.02:611][473]LogTexture: Display: Building textures: LQ_Lightmap_0_7 (DXT1, 1024X1024)
+[2022.11.30-00.39.02:611][473]LogTexture: Display: Building textures: LQ_Lightmap_1_28 (DXT1, 128X128)
+[2022.11.30-00.39.02:611][473]LogTexture: Display: Building textures: LQ_Lightmap_1_29 (DXT1, 128X128)
+[2022.11.30-00.39.02:611][473]LogTexture: Display: Building textures: LQ_Lightmap_1_30 (DXT1, 128X128)
+[2022.11.30-00.39.02:611][473]LogTexture: Display: Building textures: LQ_Lightmap_1_31 (DXT1, 128X128)
+[2022.11.30-00.39.02:612][473]LogTexture: Display: Building textures: LQ_Lightmap_1_32 (DXT1, 128X128)
+[2022.11.30-00.39.02:612][473]LogTexture: Display: Building textures: LQ_Lightmap_1_33 (DXT1, 128X128)
+[2022.11.30-00.39.02:612][473]LogTexture: Display: Building textures: LQ_Lightmap_1_34 (DXT1, 128X128)
+[2022.11.30-00.39.02:612][473]LogTexture: Display: Building textures: LQ_Lightmap_1_35 (DXT1, 256X256)
+[2022.11.30-00.39.02:612][473]LogTexture: Display: Building textures: LQ_Lightmap_1_36 (DXT1, 128X128)
+[2022.11.30-00.39.02:612][473]LogTexture: Display: Building textures: LQ_Lightmap_1_37 (DXT1, 128X128)
+[2022.11.30-00.39.02:612][473]LogTexture: Display: Building textures: LQ_Lightmap_1_38 (DXT1, 128X128)
+[2022.11.30-00.39.02:612][473]LogTexture: Display: Building textures: LQ_Lightmap_1_39 (DXT1, 64X64)
+[2022.11.30-00.39.02:612][473]LogTexture: Display: Building textures: LQ_Lightmap_1_40 (DXT1, 64X64)
+[2022.11.30-00.39.02:700][473]LogAIModule: Creating AISystem for world NewMap
+[2022.11.30-00.39.02:762][473]Cmd: MAP LOAD FILE="C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Content/Maps/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.11.30-00.39.02:762][473]LightingResults: New page: ライティングのビルド
+[2022.11.30-00.39.02:763][473]LoadErrors: New page: マップをロード中: NewMap.umap
+[2022.11.30-00.39.02:763][473]MapCheck: New page: マップをチェック
+[2022.11.30-00.39.02:763][473]LightingResults: New page: <何も選択されていません>
+[2022.11.30-00.39.02:951][473]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.11.30-00.39.02:979][473]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.11.30-00.39.03:027][473]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 47.379ミリ秒かかりました。
+[2022.11.30-00.39.03:027][473]LogFileHelpers: Loading map 'NewMap' took 0.265
+[2022.11.30-00.41.28:540][ 83]MapCheck: New page: マップをチェック
+[2022.11.30-00.41.28:563][ 83]Cmd: MAP REBUILD ALLVISIBLE
+[2022.11.30-00.41.28:563][ 83]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2022.11.30-00.41.29:058][ 83]LightingResults: New page: ライティングのビルド - 2022/11/30 18:41:29
+[2022.11.30-00.41.29:154][ 83]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2022.11.30-00.41.29:230][ 83]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2022.11.30-00.41.29:244][ 83]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2022.11.30-00.41.30:281][ 83]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2022.11.30-00.41.30:281][ 83]LogSwarmInterface: [TryOpenConnection] Local Process ID is 4520
+[2022.11.30-00.41.37:007][ 83]LightingResults: Warning: インポータンス ボリュームは検出されず、シーンが大きすぎるため、自動シンクされたボリュームは良い結果は齎しません。シーンの品質とライティングビルド時間を最適化するために、隙間なくバウンディングしたライトマスのインポータンスボリュームを追加してください。
+[2022.11.30-00.41.37:007][ 83]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2022.11.30-00.41.37:007][ 83]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2022.11.30-00.41.37:007][ 83]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2022.11.30-00.41.37:007][ 83]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2022.11.30-00.41.37:007][ 83]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2022.11.30-00.41.37:153][ 83]LogEditorBuildUtils: Build time 0:08
+[2022.11.30-00.41.59:581][154]LightingResults: Warning: SM_Plains_Vine01 オブジェクトにオーバーラップしているUVがあります
+[2022.11.30-00.41.59:581][154]LightingResults: SM_Plains_Vine01 Lightmap UV are overlapping by 1.3%. Please adjust content - Enable Error Coloring to visualize.
+[2022.11.30-00.42.00:573][157]Job is a success!
+[2022.11.30-00.42.03:941][158]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 128X128)
+[2022.11.30-00.42.03:941][158]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:941][158]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 128X128)
+[2022.11.30-00.42.03:941][158]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:941][158]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 256X256)
+[2022.11.30-00.42.03:941][158]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 256X256)
+[2022.11.30-00.42.03:941][158]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 256X256)
+[2022.11.30-00.42.03:941][158]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 256X256)
+[2022.11.30-00.42.03:941][158]LogTexture: Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 256X256)
+[2022.11.30-00.42.03:941][158]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (DXT1, 256X256)
+[2022.11.30-00.42.03:941][158]LogTexture: Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 1024X1024)
+[2022.11.30-00.42.03:941][158]LogTexture: Display: Building textures: LQ_Lightmap_1_6 (DXT1, 1024X1024)
+[2022.11.30-00.42.03:942][158]LogTexture: Display: Building textures: HQ_Lightmap1_7 (AutoDXT, 1024X1024)
+[2022.11.30-00.42.03:942][158]LogTexture: Display: Building textures: LQ_Lightmap_1_7 (DXT1, 1024X1024)
+[2022.11.30-00.42.03:942][158]LogTexture: Display: Building textures: HQ_Lightmap1_8 (AutoDXT, 256X256)
+[2022.11.30-00.42.03:942][158]LogTexture: Display: Building textures: LQ_Lightmap_1_8 (DXT1, 256X256)
+[2022.11.30-00.42.03:942][158]LogTexture: Display: Building textures: HQ_Lightmap1_9 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:942][158]LogTexture: Display: Building textures: LQ_Lightmap_1_9 (DXT1, 128X128)
+[2022.11.30-00.42.03:942][158]LogTexture: Display: Building textures: HQ_Lightmap1_10 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:942][158]LogTexture: Display: Building textures: LQ_Lightmap_1_10 (DXT1, 128X128)
+[2022.11.30-00.42.03:942][158]LogTexture: Display: Building textures: HQ_Lightmap1_11 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:942][158]LogTexture: Display: Building textures: LQ_Lightmap_1_11 (DXT1, 128X128)
+[2022.11.30-00.42.03:942][158]LogTexture: Display: Building textures: HQ_Lightmap1_12 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:942][158]LogTexture: Display: Building textures: LQ_Lightmap_1_12 (DXT1, 128X128)
+[2022.11.30-00.42.03:942][158]LogTexture: Display: Building textures: HQ_Lightmap1_13 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:942][158]LogTexture: Display: Building textures: HQ_Lightmap1_14 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:942][158]LogTexture: Display: Building textures: LQ_Lightmap_1_13 (DXT1, 128X128)
+[2022.11.30-00.42.03:942][158]LogTexture: Display: Building textures: LQ_Lightmap_1_14 (DXT1, 128X128)
+[2022.11.30-00.42.03:942][158]LogTexture: Display: Building textures: HQ_Lightmap1_15 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:942][158]LogTexture: Display: Building textures: LQ_Lightmap_1_15 (DXT1, 128X128)
+[2022.11.30-00.42.03:942][158]LogTexture: Display: Building textures: HQ_Lightmap0_16 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:942][158]LogTexture: Display: Building textures: LQ_Lightmap_0_16 (DXT1, 128X128)
+[2022.11.30-00.42.03:942][158]LogTexture: Display: Building textures: HQ_Lightmap0_17 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:943][158]LogTexture: Display: Building textures: LQ_Lightmap_0_17 (DXT1, 128X128)
+[2022.11.30-00.42.03:943][158]LogTexture: Display: Building textures: HQ_Lightmap0_18 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:943][158]LogTexture: Display: Building textures: LQ_Lightmap_0_18 (DXT1, 128X128)
+[2022.11.30-00.42.03:943][158]LogTexture: Display: Building textures: HQ_Lightmap0_19 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:943][158]LogTexture: Display: Building textures: LQ_Lightmap_0_19 (DXT1, 128X128)
+[2022.11.30-00.42.03:943][158]LogTexture: Display: Building textures: HQ_Lightmap0_20 (AutoDXT, 512X512)
+[2022.11.30-00.42.03:943][158]LogTexture: Display: Building textures: LQ_Lightmap_0_20 (DXT1, 512X512)
+[2022.11.30-00.42.03:943][158]LogTexture: Display: Building textures: HQ_Lightmap0_21 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:943][158]LogTexture: Display: Building textures: LQ_Lightmap_0_21 (DXT1, 128X128)
+[2022.11.30-00.42.03:943][158]LogTexture: Display: Building textures: HQ_Lightmap0_22 (AutoDXT, 256X256)
+[2022.11.30-00.42.03:943][158]LogTexture: Display: Building textures: LQ_Lightmap_0_22 (DXT1, 256X256)
+[2022.11.30-00.42.03:943][158]LogTexture: Display: Building textures: HQ_Lightmap0_23 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:943][158]LogTexture: Display: Building textures: LQ_Lightmap_0_23 (DXT1, 128X128)
+[2022.11.30-00.42.03:943][158]LogTexture: Display: Building textures: HQ_Lightmap0_24 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:943][158]LogTexture: Display: Building textures: LQ_Lightmap_0_24 (DXT1, 128X128)
+[2022.11.30-00.42.03:943][158]LogTexture: Display: Building textures: HQ_Lightmap0_25 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:943][158]LogTexture: Display: Building textures: LQ_Lightmap_0_25 (DXT1, 128X128)
+[2022.11.30-00.42.03:943][158]LogTexture: Display: Building textures: HQ_Lightmap0_26 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:943][158]LogTexture: Display: Building textures: LQ_Lightmap_0_26 (DXT1, 128X128)
+[2022.11.30-00.42.03:943][158]LogTexture: Display: Building textures: HQ_Lightmap0_27 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:943][158]LogTexture: Display: Building textures: LQ_Lightmap_0_27 (DXT1, 128X128)
+[2022.11.30-00.42.03:944][158]LogTexture: Display: Building textures: HQ_Lightmap0_28 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:944][158]LogTexture: Display: Building textures: LQ_Lightmap_0_28 (DXT1, 128X128)
+[2022.11.30-00.42.03:944][158]LogTexture: Display: Building textures: HQ_Lightmap0_29 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:944][158]LogTexture: Display: Building textures: LQ_Lightmap_0_29 (DXT1, 128X128)
+[2022.11.30-00.42.03:944][158]LogTexture: Display: Building textures: HQ_Lightmap0_30 (AutoDXT, 256X256)
+[2022.11.30-00.42.03:944][158]LogTexture: Display: Building textures: LQ_Lightmap_0_30 (DXT1, 256X256)
+[2022.11.30-00.42.03:944][158]LogTexture: Display: Building textures: HQ_Lightmap0_31 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:944][158]LogTexture: Display: Building textures: LQ_Lightmap_0_31 (DXT1, 128X128)
+[2022.11.30-00.42.03:944][158]LogTexture: Display: Building textures: HQ_Lightmap0_32 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:944][158]LogTexture: Display: Building textures: LQ_Lightmap_0_32 (DXT1, 128X128)
+[2022.11.30-00.42.03:944][158]LogTexture: Display: Building textures: HQ_Lightmap0_33 (AutoDXT, 512X512)
+[2022.11.30-00.42.03:944][158]LogTexture: Display: Building textures: LQ_Lightmap_0_33 (DXT1, 512X512)
+[2022.11.30-00.42.03:944][158]LogTexture: Display: Building textures: HQ_Lightmap0_34 (AutoDXT, 256X256)
+[2022.11.30-00.42.03:944][158]LogTexture: Display: Building textures: LQ_Lightmap_0_34 (DXT1, 256X256)
+[2022.11.30-00.42.03:944][158]LogTexture: Display: Building textures: HQ_Lightmap0_35 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:944][158]LogTexture: Display: Building textures: LQ_Lightmap_0_35 (DXT1, 128X128)
+[2022.11.30-00.42.03:944][158]LogTexture: Display: Building textures: HQ_Lightmap0_36 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:944][158]LogTexture: Display: Building textures: LQ_Lightmap_0_36 (DXT1, 128X128)
+[2022.11.30-00.42.03:944][158]LogTexture: Display: Building textures: HQ_Lightmap0_37 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:945][158]LogTexture: Display: Building textures: LQ_Lightmap_0_37 (DXT1, 128X128)
+[2022.11.30-00.42.03:945][158]LogTexture: Display: Building textures: HQ_Lightmap0_38 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:945][158]LogTexture: Display: Building textures: LQ_Lightmap_0_38 (DXT1, 128X128)
+[2022.11.30-00.42.03:945][158]LogTexture: Display: Building textures: HQ_Lightmap0_39 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:945][158]LogTexture: Display: Building textures: LQ_Lightmap_0_39 (DXT1, 128X128)
+[2022.11.30-00.42.03:945][158]LogTexture: Display: Building textures: HQ_Lightmap0_40 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:945][158]LogTexture: Display: Building textures: LQ_Lightmap_0_40 (DXT1, 128X128)
+[2022.11.30-00.42.03:945][158]LogTexture: Display: Building textures: HQ_Lightmap0_41 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:945][158]LogTexture: Display: Building textures: LQ_Lightmap_0_41 (DXT1, 128X128)
+[2022.11.30-00.42.03:945][158]LogTexture: Display: Building textures: HQ_Lightmap0_42 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:945][158]LogTexture: Display: Building textures: LQ_Lightmap_0_42 (DXT1, 128X128)
+[2022.11.30-00.42.03:945][158]LogTexture: Display: Building textures: HQ_Lightmap0_43 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:945][158]LogTexture: Display: Building textures: LQ_Lightmap_0_43 (DXT1, 128X128)
+[2022.11.30-00.42.03:945][158]LogTexture: Display: Building textures: HQ_Lightmap0_44 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:945][158]LogTexture: Display: Building textures: LQ_Lightmap_0_44 (DXT1, 128X128)
+[2022.11.30-00.42.03:945][158]LogTexture: Display: Building textures: HQ_Lightmap0_45 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:946][158]LogTexture: Display: Building textures: LQ_Lightmap_0_45 (DXT1, 128X128)
+[2022.11.30-00.42.03:946][158]LogTexture: Display: Building textures: HQ_Lightmap0_46 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:946][158]LogTexture: Display: Building textures: LQ_Lightmap_0_46 (DXT1, 128X128)
+[2022.11.30-00.42.03:946][158]LogTexture: Display: Building textures: HQ_Lightmap0_47 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:946][158]LogTexture: Display: Building textures: LQ_Lightmap_0_47 (DXT1, 128X128)
+[2022.11.30-00.42.03:946][158]LogTexture: Display: Building textures: HQ_Lightmap0_48 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:946][158]LogTexture: Display: Building textures: LQ_Lightmap_0_48 (DXT1, 128X128)
+[2022.11.30-00.42.03:946][158]LogTexture: Display: Building textures: HQ_Lightmap0_49 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:946][158]LogTexture: Display: Building textures: LQ_Lightmap_0_49 (DXT1, 128X128)
+[2022.11.30-00.42.03:946][158]LogTexture: Display: Building textures: HQ_Lightmap0_50 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:946][158]LogTexture: Display: Building textures: LQ_Lightmap_0_50 (DXT1, 128X128)
+[2022.11.30-00.42.03:946][158]LogTexture: Display: Building textures: HQ_Lightmap0_51 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:946][158]LogTexture: Display: Building textures: LQ_Lightmap_0_51 (DXT1, 128X128)
+[2022.11.30-00.42.03:946][158]LogTexture: Display: Building textures: HQ_Lightmap0_52 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:946][158]LogTexture: Display: Building textures: LQ_Lightmap_0_52 (DXT1, 128X128)
+[2022.11.30-00.42.03:946][158]LogTexture: Display: Building textures: HQ_Lightmap0_53 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:946][158]LogTexture: Display: Building textures: LQ_Lightmap_0_53 (DXT1, 128X128)
+[2022.11.30-00.42.03:946][158]LogTexture: Display: Building textures: HQ_Lightmap0_54 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:946][158]LogTexture: Display: Building textures: LQ_Lightmap_0_54 (DXT1, 128X128)
+[2022.11.30-00.42.03:946][158]LogTexture: Display: Building textures: HQ_Lightmap0_55 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:946][158]LogTexture: Display: Building textures: LQ_Lightmap_0_55 (DXT1, 128X128)
+[2022.11.30-00.42.03:946][158]LogTexture: Display: Building textures: HQ_Lightmap0_56 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:946][158]LogTexture: Display: Building textures: LQ_Lightmap_0_56 (DXT1, 128X128)
+[2022.11.30-00.42.03:947][158]LogTexture: Display: Building textures: HQ_Lightmap0_57 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:947][158]LogTexture: Display: Building textures: LQ_Lightmap_0_57 (DXT1, 128X128)
+[2022.11.30-00.42.03:947][158]LogTexture: Display: Building textures: HQ_Lightmap0_58 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:947][158]LogTexture: Display: Building textures: LQ_Lightmap_0_58 (DXT1, 128X128)
+[2022.11.30-00.42.03:947][158]LogTexture: Display: Building textures: HQ_Lightmap0_59 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:947][158]LogTexture: Display: Building textures: HQ_Lightmap0_60 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:947][158]LogTexture: Display: Building textures: LQ_Lightmap_0_59 (DXT1, 128X128)
+[2022.11.30-00.42.03:947][158]LogTexture: Display: Building textures: LQ_Lightmap_0_60 (DXT1, 128X128)
+[2022.11.30-00.42.03:947][158]LogTexture: Display: Building textures: HQ_Lightmap0_61 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:947][158]LogTexture: Display: Building textures: LQ_Lightmap_0_61 (DXT1, 128X128)
+[2022.11.30-00.42.03:947][158]LogTexture: Display: Building textures: HQ_Lightmap0_62 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:947][158]LogTexture: Display: Building textures: LQ_Lightmap_0_62 (DXT1, 128X128)
+[2022.11.30-00.42.03:947][158]LogTexture: Display: Building textures: HQ_Lightmap0_63 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:947][158]LogTexture: Display: Building textures: LQ_Lightmap_0_63 (DXT1, 128X128)
+[2022.11.30-00.42.03:947][158]LogTexture: Display: Building textures: HQ_Lightmap0_64 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:947][158]LogTexture: Display: Building textures: LQ_Lightmap_0_64 (DXT1, 128X128)
+[2022.11.30-00.42.03:947][158]LogTexture: Display: Building textures: HQ_Lightmap0_65 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:947][158]LogTexture: Display: Building textures: LQ_Lightmap_0_65 (DXT1, 128X128)
+[2022.11.30-00.42.03:947][158]LogTexture: Display: Building textures: LQ_Lightmap_0_66 (DXT1, 128X128)
+[2022.11.30-00.42.03:947][158]LogTexture: Display: Building textures: HQ_Lightmap0_66 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:947][158]LogTexture: Display: Building textures: HQ_Lightmap0_67 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:947][158]LogTexture: Display: Building textures: LQ_Lightmap_0_67 (DXT1, 128X128)
+[2022.11.30-00.42.03:947][158]LogTexture: Display: Building textures: HQ_Lightmap0_68 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:948][158]LogTexture: Display: Building textures: LQ_Lightmap_0_68 (DXT1, 128X128)
+[2022.11.30-00.42.03:948][158]LogTexture: Display: Building textures: HQ_Lightmap0_69 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:948][158]LogTexture: Display: Building textures: LQ_Lightmap_0_69 (DXT1, 128X128)
+[2022.11.30-00.42.03:948][158]LogTexture: Display: Building textures: HQ_Lightmap0_70 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:948][158]LogTexture: Display: Building textures: LQ_Lightmap_0_70 (DXT1, 128X128)
+[2022.11.30-00.42.03:948][158]LogTexture: Display: Building textures: HQ_Lightmap0_71 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:948][158]LogTexture: Display: Building textures: LQ_Lightmap_0_71 (DXT1, 128X128)
+[2022.11.30-00.42.03:948][158]LogTexture: Display: Building textures: HQ_Lightmap0_72 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:948][158]LogTexture: Display: Building textures: LQ_Lightmap_0_72 (DXT1, 128X128)
+[2022.11.30-00.42.03:948][158]LogTexture: Display: Building textures: HQ_Lightmap0_73 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:948][158]LogTexture: Display: Building textures: LQ_Lightmap_0_73 (DXT1, 128X128)
+[2022.11.30-00.42.03:948][158]LogTexture: Display: Building textures: HQ_Lightmap0_74 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:948][158]LogTexture: Display: Building textures: LQ_Lightmap_0_74 (DXT1, 128X128)
+[2022.11.30-00.42.03:948][158]LogTexture: Display: Building textures: HQ_Lightmap0_75 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:948][158]LogTexture: Display: Building textures: LQ_Lightmap_0_75 (DXT1, 128X128)
+[2022.11.30-00.42.03:948][158]LogTexture: Display: Building textures: HQ_Lightmap0_76 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:948][158]LogTexture: Display: Building textures: LQ_Lightmap_0_76 (DXT1, 128X128)
+[2022.11.30-00.42.03:948][158]LogTexture: Display: Building textures: HQ_Lightmap0_77 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:948][158]LogTexture: Display: Building textures: LQ_Lightmap_0_77 (DXT1, 128X128)
+[2022.11.30-00.42.03:948][158]LogTexture: Display: Building textures: HQ_Lightmap0_78 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:948][158]LogTexture: Display: Building textures: LQ_Lightmap_0_78 (DXT1, 128X128)
+[2022.11.30-00.42.03:948][158]LogTexture: Display: Building textures: HQ_Lightmap0_79 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:948][158]LogTexture: Display: Building textures: LQ_Lightmap_0_79 (DXT1, 128X128)
+[2022.11.30-00.42.03:948][158]LogTexture: Display: Building textures: HQ_Lightmap0_80 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:948][158]LogTexture: Display: Building textures: LQ_Lightmap_0_80 (DXT1, 128X128)
+[2022.11.30-00.42.03:948][158]LogTexture: Display: Building textures: HQ_Lightmap0_81 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:948][158]LogTexture: Display: Building textures: LQ_Lightmap_0_81 (DXT1, 128X128)
+[2022.11.30-00.42.03:948][158]LogTexture: Display: Building textures: HQ_Lightmap0_82 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:948][158]LogTexture: Display: Building textures: LQ_Lightmap_0_82 (DXT1, 128X128)
+[2022.11.30-00.42.03:948][158]LogTexture: Display: Building textures: HQ_Lightmap0_83 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:948][158]LogTexture: Display: Building textures: LQ_Lightmap_0_83 (DXT1, 128X128)
+[2022.11.30-00.42.03:948][158]LogTexture: Display: Building textures: HQ_Lightmap0_84 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:949][158]LogTexture: Display: Building textures: LQ_Lightmap_0_84 (DXT1, 128X128)
+[2022.11.30-00.42.03:949][158]LogTexture: Display: Building textures: HQ_Lightmap0_85 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:949][158]LogTexture: Display: Building textures: LQ_Lightmap_0_85 (DXT1, 128X128)
+[2022.11.30-00.42.03:949][158]LogTexture: Display: Building textures: HQ_Lightmap0_86 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:949][158]LogTexture: Display: Building textures: LQ_Lightmap_0_86 (DXT1, 128X128)
+[2022.11.30-00.42.03:949][158]LogTexture: Display: Building textures: HQ_Lightmap0_87 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:949][158]LogTexture: Display: Building textures: LQ_Lightmap_0_87 (DXT1, 128X128)
+[2022.11.30-00.42.03:949][158]LogTexture: Display: Building textures: HQ_Lightmap0_88 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:949][158]LogTexture: Display: Building textures: LQ_Lightmap_0_88 (DXT1, 128X128)
+[2022.11.30-00.42.03:949][158]LogTexture: Display: Building textures: HQ_Lightmap0_89 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:949][158]LogTexture: Display: Building textures: LQ_Lightmap_0_89 (DXT1, 128X128)
+[2022.11.30-00.42.03:949][158]LogTexture: Display: Building textures: HQ_Lightmap0_90 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:949][158]LogTexture: Display: Building textures: LQ_Lightmap_0_90 (DXT1, 128X128)
+[2022.11.30-00.42.03:949][158]LogTexture: Display: Building textures: HQ_Lightmap0_91 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:949][158]LogTexture: Display: Building textures: LQ_Lightmap_0_91 (DXT1, 128X128)
+[2022.11.30-00.42.03:949][158]LogTexture: Display: Building textures: HQ_Lightmap0_92 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:949][158]LogTexture: Display: Building textures: LQ_Lightmap_0_92 (DXT1, 128X128)
+[2022.11.30-00.42.03:949][158]LogTexture: Display: Building textures: HQ_Lightmap0_93 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:949][158]LogTexture: Display: Building textures: LQ_Lightmap_0_93 (DXT1, 128X128)
+[2022.11.30-00.42.03:949][158]LogTexture: Display: Building textures: HQ_Lightmap0_94 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:949][158]LogTexture: Display: Building textures: LQ_Lightmap_0_94 (DXT1, 128X128)
+[2022.11.30-00.42.03:949][158]LogTexture: Display: Building textures: HQ_Lightmap0_95 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:949][158]LogTexture: Display: Building textures: LQ_Lightmap_0_95 (DXT1, 128X128)
+[2022.11.30-00.42.03:949][158]LogTexture: Display: Building textures: HQ_Lightmap0_96 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:949][158]LogTexture: Display: Building textures: LQ_Lightmap_0_96 (DXT1, 128X128)
+[2022.11.30-00.42.03:949][158]LogTexture: Display: Building textures: HQ_Lightmap0_97 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:949][158]LogTexture: Display: Building textures: LQ_Lightmap_0_97 (DXT1, 128X128)
+[2022.11.30-00.42.03:949][158]LogTexture: Display: Building textures: HQ_Lightmap0_98 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:949][158]LogTexture: Display: Building textures: LQ_Lightmap_0_98 (DXT1, 128X128)
+[2022.11.30-00.42.03:949][158]LogTexture: Display: Building textures: HQ_Lightmap0_99 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:949][158]LogTexture: Display: Building textures: LQ_Lightmap_0_99 (DXT1, 128X128)
+[2022.11.30-00.42.03:949][158]LogTexture: Display: Building textures: HQ_Lightmap0_100 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:949][158]LogTexture: Display: Building textures: LQ_Lightmap_0_100 (DXT1, 128X128)
+[2022.11.30-00.42.03:949][158]LogTexture: Display: Building textures: HQ_Lightmap0_101 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:949][158]LogTexture: Display: Building textures: LQ_Lightmap_0_101 (DXT1, 128X128)
+[2022.11.30-00.42.03:949][158]LogTexture: Display: Building textures: HQ_Lightmap0_102 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:949][158]LogTexture: Display: Building textures: LQ_Lightmap_0_102 (DXT1, 128X128)
+[2022.11.30-00.42.03:949][158]LogTexture: Display: Building textures: HQ_Lightmap0_103 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:949][158]LogTexture: Display: Building textures: LQ_Lightmap_0_103 (DXT1, 128X128)
+[2022.11.30-00.42.03:949][158]LogTexture: Display: Building textures: HQ_Lightmap0_104 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:949][158]LogTexture: Display: Building textures: LQ_Lightmap_0_104 (DXT1, 128X128)
+[2022.11.30-00.42.03:949][158]LogTexture: Display: Building textures: HQ_Lightmap0_105 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:950][158]LogTexture: Display: Building textures: LQ_Lightmap_0_105 (DXT1, 128X128)
+[2022.11.30-00.42.03:950][158]LogTexture: Display: Building textures: HQ_Lightmap0_106 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:950][158]LogTexture: Display: Building textures: LQ_Lightmap_0_106 (DXT1, 128X128)
+[2022.11.30-00.42.03:950][158]LogTexture: Display: Building textures: HQ_Lightmap0_107 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:950][158]LogTexture: Display: Building textures: LQ_Lightmap_0_107 (DXT1, 128X128)
+[2022.11.30-00.42.03:950][158]LogTexture: Display: Building textures: HQ_Lightmap0_108 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:950][158]LogTexture: Display: Building textures: LQ_Lightmap_0_108 (DXT1, 128X128)
+[2022.11.30-00.42.03:950][158]LogTexture: Display: Building textures: HQ_Lightmap0_109 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:950][158]LogTexture: Display: Building textures: LQ_Lightmap_0_109 (DXT1, 128X128)
+[2022.11.30-00.42.03:950][158]LogTexture: Display: Building textures: HQ_Lightmap0_110 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:950][158]LogTexture: Display: Building textures: LQ_Lightmap_0_110 (DXT1, 128X128)
+[2022.11.30-00.42.03:950][158]LogTexture: Display: Building textures: HQ_Lightmap0_111 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:950][158]LogTexture: Display: Building textures: LQ_Lightmap_0_111 (DXT1, 128X128)
+[2022.11.30-00.42.03:950][158]LogTexture: Display: Building textures: HQ_Lightmap0_112 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:950][158]LogTexture: Display: Building textures: LQ_Lightmap_0_112 (DXT1, 128X128)
+[2022.11.30-00.42.03:950][158]LogTexture: Display: Building textures: HQ_Lightmap0_113 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:950][158]LogTexture: Display: Building textures: LQ_Lightmap_0_113 (DXT1, 128X128)
+[2022.11.30-00.42.03:950][158]LogTexture: Display: Building textures: HQ_Lightmap0_114 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:950][158]LogTexture: Display: Building textures: LQ_Lightmap_0_114 (DXT1, 128X128)
+[2022.11.30-00.42.03:950][158]LogTexture: Display: Building textures: HQ_Lightmap0_115 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:950][158]LogTexture: Display: Building textures: LQ_Lightmap_0_115 (DXT1, 128X128)
+[2022.11.30-00.42.03:950][158]LogTexture: Display: Building textures: HQ_Lightmap0_116 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:950][158]LogTexture: Display: Building textures: LQ_Lightmap_0_116 (DXT1, 128X128)
+[2022.11.30-00.42.03:950][158]LogTexture: Display: Building textures: HQ_Lightmap0_117 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:950][158]LogTexture: Display: Building textures: LQ_Lightmap_0_117 (DXT1, 128X128)
+[2022.11.30-00.42.03:950][158]LogTexture: Display: Building textures: HQ_Lightmap0_118 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:950][158]LogTexture: Display: Building textures: LQ_Lightmap_0_118 (DXT1, 128X128)
+[2022.11.30-00.42.03:950][158]LogTexture: Display: Building textures: HQ_Lightmap0_119 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:950][158]LogTexture: Display: Building textures: LQ_Lightmap_0_119 (DXT1, 128X128)
+[2022.11.30-00.42.03:950][158]LogTexture: Display: Building textures: HQ_Lightmap0_120 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:950][158]LogTexture: Display: Building textures: LQ_Lightmap_0_120 (DXT1, 128X128)
+[2022.11.30-00.42.03:950][158]LogTexture: Display: Building textures: HQ_Lightmap0_121 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:950][158]LogTexture: Display: Building textures: LQ_Lightmap_0_121 (DXT1, 128X128)
+[2022.11.30-00.42.03:950][158]LogTexture: Display: Building textures: HQ_Lightmap0_122 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:950][158]LogTexture: Display: Building textures: LQ_Lightmap_0_122 (DXT1, 128X128)
+[2022.11.30-00.42.03:950][158]LogTexture: Display: Building textures: HQ_Lightmap0_123 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:950][158]LogTexture: Display: Building textures: LQ_Lightmap_0_123 (DXT1, 128X128)
+[2022.11.30-00.42.03:950][158]LogTexture: Display: Building textures: HQ_Lightmap0_124 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:950][158]LogTexture: Display: Building textures: LQ_Lightmap_0_124 (DXT1, 128X128)
+[2022.11.30-00.42.03:950][158]LogTexture: Display: Building textures: HQ_Lightmap0_125 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:950][158]LogTexture: Display: Building textures: LQ_Lightmap_0_125 (DXT1, 128X128)
+[2022.11.30-00.42.03:950][158]LogTexture: Display: Building textures: LQ_Lightmap_0_126 (DXT1, 128X128)
+[2022.11.30-00.42.03:950][158]LogTexture: Display: Building textures: HQ_Lightmap0_126 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:951][158]LogTexture: Display: Building textures: HQ_Lightmap0_127 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:951][158]LogTexture: Display: Building textures: LQ_Lightmap_0_127 (DXT1, 128X128)
+[2022.11.30-00.42.03:951][158]LogTexture: Display: Building textures: HQ_Lightmap0_128 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:951][158]LogTexture: Display: Building textures: LQ_Lightmap_0_128 (DXT1, 128X128)
+[2022.11.30-00.42.03:951][158]LogTexture: Display: Building textures: HQ_Lightmap0_129 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:951][158]LogTexture: Display: Building textures: LQ_Lightmap_0_129 (DXT1, 128X128)
+[2022.11.30-00.42.03:951][158]LogTexture: Display: Building textures: HQ_Lightmap0_130 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:951][158]LogTexture: Display: Building textures: LQ_Lightmap_0_130 (DXT1, 128X128)
+[2022.11.30-00.42.03:951][158]LogTexture: Display: Building textures: HQ_Lightmap0_131 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:951][158]LogTexture: Display: Building textures: LQ_Lightmap_0_131 (DXT1, 128X128)
+[2022.11.30-00.42.03:951][158]LogTexture: Display: Building textures: HQ_Lightmap0_132 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:951][158]LogTexture: Display: Building textures: LQ_Lightmap_0_132 (DXT1, 128X128)
+[2022.11.30-00.42.03:951][158]LogTexture: Display: Building textures: HQ_Lightmap0_133 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:951][158]LogTexture: Display: Building textures: LQ_Lightmap_0_133 (DXT1, 128X128)
+[2022.11.30-00.42.03:951][158]LogTexture: Display: Building textures: HQ_Lightmap0_134 (AutoDXT, 128X128)
+[2022.11.30-00.42.03:951][158]LogTexture: Display: Building textures: LQ_Lightmap_0_134 (DXT1, 128X128)
+[2022.11.30-00.42.03:951][158]LogTexture: Display: Building textures: HQ_Lightmap0_135 (AutoDXT, 64X64)
+[2022.11.30-00.42.03:951][158]LogTexture: Display: Building textures: LQ_Lightmap_0_135 (DXT1, 64X64)
+[2022.11.30-00.42.03:951][158]LogTexture: Display: Building textures: HQ_Lightmap0_136 (AutoDXT, 64X64)
+[2022.11.30-00.42.03:951][158]LogTexture: Display: Building textures: LQ_Lightmap_0_136 (DXT1, 64X64)
+[2022.11.30-00.42.04:141][158]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 128X64)
+[2022.11.30-00.42.04:141][158]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (BGRA8, 256X64)
+[2022.11.30-00.42.04:141][158]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 512X64)
+[2022.11.30-00.42.04:141][158]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (BGRA8, 128X64)
+[2022.11.30-00.42.04:141][158]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (BGRA8, 128X64)
+[2022.11.30-00.42.04:141][158]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (BGRA8, 64X64)
+[2022.11.30-00.42.04:141][158]LogTexture: Display: Building textures: ShadowMapTexture2D_9 (BGRA8, 64X64)
+[2022.11.30-00.42.04:141][158]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (BGRA8, 512X64)
+[2022.11.30-00.42.04:141][158]LogTexture: Display: Building textures: ShadowMapTexture2D_11 (BGRA8, 64X64)
+[2022.11.30-00.42.04:141][158]LogTexture: Display: Building textures: ShadowMapTexture2D_10 (BGRA8, 64X64)
+[2022.11.30-00.42.04:141][158]LogTexture: Display: Building textures: ShadowMapTexture2D_12 (BGRA8, 64X64)
+[2022.11.30-00.42.04:141][158]LogTexture: Display: Building textures: ShadowMapTexture2D_13 (BGRA8, 64X64)
+[2022.11.30-00.42.04:141][158]LogTexture: Display: Building textures: ShadowMapTexture2D_14 (BGRA8, 64X64)
+[2022.11.30-00.42.04:142][158]LogTexture: Display: Building textures: ShadowMapTexture2D_16 (BGRA8, 64X64)
+[2022.11.30-00.42.04:142][158]LogTexture: Display: Building textures: ShadowMapTexture2D_15 (BGRA8, 64X64)
+[2022.11.30-00.42.04:142][158]LogTexture: Display: Building textures: ShadowMapTexture2D_17 (BGRA8, 64X64)
+[2022.11.30-00.42.04:142][158]LogTexture: Display: Building textures: ShadowMapTexture2D_19 (BGRA8, 64X64)
+[2022.11.30-00.42.04:142][158]LogTexture: Display: Building textures: ShadowMapTexture2D_21 (BGRA8, 64X64)
+[2022.11.30-00.42.04:142][158]LogTexture: Display: Building textures: ShadowMapTexture2D_22 (BGRA8, 64X64)
+[2022.11.30-00.42.04:142][158]LogTexture: Display: Building textures: ShadowMapTexture2D_18 (BGRA8, 128X64)
+[2022.11.30-00.42.04:142][158]LogTexture: Display: Building textures: ShadowMapTexture2D_23 (BGRA8, 64X64)
+[2022.11.30-00.42.04:142][158]LogTexture: Display: Building textures: ShadowMapTexture2D_20 (BGRA8, 256X64)
+[2022.11.30-00.42.04:142][158]LogTexture: Display: Building textures: ShadowMapTexture2D_25 (BGRA8, 64X64)
+[2022.11.30-00.42.04:142][158]LogTexture: Display: Building textures: ShadowMapTexture2D_24 (BGRA8, 64X64)
+[2022.11.30-00.42.04:142][158]LogTexture: Display: Building textures: ShadowMapTexture2D_26 (BGRA8, 64X64)
+[2022.11.30-00.42.04:142][158]LogTexture: Display: Building textures: ShadowMapTexture2D_27 (BGRA8, 64X64)
+[2022.11.30-00.42.04:142][158]LogTexture: Display: Building textures: ShadowMapTexture2D_29 (BGRA8, 64X64)
+[2022.11.30-00.42.04:142][158]LogTexture: Display: Building textures: ShadowMapTexture2D_30 (BGRA8, 64X64)
+[2022.11.30-00.42.04:142][158]LogTexture: Display: Building textures: ShadowMapTexture2D_31 (BGRA8, 128X64)
+[2022.11.30-00.42.04:142][158]LogTexture: Display: Building textures: ShadowMapTexture2D_28 (BGRA8, 256X64)
+[2022.11.30-00.42.04:142][158]LogTexture: Display: Building textures: ShadowMapTexture2D_32 (BGRA8, 128X64)
+[2022.11.30-00.42.04:142][158]LogTexture: Display: Building textures: ShadowMapTexture2D_33 (BGRA8, 64X64)
+[2022.11.30-00.42.04:142][158]LogTexture: Display: Building textures: ShadowMapTexture2D_34 (BGRA8, 128X64)
+[2022.11.30-00.42.04:143][158]LogTexture: Display: Building textures: ShadowMapTexture2D_35 (BGRA8, 128X64)
+[2022.11.30-00.42.04:143][158]LogTexture: Display: Building textures: ShadowMapTexture2D_36 (BGRA8, 128X64)
+[2022.11.30-00.42.04:143][158]LogTexture: Display: Building textures: ShadowMapTexture2D_37 (BGRA8, 128X64)
+[2022.11.30-00.42.04:143][158]LogTexture: Display: Building textures: ShadowMapTexture2D_39 (BGRA8, 128X64)
+[2022.11.30-00.42.04:143][158]LogTexture: Display: Building textures: ShadowMapTexture2D_40 (BGRA8, 128X64)
+[2022.11.30-00.42.04:143][158]LogTexture: Display: Building textures: ShadowMapTexture2D_41 (BGRA8, 128X64)
+[2022.11.30-00.42.04:143][158]LogTexture: Display: Building textures: ShadowMapTexture2D_42 (BGRA8, 128X64)
+[2022.11.30-00.42.04:143][158]LogTexture: Display: Building textures: ShadowMapTexture2D_38 (BGRA8, 128X64)
+[2022.11.30-00.42.04:143][158]LogTexture: Display: Building textures: ShadowMapTexture2D_43 (BGRA8, 128X64)
+[2022.11.30-00.42.04:143][158]LogTexture: Display: Building textures: ShadowMapTexture2D_44 (BGRA8, 128X64)
+[2022.11.30-00.42.04:143][158]LogTexture: Display: Building textures: ShadowMapTexture2D_45 (BGRA8, 64X64)
+[2022.11.30-00.42.04:143][158]LogTexture: Display: Building textures: ShadowMapTexture2D_46 (BGRA8, 128X64)
+[2022.11.30-00.42.04:143][158]LogTexture: Display: Building textures: ShadowMapTexture2D_47 (BGRA8, 128X64)
+[2022.11.30-00.42.04:143][158]LogTexture: Display: Building textures: ShadowMapTexture2D_48 (BGRA8, 64X64)
+[2022.11.30-00.42.04:143][158]LogTexture: Display: Building textures: ShadowMapTexture2D_52 (BGRA8, 32X32)
+[2022.11.30-00.42.04:143][158]LogTexture: Display: Building textures: ShadowMapTexture2D_49 (BGRA8, 128X64)
+[2022.11.30-00.42.04:143][158]LogTexture: Display: Building textures: ShadowMapTexture2D_51 (BGRA8, 64X64)
+[2022.11.30-00.42.04:143][158]LogTexture: Display: Building textures: ShadowMapTexture2D_53 (BGRA8, 32X32)
+[2022.11.30-00.42.04:143][158]LogTexture: Display: Building textures: ShadowMapTexture2D_50 (BGRA8, 128X64)
+[2022.11.30-00.42.04:278][158]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (BGRA8, 1024X1024)
+[2022.11.30-00.42.04:278][158]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (BGRA8, 1024X1024)
+[2022.11.30-00.42.04:418][158]Lightmass on KBC12006038: 25.9 sec total, 247 ms importing, 101 ms setup, 2.17 sec photons, 23.4 sec processing, 0 ms extra exporting [545/545 mappings]. Threads: 4:17 min total, 3:12 min processing.
+[2022.11.30-00.42.04:471][158]LogStaticLightingSystem: Illumination: 35.0 sec (2.25 sec encoding lightmaps, 325 ms encoding shadowmaps)
+[2022.11.30-00.42.04:471][158]LogStaticLightingSystem: Lightmap texture memory:  9.7 MB (9.7 MB streaming, 0.0 MB non-streaming), 272 textures
+[2022.11.30-00.42.04:471][158]LogStaticLightingSystem: Shadowmap texture memory: 12.6 MB (12.6 MB streaming, 0.0 MB non-streaming), 54 textures
+[2022.11.30-00.42.10:127][158]DumpUnbuiltLightIteractions
+[2022.11.30-00.42.10:127][158]Lights with unbuilt interactions: 0
+[2022.11.30-00.42.10:127][158]
+[2022.11.30-00.42.10:127][158]Primitives with unbuilt interactions: 0
+[2022.11.30-00.42.10:147][159]Cmd: MAP CHECK NOTIFYRESULTS
+[2022.11.30-00.42.10:147][159]MapCheck: New page: NewMap - 2022/11/30 18:42:10
+[2022.11.30-00.42.10:166][159]MapCheck: Warning: SM_Plains_Fern01_5 Collision enabled but StaticMesh (SM_Plains_Fern01) has no simple or complex collision. 
+[2022.11.30-00.42.10:176][159]MapCheck: Warning: SM_Plains_Fern03_8 Collision enabled but StaticMesh (SM_Plains_Fern03) has no simple or complex collision. 
+[2022.11.30-00.42.10:176][159]MapCheck: Warning: SM_Plains_Fern04_5 Collision enabled but StaticMesh (SM_Plains_Fern04) has no simple or complex collision. 
+[2022.11.30-00.42.10:180][159]MapCheck: Warning: SM_Plains_Fern2_14 Collision enabled but StaticMesh (SM_Plains_Fern01) has no simple or complex collision. 
+[2022.11.30-00.42.10:180][159]MapCheck: Warning: SM_Plains_Fern3 Collision enabled but StaticMesh (SM_Plains_Fern01) has no simple or complex collision. 
+[2022.11.30-00.42.10:181][159]MapCheck: Warning: SM_Plains_Fern4 Collision enabled but StaticMesh (SM_Plains_Fern01) has no simple or complex collision. 
+[2022.11.30-00.42.10:181][159]MapCheck: Warning: SM_Plains_Fern5 Collision enabled but StaticMesh (SM_Plains_Fern01) has no simple or complex collision. 
+[2022.11.30-00.42.10:181][159]MapCheck: Warning: SM_Plains_Fern6 Collision enabled but StaticMesh (SM_Plains_Fern01) has no simple or complex collision. 
+[2022.11.30-00.42.10:181][159]MapCheck: Warning: SM_Plains_Fern7 Collision enabled but StaticMesh (SM_Plains_Fern01) has no simple or complex collision. 
+[2022.11.30-00.42.10:181][159]MapCheck: Warning: SM_Plains_Floors_Flat100_360 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:181][159]MapCheck: Warning: SM_Plains_Floors_Flat101_361 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:181][159]MapCheck: Warning: SM_Plains_Floors_Flat102_381 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:181][159]MapCheck: Warning: SM_Plains_Floors_Flat103_382 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:181][159]MapCheck: Warning: SM_Plains_Floors_Flat104_383 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:181][159]MapCheck: Warning: SM_Plains_Floors_Flat105_384 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:182][159]MapCheck: Warning: SM_Plains_Floors_Flat106_385 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:182][159]MapCheck: Warning: SM_Plains_Floors_Flat107_386 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:182][159]MapCheck: Warning: SM_Plains_Floors_Flat108_387 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:182][159]MapCheck: Warning: SM_Plains_Floors_Flat109_388 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:182][159]MapCheck: Warning: SM_Plains_Floors_Flat10_15 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:182][159]MapCheck: Warning: SM_Plains_Floors_Flat110_389 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:182][159]MapCheck: Warning: SM_Plains_Floors_Flat111_390 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:182][159]MapCheck: Warning: SM_Plains_Floors_Flat112_391 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:182][159]MapCheck: Warning: SM_Plains_Floors_Flat113_392 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:182][159]MapCheck: Warning: SM_Plains_Floors_Flat114_393 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:182][159]MapCheck: Warning: SM_Plains_Floors_Flat115_394 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:182][159]MapCheck: Warning: SM_Plains_Floors_Flat116_395 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:182][159]MapCheck: Warning: SM_Plains_Floors_Flat117_396 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:182][159]MapCheck: Warning: SM_Plains_Floors_Flat118_397 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:183][159]MapCheck: Warning: SM_Plains_Floors_Flat119_398 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:183][159]MapCheck: Warning: SM_Plains_Floors_Flat11_17 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:183][159]MapCheck: Warning: SM_Plains_Floors_Flat120_399 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:183][159]MapCheck: Warning: SM_Plains_Floors_Flat121_419 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:183][159]MapCheck: Warning: SM_Plains_Floors_Flat122_420 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:183][159]MapCheck: Warning: SM_Plains_Floors_Flat123_421 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:183][159]MapCheck: Warning: SM_Plains_Floors_Flat124_422 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:183][159]MapCheck: Warning: SM_Plains_Floors_Flat125_423 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:183][159]MapCheck: Warning: SM_Plains_Floors_Flat126_424 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:183][159]MapCheck: Warning: SM_Plains_Floors_Flat127_425 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:184][159]MapCheck: Warning: SM_Plains_Floors_Flat128_426 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:184][159]MapCheck: Warning: SM_Plains_Floors_Flat129_427 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:184][159]MapCheck: Warning: SM_Plains_Floors_Flat12_19 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:184][159]MapCheck: Warning: SM_Plains_Floors_Flat130_428 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:184][159]MapCheck: Warning: SM_Plains_Floors_Flat131_429 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:184][159]MapCheck: Warning: SM_Plains_Floors_Flat132_430 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:184][159]MapCheck: Warning: SM_Plains_Floors_Flat133_431 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:184][159]MapCheck: Warning: SM_Plains_Floors_Flat134_432 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:184][159]MapCheck: Warning: SM_Plains_Floors_Flat135_433 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:184][159]MapCheck: Warning: SM_Plains_Floors_Flat136_434 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:184][159]MapCheck: Warning: SM_Plains_Floors_Flat137_435 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:184][159]MapCheck: Warning: SM_Plains_Floors_Flat138_436 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:185][159]MapCheck: Warning: SM_Plains_Floors_Flat139_437 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:185][159]MapCheck: Warning: SM_Plains_Floors_Flat13_23 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:185][159]MapCheck: Warning: SM_Plains_Floors_Flat140_457 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:185][159]MapCheck: Warning: SM_Plains_Floors_Flat141_458 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:185][159]MapCheck: Warning: SM_Plains_Floors_Flat142_459 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:185][159]MapCheck: Warning: SM_Plains_Floors_Flat143_460 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:185][159]MapCheck: Warning: SM_Plains_Floors_Flat144_461 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:185][159]MapCheck: Warning: SM_Plains_Floors_Flat145_462 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:185][159]MapCheck: Warning: SM_Plains_Floors_Flat146_463 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:185][159]MapCheck: Warning: SM_Plains_Floors_Flat147_464 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:185][159]MapCheck: Warning: SM_Plains_Floors_Flat148_465 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:185][159]MapCheck: Warning: SM_Plains_Floors_Flat149_466 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:186][159]MapCheck: Warning: SM_Plains_Floors_Flat14_25 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:186][159]MapCheck: Warning: SM_Plains_Floors_Flat150_467 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:186][159]MapCheck: Warning: SM_Plains_Floors_Flat151_468 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:186][159]MapCheck: Warning: SM_Plains_Floors_Flat152_469 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:186][159]MapCheck: Warning: SM_Plains_Floors_Flat153_470 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:186][159]MapCheck: Warning: SM_Plains_Floors_Flat154_471 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:186][159]MapCheck: Warning: SM_Plains_Floors_Flat155_472 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:186][159]MapCheck: Warning: SM_Plains_Floors_Flat156_473 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:186][159]MapCheck: Warning: SM_Plains_Floors_Flat157_474 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:186][159]MapCheck: Warning: SM_Plains_Floors_Flat158_475 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:186][159]MapCheck: Warning: SM_Plains_Floors_Flat159 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:186][159]MapCheck: Warning: SM_Plains_Floors_Flat15_27 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:186][159]MapCheck: Warning: SM_Plains_Floors_Flat16 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:186][159]MapCheck: Warning: SM_Plains_Floors_Flat160 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:187][159]MapCheck: Warning: SM_Plains_Floors_Flat161 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:187][159]MapCheck: Warning: SM_Plains_Floors_Flat162 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:187][159]MapCheck: Warning: SM_Plains_Floors_Flat163 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:187][159]MapCheck: Warning: SM_Plains_Floors_Flat164 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:187][159]MapCheck: Warning: SM_Plains_Floors_Flat165 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:187][159]MapCheck: Warning: SM_Plains_Floors_Flat166 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:187][159]MapCheck: Warning: SM_Plains_Floors_Flat167 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:187][159]MapCheck: Warning: SM_Plains_Floors_Flat168 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:187][159]MapCheck: Warning: SM_Plains_Floors_Flat169 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:187][159]MapCheck: Warning: SM_Plains_Floors_Flat17 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:187][159]MapCheck: Warning: SM_Plains_Floors_Flat170 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:187][159]MapCheck: Warning: SM_Plains_Floors_Flat171 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:187][159]MapCheck: Warning: SM_Plains_Floors_Flat172 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:188][159]MapCheck: Warning: SM_Plains_Floors_Flat173 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:188][159]MapCheck: Warning: SM_Plains_Floors_Flat174 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:188][159]MapCheck: Warning: SM_Plains_Floors_Flat175 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:188][159]MapCheck: Warning: SM_Plains_Floors_Flat176 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:188][159]MapCheck: Warning: SM_Plains_Floors_Flat177 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:188][159]MapCheck: Warning: SM_Plains_Floors_Flat178 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:188][159]MapCheck: Warning: SM_Plains_Floors_Flat179 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:188][159]MapCheck: Warning: SM_Plains_Floors_Flat18 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:189][159]MapCheck: Warning: SM_Plains_Floors_Flat180 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:189][159]MapCheck: Warning: SM_Plains_Floors_Flat181 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:189][159]MapCheck: Warning: SM_Plains_Floors_Flat182 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:189][159]MapCheck: Warning: SM_Plains_Floors_Flat183 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:189][159]MapCheck: Warning: SM_Plains_Floors_Flat184 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:189][159]MapCheck: Warning: SM_Plains_Floors_Flat185 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:189][159]MapCheck: Warning: SM_Plains_Floors_Flat186 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:189][159]MapCheck: Warning: SM_Plains_Floors_Flat187 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:189][159]MapCheck: Warning: SM_Plains_Floors_Flat188 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:189][159]MapCheck: Warning: SM_Plains_Floors_Flat189 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:190][159]MapCheck: Warning: SM_Plains_Floors_Flat19 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:190][159]MapCheck: Warning: SM_Plains_Floors_Flat190 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:190][159]MapCheck: Warning: SM_Plains_Floors_Flat191 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:190][159]MapCheck: Warning: SM_Plains_Floors_Flat192 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:190][159]MapCheck: Warning: SM_Plains_Floors_Flat193 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:190][159]MapCheck: Warning: SM_Plains_Floors_Flat194 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:190][159]MapCheck: Warning: SM_Plains_Floors_Flat195 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:190][159]MapCheck: Warning: SM_Plains_Floors_Flat196 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:190][159]MapCheck: Warning: SM_Plains_Floors_Flat197 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:190][159]MapCheck: Warning: SM_Plains_Floors_Flat198 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:190][159]MapCheck: Warning: SM_Plains_Floors_Flat199 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:191][159]MapCheck: Warning: SM_Plains_Floors_Flat20 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:191][159]MapCheck: Warning: SM_Plains_Floors_Flat200 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:191][159]MapCheck: Warning: SM_Plains_Floors_Flat201 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:191][159]MapCheck: Warning: SM_Plains_Floors_Flat202 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:191][159]MapCheck: Warning: SM_Plains_Floors_Flat203 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:191][159]MapCheck: Warning: SM_Plains_Floors_Flat204 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:191][159]MapCheck: Warning: SM_Plains_Floors_Flat205 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:191][159]MapCheck: Warning: SM_Plains_Floors_Flat206 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:191][159]MapCheck: Warning: SM_Plains_Floors_Flat207 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:191][159]MapCheck: Warning: SM_Plains_Floors_Flat208 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:191][159]MapCheck: Warning: SM_Plains_Floors_Flat209 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:191][159]MapCheck: Warning: SM_Plains_Floors_Flat21 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:192][159]MapCheck: Warning: SM_Plains_Floors_Flat210 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:192][159]MapCheck: Warning: SM_Plains_Floors_Flat211 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:192][159]MapCheck: Warning: SM_Plains_Floors_Flat212 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:192][159]MapCheck: Warning: SM_Plains_Floors_Flat213 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:192][159]MapCheck: Warning: SM_Plains_Floors_Flat214 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:192][159]MapCheck: Warning: SM_Plains_Floors_Flat215 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:192][159]MapCheck: Warning: SM_Plains_Floors_Flat216 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:192][159]MapCheck: Warning: SM_Plains_Floors_Flat217 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:193][159]MapCheck: Warning: SM_Plains_Floors_Flat218 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:193][159]MapCheck: Warning: SM_Plains_Floors_Flat219 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:193][159]MapCheck: Warning: SM_Plains_Floors_Flat22 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:193][159]MapCheck: Warning: SM_Plains_Floors_Flat220 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:193][159]MapCheck: Warning: SM_Plains_Floors_Flat221 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:193][159]MapCheck: Warning: SM_Plains_Floors_Flat222 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:193][159]MapCheck: Warning: SM_Plains_Floors_Flat223 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:193][159]MapCheck: Warning: SM_Plains_Floors_Flat224 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:193][159]MapCheck: Warning: SM_Plains_Floors_Flat225 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:194][159]MapCheck: Warning: SM_Plains_Floors_Flat226 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:194][159]MapCheck: Warning: SM_Plains_Floors_Flat227 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:194][159]MapCheck: Warning: SM_Plains_Floors_Flat228 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:194][159]MapCheck: Warning: SM_Plains_Floors_Flat229 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:194][159]MapCheck: Warning: SM_Plains_Floors_Flat23 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:194][159]MapCheck: Warning: SM_Plains_Floors_Flat230 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:195][159]MapCheck: Warning: SM_Plains_Floors_Flat231 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:195][159]MapCheck: Warning: SM_Plains_Floors_Flat232 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:195][159]MapCheck: Warning: SM_Plains_Floors_Flat233 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:195][159]MapCheck: Warning: SM_Plains_Floors_Flat234 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:195][159]MapCheck: Warning: SM_Plains_Floors_Flat235 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:195][159]MapCheck: Warning: SM_Plains_Floors_Flat236 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:195][159]MapCheck: Warning: SM_Plains_Floors_Flat237 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:196][159]MapCheck: Warning: SM_Plains_Floors_Flat238 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:196][159]MapCheck: Warning: SM_Plains_Floors_Flat239 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:196][159]MapCheck: Warning: SM_Plains_Floors_Flat24 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:196][159]MapCheck: Warning: SM_Plains_Floors_Flat240 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:196][159]MapCheck: Warning: SM_Plains_Floors_Flat241 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:196][159]MapCheck: Warning: SM_Plains_Floors_Flat242 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:196][159]MapCheck: Warning: SM_Plains_Floors_Flat243 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:196][159]MapCheck: Warning: SM_Plains_Floors_Flat244 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:196][159]MapCheck: Warning: SM_Plains_Floors_Flat245 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:196][159]MapCheck: Warning: SM_Plains_Floors_Flat246 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:197][159]MapCheck: Warning: SM_Plains_Floors_Flat247 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:197][159]MapCheck: Warning: SM_Plains_Floors_Flat248 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:197][159]MapCheck: Warning: SM_Plains_Floors_Flat249 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:197][159]MapCheck: Warning: SM_Plains_Floors_Flat25 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:197][159]MapCheck: Warning: SM_Plains_Floors_Flat250 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:197][159]MapCheck: Warning: SM_Plains_Floors_Flat251 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:197][159]MapCheck: Warning: SM_Plains_Floors_Flat252 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:197][159]MapCheck: Warning: SM_Plains_Floors_Flat253 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:197][159]MapCheck: Warning: SM_Plains_Floors_Flat254 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:197][159]MapCheck: Warning: SM_Plains_Floors_Flat255 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:197][159]MapCheck: Warning: SM_Plains_Floors_Flat256 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:198][159]MapCheck: Warning: SM_Plains_Floors_Flat257 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:198][159]MapCheck: Warning: SM_Plains_Floors_Flat258 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:198][159]MapCheck: Warning: SM_Plains_Floors_Flat259 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:198][159]MapCheck: Warning: SM_Plains_Floors_Flat260 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:198][159]MapCheck: Warning: SM_Plains_Floors_Flat261 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:198][159]MapCheck: Warning: SM_Plains_Floors_Flat262 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:198][159]MapCheck: Warning: SM_Plains_Floors_Flat263 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:198][159]MapCheck: Warning: SM_Plains_Floors_Flat264 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:198][159]MapCheck: Warning: SM_Plains_Floors_Flat265 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:198][159]MapCheck: Warning: SM_Plains_Floors_Flat266 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:198][159]MapCheck: Warning: SM_Plains_Floors_Flat267 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:198][159]MapCheck: Warning: SM_Plains_Floors_Flat268 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:199][159]MapCheck: Warning: SM_Plains_Floors_Flat269 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:199][159]MapCheck: Warning: SM_Plains_Floors_Flat26_228 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:199][159]MapCheck: Warning: SM_Plains_Floors_Flat270 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:199][159]MapCheck: Warning: SM_Plains_Floors_Flat271 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:199][159]MapCheck: Warning: SM_Plains_Floors_Flat272 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:199][159]MapCheck: Warning: SM_Plains_Floors_Flat273 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:199][159]MapCheck: Warning: SM_Plains_Floors_Flat274 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:199][159]MapCheck: Warning: SM_Plains_Floors_Flat275 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:199][159]MapCheck: Warning: SM_Plains_Floors_Flat276 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:200][159]MapCheck: Warning: SM_Plains_Floors_Flat277 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:200][159]MapCheck: Warning: SM_Plains_Floors_Flat278 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:200][159]MapCheck: Warning: SM_Plains_Floors_Flat279 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:200][159]MapCheck: Warning: SM_Plains_Floors_Flat27_229 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:200][159]MapCheck: Warning: SM_Plains_Floors_Flat280 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:200][159]MapCheck: Warning: SM_Plains_Floors_Flat281 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:200][159]MapCheck: Warning: SM_Plains_Floors_Flat282 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:200][159]MapCheck: Warning: SM_Plains_Floors_Flat283 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:200][159]MapCheck: Warning: SM_Plains_Floors_Flat284 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:200][159]MapCheck: Warning: SM_Plains_Floors_Flat285 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:200][159]MapCheck: Warning: SM_Plains_Floors_Flat286 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:200][159]MapCheck: Warning: SM_Plains_Floors_Flat287 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:201][159]MapCheck: Warning: SM_Plains_Floors_Flat288 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:201][159]MapCheck: Warning: SM_Plains_Floors_Flat289 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:201][159]MapCheck: Warning: SM_Plains_Floors_Flat28_230 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:201][159]MapCheck: Warning: SM_Plains_Floors_Flat290 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:201][159]MapCheck: Warning: SM_Plains_Floors_Flat291 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:201][159]MapCheck: Warning: SM_Plains_Floors_Flat292 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:201][159]MapCheck: Warning: SM_Plains_Floors_Flat293 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:201][159]MapCheck: Warning: SM_Plains_Floors_Flat294 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:201][159]MapCheck: Warning: SM_Plains_Floors_Flat295 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:201][159]MapCheck: Warning: SM_Plains_Floors_Flat296 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:201][159]MapCheck: Warning: SM_Plains_Floors_Flat297 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:201][159]MapCheck: Warning: SM_Plains_Floors_Flat298 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:202][159]MapCheck: Warning: SM_Plains_Floors_Flat299 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:202][159]MapCheck: Warning: SM_Plains_Floors_Flat29_231 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:202][159]MapCheck: Warning: SM_Plains_Floors_Flat300 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:202][159]MapCheck: Warning: SM_Plains_Floors_Flat301 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:202][159]MapCheck: Warning: SM_Plains_Floors_Flat302 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:202][159]MapCheck: Warning: SM_Plains_Floors_Flat303 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:202][159]MapCheck: Warning: SM_Plains_Floors_Flat304 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:202][159]MapCheck: Warning: SM_Plains_Floors_Flat305 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:202][159]MapCheck: Warning: SM_Plains_Floors_Flat306 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:202][159]MapCheck: Warning: SM_Plains_Floors_Flat307 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:202][159]MapCheck: Warning: SM_Plains_Floors_Flat308 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:202][159]MapCheck: Warning: SM_Plains_Floors_Flat309 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:202][159]MapCheck: Warning: SM_Plains_Floors_Flat30_232 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:202][159]MapCheck: Warning: SM_Plains_Floors_Flat310 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:202][159]MapCheck: Warning: SM_Plains_Floors_Flat311 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:203][159]MapCheck: Warning: SM_Plains_Floors_Flat312 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:203][159]MapCheck: Warning: SM_Plains_Floors_Flat313 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:203][159]MapCheck: Warning: SM_Plains_Floors_Flat314 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:203][159]MapCheck: Warning: SM_Plains_Floors_Flat315 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:203][159]MapCheck: Warning: SM_Plains_Floors_Flat316 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:203][159]MapCheck: Warning: SM_Plains_Floors_Flat317 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:203][159]MapCheck: Warning: SM_Plains_Floors_Flat318 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:203][159]MapCheck: Warning: SM_Plains_Floors_Flat319 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:203][159]MapCheck: Warning: SM_Plains_Floors_Flat31_233 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:203][159]MapCheck: Warning: SM_Plains_Floors_Flat320 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:203][159]MapCheck: Warning: SM_Plains_Floors_Flat321 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:204][159]MapCheck: Warning: SM_Plains_Floors_Flat322 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:204][159]MapCheck: Warning: SM_Plains_Floors_Flat323 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:204][159]MapCheck: Warning: SM_Plains_Floors_Flat324 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:204][159]MapCheck: Warning: SM_Plains_Floors_Flat325 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:204][159]MapCheck: Warning: SM_Plains_Floors_Flat326 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:204][159]MapCheck: Warning: SM_Plains_Floors_Flat327 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:204][159]MapCheck: Warning: SM_Plains_Floors_Flat328 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:204][159]MapCheck: Warning: SM_Plains_Floors_Flat329 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:204][159]MapCheck: Warning: SM_Plains_Floors_Flat32_234 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:204][159]MapCheck: Warning: SM_Plains_Floors_Flat330 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:204][159]MapCheck: Warning: SM_Plains_Floors_Flat331 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:205][159]MapCheck: Warning: SM_Plains_Floors_Flat332 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:205][159]MapCheck: Warning: SM_Plains_Floors_Flat333 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:205][159]MapCheck: Warning: SM_Plains_Floors_Flat334 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:205][159]MapCheck: Warning: SM_Plains_Floors_Flat335 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:205][159]MapCheck: Warning: SM_Plains_Floors_Flat336 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:205][159]MapCheck: Warning: SM_Plains_Floors_Flat337 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:205][159]MapCheck: Warning: SM_Plains_Floors_Flat338 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:205][159]MapCheck: Warning: SM_Plains_Floors_Flat339 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:205][159]MapCheck: Warning: SM_Plains_Floors_Flat33_235 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:205][159]MapCheck: Warning: SM_Plains_Floors_Flat340 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:205][159]MapCheck: Warning: SM_Plains_Floors_Flat341 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:205][159]MapCheck: Warning: SM_Plains_Floors_Flat342 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:205][159]MapCheck: Warning: SM_Plains_Floors_Flat343 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:206][159]MapCheck: Warning: SM_Plains_Floors_Flat344 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:206][159]MapCheck: Warning: SM_Plains_Floors_Flat345 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:206][159]MapCheck: Warning: SM_Plains_Floors_Flat346 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:206][159]MapCheck: Warning: SM_Plains_Floors_Flat347 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:206][159]MapCheck: Warning: SM_Plains_Floors_Flat348 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:206][159]MapCheck: Warning: SM_Plains_Floors_Flat349 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:206][159]MapCheck: Warning: SM_Plains_Floors_Flat34_236 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:206][159]MapCheck: Warning: SM_Plains_Floors_Flat350 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:206][159]MapCheck: Warning: SM_Plains_Floors_Flat351 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:207][159]MapCheck: Warning: SM_Plains_Floors_Flat352 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:207][159]MapCheck: Warning: SM_Plains_Floors_Flat353 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:207][159]MapCheck: Warning: SM_Plains_Floors_Flat354 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:207][159]MapCheck: Warning: SM_Plains_Floors_Flat355 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:207][159]MapCheck: Warning: SM_Plains_Floors_Flat356 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:207][159]MapCheck: Warning: SM_Plains_Floors_Flat357 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:207][159]MapCheck: Warning: SM_Plains_Floors_Flat358 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:208][159]MapCheck: Warning: SM_Plains_Floors_Flat359 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:208][159]MapCheck: Warning: SM_Plains_Floors_Flat35_237 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:208][159]MapCheck: Warning: SM_Plains_Floors_Flat360 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:208][159]MapCheck: Warning: SM_Plains_Floors_Flat361 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:208][159]MapCheck: Warning: SM_Plains_Floors_Flat362 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:208][159]MapCheck: Warning: SM_Plains_Floors_Flat363 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:208][159]MapCheck: Warning: SM_Plains_Floors_Flat364 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:208][159]MapCheck: Warning: SM_Plains_Floors_Flat365 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:208][159]MapCheck: Warning: SM_Plains_Floors_Flat366 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:208][159]MapCheck: Warning: SM_Plains_Floors_Flat367 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:208][159]MapCheck: Warning: SM_Plains_Floors_Flat368 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:208][159]MapCheck: Warning: SM_Plains_Floors_Flat369 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:209][159]MapCheck: Warning: SM_Plains_Floors_Flat36_238 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:209][159]MapCheck: Warning: SM_Plains_Floors_Flat370 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:209][159]MapCheck: Warning: SM_Plains_Floors_Flat371 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:209][159]MapCheck: Warning: SM_Plains_Floors_Flat372 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:209][159]MapCheck: Warning: SM_Plains_Floors_Flat373 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:209][159]MapCheck: Warning: SM_Plains_Floors_Flat374 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:209][159]MapCheck: Warning: SM_Plains_Floors_Flat375 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:209][159]MapCheck: Warning: SM_Plains_Floors_Flat376 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:209][159]MapCheck: Warning: SM_Plains_Floors_Flat377 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:209][159]MapCheck: Warning: SM_Plains_Floors_Flat378 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:209][159]MapCheck: Warning: SM_Plains_Floors_Flat379 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:209][159]MapCheck: Warning: SM_Plains_Floors_Flat37_239 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:209][159]MapCheck: Warning: SM_Plains_Floors_Flat380 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:209][159]MapCheck: Warning: SM_Plains_Floors_Flat381 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:209][159]MapCheck: Warning: SM_Plains_Floors_Flat382 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:210][159]MapCheck: Warning: SM_Plains_Floors_Flat383 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:210][159]MapCheck: Warning: SM_Plains_Floors_Flat384 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:210][159]MapCheck: Warning: SM_Plains_Floors_Flat385 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:210][159]MapCheck: Warning: SM_Plains_Floors_Flat386 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:210][159]MapCheck: Warning: SM_Plains_Floors_Flat38_240 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:210][159]MapCheck: Warning: SM_Plains_Floors_Flat39_241 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:210][159]MapCheck: Warning: SM_Plains_Floors_Flat40_242 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:210][159]MapCheck: Warning: SM_Plains_Floors_Flat41_243 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:210][159]MapCheck: Warning: SM_Plains_Floors_Flat42_244 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:210][159]MapCheck: Warning: SM_Plains_Floors_Flat43_245 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:210][159]MapCheck: Warning: SM_Plains_Floors_Flat44_246 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:210][159]MapCheck: Warning: SM_Plains_Floors_Flat45_267 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:210][159]MapCheck: Warning: SM_Plains_Floors_Flat46_268 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:210][159]MapCheck: Warning: SM_Plains_Floors_Flat47_269 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:210][159]MapCheck: Warning: SM_Plains_Floors_Flat48_270 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:211][159]MapCheck: Warning: SM_Plains_Floors_Flat49_271 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:211][159]MapCheck: Warning: SM_Plains_Floors_Flat50_272 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:211][159]MapCheck: Warning: SM_Plains_Floors_Flat51_273 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:211][159]MapCheck: Warning: SM_Plains_Floors_Flat52_274 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:211][159]MapCheck: Warning: SM_Plains_Floors_Flat53_275 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:211][159]MapCheck: Warning: SM_Plains_Floors_Flat54_276 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:211][159]MapCheck: Warning: SM_Plains_Floors_Flat55_277 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:211][159]MapCheck: Warning: SM_Plains_Floors_Flat56_278 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:211][159]MapCheck: Warning: SM_Plains_Floors_Flat57_279 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:211][159]MapCheck: Warning: SM_Plains_Floors_Flat58_280 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:211][159]MapCheck: Warning: SM_Plains_Floors_Flat59_281 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:211][159]MapCheck: Warning: SM_Plains_Floors_Flat60_282 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:211][159]MapCheck: Warning: SM_Plains_Floors_Flat61_283 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:211][159]MapCheck: Warning: SM_Plains_Floors_Flat62_284 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:212][159]MapCheck: Warning: SM_Plains_Floors_Flat63_285 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:212][159]MapCheck: Warning: SM_Plains_Floors_Flat64_305 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:212][159]MapCheck: Warning: SM_Plains_Floors_Flat65_306 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:212][159]MapCheck: Warning: SM_Plains_Floors_Flat66_307 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:212][159]MapCheck: Warning: SM_Plains_Floors_Flat67_308 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:212][159]MapCheck: Warning: SM_Plains_Floors_Flat68_309 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:212][159]MapCheck: Warning: SM_Plains_Floors_Flat69_310 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:212][159]MapCheck: Warning: SM_Plains_Floors_Flat70_311 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:212][159]MapCheck: Warning: SM_Plains_Floors_Flat71_312 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:212][159]MapCheck: Warning: SM_Plains_Floors_Flat72_313 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:212][159]MapCheck: Warning: SM_Plains_Floors_Flat73_314 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:212][159]MapCheck: Warning: SM_Plains_Floors_Flat74_315 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:212][159]MapCheck: Warning: SM_Plains_Floors_Flat75_316 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:213][159]MapCheck: Warning: SM_Plains_Floors_Flat76_317 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:213][159]MapCheck: Warning: SM_Plains_Floors_Flat77_318 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:213][159]MapCheck: Warning: SM_Plains_Floors_Flat78_319 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:213][159]MapCheck: Warning: SM_Plains_Floors_Flat79_320 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:213][159]MapCheck: Warning: SM_Plains_Floors_Flat7_77 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:213][159]MapCheck: Warning: SM_Plains_Floors_Flat80_321 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:213][159]MapCheck: Warning: SM_Plains_Floors_Flat81_322 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:213][159]MapCheck: Warning: SM_Plains_Floors_Flat82_323 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:213][159]MapCheck: Warning: SM_Plains_Floors_Flat83_343 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:213][159]MapCheck: Warning: SM_Plains_Floors_Flat84_344 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:213][159]MapCheck: Warning: SM_Plains_Floors_Flat85_345 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:213][159]MapCheck: Warning: SM_Plains_Floors_Flat86_346 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:213][159]MapCheck: Warning: SM_Plains_Floors_Flat87_347 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:213][159]MapCheck: Warning: SM_Plains_Floors_Flat88_348 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:213][159]MapCheck: Warning: SM_Plains_Floors_Flat89_349 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:214][159]MapCheck: Warning: SM_Plains_Floors_Flat8_11 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:214][159]MapCheck: Warning: SM_Plains_Floors_Flat90_350 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:214][159]MapCheck: Warning: SM_Plains_Floors_Flat91_351 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:214][159]MapCheck: Warning: SM_Plains_Floors_Flat92_352 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:214][159]MapCheck: Warning: SM_Plains_Floors_Flat93_353 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:214][159]MapCheck: Warning: SM_Plains_Floors_Flat94_354 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:214][159]MapCheck: Warning: SM_Plains_Floors_Flat95_355 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:214][159]MapCheck: Warning: SM_Plains_Floors_Flat96_356 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:214][159]MapCheck: Warning: SM_Plains_Floors_Flat97_357 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:214][159]MapCheck: Warning: SM_Plains_Floors_Flat98_358 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:214][159]MapCheck: Warning: SM_Plains_Floors_Flat99_359 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:214][159]MapCheck: Warning: SM_Plains_Floors_Flat9_13 Collision enabled but StaticMesh (SM_Plains_Floors_Flat02) has no simple or complex collision. 
+[2022.11.30-00.42.10:214][159]MapCheck: Warning: SM_Plains_Grass01_18 Collision enabled but StaticMesh (SM_Plains_Grass01) has no simple or complex collision. 
+[2022.11.30-00.42.10:214][159]MapCheck: Warning: SM_Plains_Grass2 Collision enabled but StaticMesh (SM_Plains_Grass01) has no simple or complex collision. 
+[2022.11.30-00.42.10:214][159]MapCheck: Warning: SM_Plains_Grass3 Collision enabled but StaticMesh (SM_Plains_Grass01) has no simple or complex collision. 
+[2022.11.30-00.42.10:215][159]MapCheck: Warning: SM_Plains_Grass4 Collision enabled but StaticMesh (SM_Plains_Grass01) has no simple or complex collision. 
+[2022.11.30-00.42.10:215][159]MapCheck: Warning: SM_Plains_Grass5 Collision enabled but StaticMesh (SM_Plains_Grass01) has no simple or complex collision. 
+[2022.11.30-00.42.10:215][159]MapCheck: Warning: SM_Plains_Grass6 Collision enabled but StaticMesh (SM_Plains_Grass01) has no simple or complex collision. 
+[2022.11.30-00.42.10:215][159]MapCheck: Warning: SM_Plains_Grass7 Collision enabled but StaticMesh (SM_Plains_Grass01) has no simple or complex collision. 
+[2022.11.30-00.42.10:215][159]MapCheck: Warning: SM_Plains_Grass8 Collision enabled but StaticMesh (SM_Plains_Grass01) has no simple or complex collision. 
+[2022.11.30-00.42.10:215][159]MapCheck: Warning: SM_Plains_Grass9 Collision enabled but StaticMesh (SM_Plains_Grass01) has no simple or complex collision. 
+[2022.11.30-00.42.10:215][159]MapCheck: Warning: SM_Plains_Vine01_28 Collision enabled but StaticMesh (SM_Plains_Vine01) has no simple or complex collision. 
+[2022.11.30-00.42.10:265][159]MapCheck: マップチェックが完了: 0 エラー、 399 警告、完了に 118.292ミリ秒かかりました。
+[2022.11.30-00.49.19:335][523]LogEditorActor: Deleted 0 Actors (4.683 secs)
+[2022.11.30-00.49.24:036][803]Cmd: EDIT CUT
+[2022.11.30-00.49.26:100][803]LogEditorActor: Deleted Actor: DirectionalLight
+[2022.11.30-00.49.26:203][803]LogEditorActor: Deleted 1 Actors (1.716 secs)
+[2022.11.30-00.49.45:609][738]Cmd: QUIT_EDITOR
+[2022.11.30-00.49.45:754][738]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
+[2022.11.30-00.49.45:775][738]LogExit: Preparing to exit.
+[2022.11.30-00.49.46:265][738]LogExit: Editor shut down
+[2022.11.30-00.49.46:275][738]LogExit: Transaction tracking system shut down
+[2022.11.30-00.49.46:492][738]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2022.11.30-00.49.46:492][738]LogDirectoryWatcher: A directory notification for 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Content/' was aborted.
+[2022.11.30-00.49.46:492][738]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2022.11.30-00.49.46:492][738]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2022.11.30-00.49.46:492][738]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2022.11.30-00.49.46:872][738]LogExit: Object subsystem successfully closed.
+[2022.11.30-00.49.46:961][738]LogD3D11RHI: Shutdown
+[2022.11.30-00.49.46:961][738]LogD3D11RHI: CleanupD3DDevice
+[2022.11.30-00.49.47:146][738]LogD3D11RHI: ~FD3D11DynamicRHI
+[2022.11.30-00.49.47:412][738]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2022.11.30-00.49.47:412][738]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2022.11.30-00.49.47:412][738]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2022.11.30-00.49.47:412][738]LogDirectoryWatcher: A directory notification for 'D:/新しいフォルダー/Epic Games/DirectXRedist/UE_4.17/FeaturePacks/' was aborted.
+[2022.11.30-00.49.47:414][738]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2022.11.30-00.49.47:415][738]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2022.11.30-00.49.47:415][738]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2022.11.30-00.49.47:415][738]LogDirectoryWatcher: A directory notification for 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Content/Collections/' was aborted.
+[2022.11.30-00.49.47:415][738]LogDirectoryWatcher: A directory notification for 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Content/Developers/kbc12006038/Collections/' was aborted.
+[2022.11.30-00.49.47:415][738]LogDirectoryWatcher: A directory notification for 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Saved/Collections/' was aborted.
+[2022.11.30-00.49.47:415][738]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2022.11.30-00.49.47:415][738]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2022.11.30-00.49.47:415][738]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2022.11.30-00.49.47:429][738]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2022.11.30-00.49.47:429][738]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2022.11.30-00.49.47:429][738]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2022.11.30-00.49.47:429][738]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2022.11.30-00.49.47:429][738]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2022.11.30-00.49.47:429][738]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2022.11.30-00.49.47:429][738]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2022.11.30-00.49.47:429][738]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2022.11.30-00.49.47:429][738]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2022.11.30-00.49.47:429][738]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2022.11.30-00.49.47:429][738]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2022.11.30-00.49.47:429][738]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2022.11.30-00.49.47:443][738]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2022.11.30-00.49.47:443][738]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2022.11.30-00.49.47:443][738]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2022.11.30-00.49.47:443][738]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2022.11.30-00.49.47:443][738]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2022.11.30-00.49.47:443][738]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2022.11.30-00.49.47:443][738]LogModuleManager: Shutting down and abandoning module Media (477)
+[2022.11.30-00.49.47:443][738]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2022.11.30-00.49.47:443][738]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2022.11.30-00.49.47:443][738]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2022.11.30-00.49.47:443][738]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2022.11.30-00.49.47:443][738]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2022.11.30-00.49.47:443][738]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2022.11.30-00.49.47:443][738]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2022.11.30-00.49.47:443][738]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2022.11.30-00.49.47:443][738]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2022.11.30-00.49.47:456][738]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2022.11.30-00.49.47:456][738]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2022.11.30-00.49.47:456][738]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2022.11.30-00.49.47:469][738]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2022.11.30-00.49.47:469][738]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2022.11.30-00.49.47:469][738]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2022.11.30-00.49.47:469][738]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2022.11.30-00.49.47:875][738]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2022.11.30-00.49.47:875][738]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2022.11.30-00.49.47:875][738]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2022.11.30-00.49.47:875][738]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2022.11.30-00.49.47:891][738]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2022.11.30-00.49.47:898][738]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2022.11.30-00.49.47:898][738]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2022.11.30-00.49.47:898][738]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2022.11.30-00.49.47:898][738]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2022.11.30-00.49.47:907][738]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2022.11.30-00.49.47:907][738]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2022.11.30-00.49.47:907][738]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2022.11.30-00.49.47:907][738]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2022.11.30-00.49.47:907][738]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2022.11.30-00.49.47:907][738]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2022.11.30-00.49.47:907][738]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2022.11.30-00.49.47:907][738]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2022.11.30-00.49.47:907][738]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2022.11.30-00.49.47:907][738]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2022.11.30-00.49.47:922][738]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2022.11.30-00.49.47:923][738]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2022.11.30-00.49.47:923][738]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2022.11.30-00.49.47:932][738]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2022.11.30-00.49.47:932][738]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2022.11.30-00.49.47:984][738]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2022.11.30-00.49.47:984][738]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2022.11.30-00.49.47:995][738]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2022.11.30-00.49.48:014][738]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2022.11.30-00.49.48:014][738]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2022.11.30-00.49.48:014][738]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2022.11.30-00.49.48:014][738]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2022.11.30-00.49.48:035][738]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2022.11.30-00.49.48:035][738]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2022.11.30-00.49.48:035][738]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2022.11.30-00.49.48:035][738]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2022.11.30-00.49.48:035][738]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2022.11.30-00.49.48:035][738]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2022.11.30-00.49.48:051][738]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2022.11.30-00.49.48:062][738]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2022.11.30-00.49.48:062][738]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2022.11.30-00.49.48:067][738]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2022.11.30-00.49.48:067][738]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2022.11.30-00.49.48:068][738]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2022.11.30-00.49.48:068][738]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2022.11.30-00.49.48:068][738]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2022.11.30-00.49.48:083][738]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2022.11.30-00.49.48:083][738]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2022.11.30-00.49.48:083][738]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2022.11.30-00.49.48:083][738]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2022.11.30-00.49.48:083][738]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2022.11.30-00.49.48:083][738]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2022.11.30-00.49.48:083][738]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2022.11.30-00.49.48:083][738]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2022.11.30-00.49.48:083][738]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2022.11.30-00.49.48:083][738]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2022.11.30-00.49.48:234][738]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2022.11.30-00.49.48:236][738]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2022.11.30-00.49.48:237][738]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2022.11.30-00.49.48:237][738]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2022.11.30-00.49.48:237][738]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2022.11.30-00.49.48:237][738]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2022.11.30-00.49.48:237][738]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2022.11.30-00.49.48:237][738]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2022.11.30-00.49.48:237][738]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2022.11.30-00.49.48:237][738]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2022.11.30-00.49.48:237][738]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2022.11.30-00.49.48:238][738]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2022.11.30-00.49.48:238][738]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2022.11.30-00.49.48:251][738]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2022.11.30-00.49.48:251][738]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2022.11.30-00.49.48:251][738]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2022.11.30-00.49.48:251][738]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2022.11.30-00.49.48:251][738]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2022.11.30-00.49.48:252][738]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2022.11.30-00.49.48:252][738]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2022.11.30-00.49.48:252][738]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2022.11.30-00.49.48:252][738]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2022.11.30-00.49.48:252][738]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2022.11.30-00.49.48:252][738]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2022.11.30-00.49.48:252][738]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2022.11.30-00.49.48:252][738]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2022.11.30-00.49.48:261][738]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2022.11.30-00.49.48:261][738]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2022.11.30-00.49.48:261][738]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2022.11.30-00.49.48:261][738]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2022.11.30-00.49.48:261][738]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2022.11.30-00.49.48:261][738]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2022.11.30-00.49.48:262][738]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2022.11.30-00.49.48:262][738]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2022.11.30-00.49.48:262][738]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2022.11.30-00.49.48:262][738]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2022.11.30-00.49.48:262][738]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2022.11.30-00.49.48:262][738]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2022.11.30-00.49.48:262][738]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2022.11.30-00.49.48:262][738]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2022.11.30-00.49.48:262][738]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2022.11.30-00.49.48:262][738]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2022.11.30-00.49.48:262][738]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2022.11.30-00.49.48:363][738]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2022.11.30-00.49.48:463][738]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2022.11.30-00.49.48:464][738]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2022.11.30-00.49.48:464][738]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2022.11.30-00.49.48:464][738]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2022.11.30-00.49.48:464][738]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2022.11.30-00.49.48:490][738]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2022.11.30-00.49.48:491][738]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2022.11.30-00.49.48:491][738]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2022.11.30-00.49.48:491][738]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2022.11.30-00.49.48:491][738]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2022.11.30-00.49.48:492][738]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2022.11.30-00.49.48:492][738]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2022.11.30-00.49.48:492][738]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2022.11.30-00.49.48:509][738]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2022.11.30-00.49.48:509][738]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2022.11.30-00.49.48:509][738]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2022.11.30-00.49.48:509][738]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2022.11.30-00.49.48:520][738]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2022.11.30-00.49.48:520][738]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2022.11.30-00.49.48:520][738]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2022.11.30-00.49.48:544][738]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2022.11.30-00.49.48:544][738]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2022.11.30-00.49.48:544][738]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2022.11.30-00.49.48:544][738]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2022.11.30-00.49.48:560][738]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2022.11.30-00.49.48:575][738]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2022.11.30-00.49.48:583][738]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2022.11.30-00.49.48:583][738]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2022.11.30-00.49.48:597][738]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2022.11.30-00.49.48:597][738]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2022.11.30-00.49.48:603][738]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2022.11.30-00.49.48:603][738]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2022.11.30-00.49.48:603][738]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2022.11.30-00.49.48:603][738]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2022.11.30-00.49.48:603][738]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2022.11.30-00.49.48:603][738]LogModuleManager: Shutting down and abandoning module Core (168)
+[2022.11.30-00.49.48:603][738]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2022.11.30-00.49.48:603][738]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2022.11.30-00.49.48:603][738]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2022.11.30-00.49.48:618][738]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2022.11.30-00.49.48:627][738]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2022.11.30-00.49.48:627][738]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2022.11.30-00.49.48:639][738]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2022.11.30-00.49.48:639][738]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2022.11.30-00.49.48:640][738]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2022.11.30-00.49.48:640][738]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2022.11.30-00.49.48:648][738]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2022.11.30-00.49.48:650][738]LogDerivedDataCache: Shutdown
+[2022.11.30-00.49.48:650][738]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2022.11.30-00.49.48:650][738]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2022.11.30-00.49.48:651][738]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2022.11.30-00.49.48:662][738]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2022.11.30-00.49.48:672][738]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2022.11.30-00.49.48:672][738]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2022.11.30-00.49.48:680][738]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2022.11.30-00.49.48:680][738]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2022.11.30-00.49.48:680][738]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2022.11.30-00.49.48:680][738]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2022.11.30-00.49.48:681][738]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2022.11.30-00.49.48:681][738]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2022.11.30-00.49.48:681][738]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2022.11.30-00.49.48:681][738]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2022.11.30-00.49.48:681][738]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2022.11.30-00.49.48:681][738]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2022.11.30-00.49.48:681][738]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2022.11.30-00.49.48:681][738]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2022.11.30-00.49.48:681][738]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2022.11.30-00.49.48:681][738]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2022.11.30-00.49.48:681][738]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2022.11.30-00.49.48:681][738]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2022.11.30-00.49.48:681][738]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2022.11.30-00.49.48:681][738]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2022.11.30-00.49.48:682][738]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2022.11.30-00.49.48:682][738]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2022.11.30-00.49.48:682][738]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2022.11.30-00.49.48:682][738]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2022.11.30-00.49.48:682][738]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2022.11.30-00.49.48:682][738]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2022.11.30-00.49.48:682][738]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2022.11.30-00.49.48:682][738]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2022.11.30-00.49.48:682][738]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2022.11.30-00.49.48:682][738]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2022.11.30-00.49.48:682][738]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2022.11.30-00.49.48:682][738]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2022.11.30-00.49.48:682][738]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2022.11.30-00.49.48:683][738]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2022.11.30-00.49.48:683][738]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2022.11.30-00.49.48:683][738]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2022.11.30-00.49.48:683][738]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2022.11.30-00.49.48:683][738]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2022.11.30-00.49.48:683][738]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2022.11.30-00.49.48:683][738]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2022.11.30-00.49.48:683][738]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2022.11.30-00.49.48:683][738]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2022.11.30-00.49.48:683][738]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2022.11.30-00.49.48:683][738]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2022.11.30-00.49.48:684][738]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2022.11.30-00.49.48:684][738]LogOnline: Display: Unloading online subsystem: NULL
+[2022.11.30-00.49.48:709][738]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2022.11.30-00.49.48:721][738]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2022.11.30-00.49.48:721][738]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2022.11.30-00.49.48:721][738]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B186CFE27-4286-DA46-127C-CF80C6163A5C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=be8597fa482c6af2dbb49ca0fd8078a0%7Ce398a5851cc049aea417db2de1dac9e4%7Cecaf4c60-73a7-48da-acc3-e504180407b1&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2022.11.30-00.49.48:746][738]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2022.11.30-00.49.48:751][738]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2022.11.30-00.49.48:751][738]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2022.11.30-00.49.48:751][738]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2022.11.30-00.49.48:756][738]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2022.11.30-00.49.48:756][738]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2022.11.30-00.49.48:756][738]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2022.11.30-00.49.48:756][738]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2022.11.30-00.49.48:766][738]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2022.11.30-00.49.48:772][738]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2022.11.30-00.49.48:772][738]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2022.11.30-00.49.48:772][738]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2022.11.30-00.49.48:772][738]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2022.11.30-00.49.48:772][738]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2022.11.30-00.49.48:772][738]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2022.11.30-00.49.48:772][738]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2022.11.30-00.49.48:772][738]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2022.11.30-00.49.48:772][738]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2022.11.30-00.49.48:772][738]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2022.11.30-00.49.48:789][738]LogExit: Exiting.
+[2022.11.30-00.49.48:813][738]Log file closed, 11/30/22 09:49:48
