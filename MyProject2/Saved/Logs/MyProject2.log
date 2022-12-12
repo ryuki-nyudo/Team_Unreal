@@ -1,4 +1,4 @@
-﻿Log file open, 12/12/22 13:14:21
+﻿Log file open, 12/12/22 13:36:41
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,9 +9,9 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: MyProject2
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-801770377) SRandInit(-801770376).
+LogInit: Display: RandInit(-194445345) SRandInit(-194445345).
 LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 5.515560
+LogStats: Stats thread started at 0.305490
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -113,324 +113,181 @@ LogInit: Base directory: D:/新しいフォルダー/Epic Games/DirectXRedist/UE
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2022.12.12-04.14.23:932][  0]LogInit: Selected Device Profile: [Windows]
-[2022.12.12-04.14.23:932][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2022.12.12-04.14.23:986][  0]LogInit: Computer: KBC12006038
-[2022.12.12-04.14.23:986][  0]LogInit: User: kbc12006038
-[2022.12.12-04.14.23:986][  0]LogInit: CPU Page size=4096, Cores=6
-[2022.12.12-04.14.23:986][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2022.12.12-04.14.24:000][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
-[2022.12.12-04.14.24:000][  0]LogMemory: Platform Memory Stats for Windows
-[2022.12.12-04.14.24:000][  0]LogMemory: Process Physical Memory: 283.73 MB used, 283.73 MB peak
-[2022.12.12-04.14.24:000][  0]LogMemory: Process Virtual Memory: 282.93 MB used, 282.93 MB peak
-[2022.12.12-04.14.24:000][  0]LogMemory: Physical Memory: 9993.83 MB used,  6236.09 MB free, 16229.92 MB total
-[2022.12.12-04.14.24:000][  0]LogMemory: Virtual Memory: 4802.37 MB used,  6236.09 MB free, 134217728.00 MB total
-[2022.12.12-04.14.25:378][  0]LogInit: Using OS detected language (ja-JP).
-[2022.12.12-04.14.25:378][  0]LogInit: Using OS detected locale (ja-JP).
-[2022.12.12-04.14.25:824][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
-[2022.12.12-04.14.28:928][  0]LogD3D11RHI: D3D11 adapters:
-[2022.12.12-04.14.29:075][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1650 with Max-Q Design' (Feature Level 11_0)
-[2022.12.12-04.14.29:075][  0]LogD3D11RHI:       3962/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2022.12.12-04.14.29:115][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
-[2022.12.12-04.14.29:115][  0]LogD3D11RHI:       128/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2022.12.12-04.14.29:120][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2022.12.12-04.14.29:120][  0]LogD3D11RHI:       0/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2022.12.12-04.14.29:120][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2022.12.12-04.14.29:156][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2022.12.12-04.14.29:158][  0]LogD3D11RHI:     GPU DeviceId: 0x1f91 (for the marketing name, search the web for "GPU Device Id")
-[2022.12.12-04.14.29:158][  0]LogWindows: EnumDisplayDevices:
-[2022.12.12-04.14.29:159][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
-[2022.12.12-04.14.29:159][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2022.12.12-04.14.29:160][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2022.12.12-04.14.29:161][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2022.12.12-04.14.29:161][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1650 with Max-Q Design
-[2022.12.12-04.14.29:161][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2022.12.12-04.14.29:161][  0]LogD3D11RHI:      Driver Date: Unknown
-[2022.12.12-04.14.29:161][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2022.12.12-04.14.29:254][  0]LogD3D11RHI: Async texture creation enabled
-[2022.12.12-04.14.29:684][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2022.12.12-04.14.29:822][  0]LogShaderCompilers: Guid format shader working directory is -2 characters bigger than the processId version (C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Intermediate/Shaders/WorkingDirectory/30852/).
-[2022.12.12-04.14.29:822][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kbc12006038/AppData/Local/Temp/UnrealShaderWorkingDir/9488224746A1055D0D963DA099A04259/'.
-[2022.12.12-04.14.29:834][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2022.12.12-04.14.33:081][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2022.12.12-04.14.33:127][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2022.12.12-04.14.33:179][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2022.12.12-04.14.33:225][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2022.12.12-04.14.33:292][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2022.12.12-04.14.33:339][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2022.12.12-04.14.33:386][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2022.12.12-04.14.33:430][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2022.12.12-04.14.33:472][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2022.12.12-04.14.33:535][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2022.12.12-04.14.33:584][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2022.12.12-04.14.33:688][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2022.12.12-04.14.33:792][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2022.12.12-04.14.33:899][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2022.12.12-04.14.33:971][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2022.12.12-04.14.34:124][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2022.12.12-04.14.34:124][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2022.12.12-04.14.34:166][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2022.12.12-04.14.34:366][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2022.12.12-04.14.34:394][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2022.12.12-04.14.34:496][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2022.12.12-04.14.34:543][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2022.12.12-04.14.34:626][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2022.12.12-04.14.34:677][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2022.12.12-04.14.34:677][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2022.12.12-04.14.36:456][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2022.12.12-04.14.36:636][  0]LogDerivedDataCache: Loaded boot cache 0.18s 93MB C:/Users/kbc12006038/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2022.12.12-04.14.36:636][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kbc12006038/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2022.12.12-04.14.36:636][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2022.12.12-04.14.36:636][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2022.12.12-04.14.36:636][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2022.12.12-04.14.36:636][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2022.12.12-04.14.36:744][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2022.12.12-04.14.36:759][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kbc12006038/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2022.12.12-04.14.36:903][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2022.12.12-04.14.36:983][  0]LogSlate: Using Freetype 2.6.0
-[2022.12.12-04.14.37:167][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2022.12.12-04.14.37:177][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2022.12.12-04.14.46:823][  0]LogAssetRegistry: FAssetRegistry took 0.0374 seconds to start up
-[2022.12.12-04.14.48:438][  0]LogInit: Selected Device Profile: [Windows]
-[2022.12.12-04.14.52:579][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2022.12.12-04.14.53:856][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2022.12.12-04.14.53:971][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2022.12.12-04.14.53:972][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2022.12.12-04.14.53:972][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2022.12.12-04.14.53:972][  0]LogMeshReduction: No automatic mesh merging module available
-[2022.12.12-04.14.53:972][  0]LogMeshMerging: No automatic mesh merging module available
-[2022.12.12-04.14.56:852][  0]LogNetVersion: MyProject2 , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 237949846)
-[2022.12.12-04.14.58:555][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.073325 seconds
-[2022.12.12-04.14.58:578][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2022.12.12-04.14.58:578][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
-[2022.12.12-04.14.58:578][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2022.12.12-04.14.58:699][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2022.12.12-04.15.14:599][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2022.12.12-04.15.14:674][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2022.12.12-04.15.16:676][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2022.12.12-04.15.17:696][  0]SourceControl: ソースコントロールは無効です
-[2022.12.12-04.15.17:698][  0]SourceControl: ソースコントロールは無効です
-[2022.12.12-04.15.17:863][  0]SourceControl: ソースコントロールは無効です
-[2022.12.12-04.15.17:936][  0]SourceControl: ソースコントロールは無効です
-[2022.12.12-04.15.19:507][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2022.12.12-04.15.19:835][  0]LogOcInput: OculusInput pre-init called
-[2022.12.12-04.15.20:943][  0]LogEngine: Initializing Engine...
-[2022.12.12-04.15.21:121][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2022.12.12-04.15.21:930][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2022.12.12-04.15.21:932][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.001 s
-[2022.12.12-04.15.22:821][  0]LogAIModule: Creating AISystem for world Untitled
-[2022.12.12-04.15.23:117][  0]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.12-04.15.23:243][  0]LogInit: FAudioDevice initialized.
-[2022.12.12-04.15.23:301][  0]LogDerivedDataCache: Saved boot cache 0.06s 93MB C:/Users/kbc12006038/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2022.12.12-04.15.23:313][  0]LogInit: Texture streaming: Enabled
-[2022.12.12-04.15.23:618][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2022.12.12-04.15.24:464][  0]LogInit: Transaction tracking system initialized
-[2022.12.12-04.15.25:226][  0]BlueprintLog: New page: エディタの読み込み
-[2022.12.12-04.15.27:786][  0]LocalizationService: ローカライズのサービスが無効になりました
-[2022.12.12-04.15.29:393][  0]LogConsoleResponse: Display: 
-[2022.12.12-04.15.32:657][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Content/' took 0.03s
-[2022.12.12-04.15.32:657][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2022.12.12-04.15.32:657][  0]LogCook: Display: Mobile HDR setting 1
-[2022.12.12-04.15.32:676][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2022.12.12-04.15.36:593][  0]SourceControl: ソースコントロールは無効です
-[2022.12.12-04.15.36:675][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2022.12.12-04.15.36:775][  0]LightingResults: New page: ライティングのビルド
-[2022.12.12-04.15.37:237][  0]MapCheck: New page: マップをチェック
-[2022.12.12-04.15.37:237][  0]LightingResults: New page: <何も選択されていません>
-[2022.12.12-04.15.40:391][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2022.12.12-04.15.41:127][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2022.12.12-04.15.41:313][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2022.12.12-04.15.41:360][  0]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 45.932ミリ秒かかりました。
-[2022.12.12-04.15.41:360][  0]LogFileHelpers: Loading map 'Template_Default' took 4.721
-[2022.12.12-04.15.44:038][  0]LogCollectionManager: Loaded 0 collections in 0.003883 seconds
-[2022.12.12-04.15.44:471][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Saved/Collections/' took 0.01s
-[2022.12.12-04.15.44:471][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Content/Developers/kbc12006038/Collections/' took 0.01s
-[2022.12.12-04.15.44:471][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Content/Collections/' took 0.02s
-[2022.12.12-04.15.44:471][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2022.12.12-04.15.44:487][  0]LogContentBrowser: Native class hierarchy populated in 0.0117 seconds. Added 2386 classes and 500 folders.
-[2022.12.12-04.15.44:697][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2022.12.12-04.15.47:719][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
-[2022.12.12-04.15.48:386][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0025 seconds. Added 1 classes and 2 folders.
-[2022.12.12-04.15.51:980][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MyProject2
-[2022.12.12-04.15.51:980][  0]LogTemp: CWD: D:\?V?????t?H???_?[\Epic Games\DirectXRedist\UE_4.17\Engine\Binaries\DotNET\IOS
-[2022.12.12-04.15.51:980][  0]LogTemp: Initial Dir: D:\?V?????t?H???_?[\Epic Games\DirectXRedist\UE_4.17
-[2022.12.12-04.15.51:980][  0]LogTemp: Env CWD: D:\?V?????t?H???_?[\Epic Games\DirectXRedist\UE_4.17\Engine\Binaries\DotNET\IOS
-[2022.12.12-04.15.51:980][  0]LogTemp: BranchPath = KBC12006038/D/?V?????t?H???_?[/Epic Games/DirectXRedist/UE_4.17/Engine/Binaries --- GameBranchPath = KBC12006038/D/?V?????t?H???_?[/Epic Games/DirectXRedist/UE_4.17/Engine/Binaries
-[2022.12.12-04.15.51:980][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\kbc12006038\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2022.12.12-04.15.51:980][  0]LogSlate: Took 0.030688 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2022.12.12-04.15.52:060][  0]LogSlate: Took 0.061354 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
-[2022.12.12-04.15.52:101][  0]LogSlate: Took 0.015829 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2022.12.12-04.15.52:232][  0]LogSlate: Took 0.029544 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2022.12.12-04.15.53:105][  0]LogRenderer: Reallocating scene render targets to support 860x380 Format 10 NumSamples 1 (Frame:1).
-[2022.12.12-04.15.54:285][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2022.12.12-04.15.54:286][  0]LogLoad: (Engine Initialization) Total time: 108.52 seconds
-[2022.12.12-04.15.54:286][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2022.12.12-04.15.54:304][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2022.12.12-04.15.55:072][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2022.12.12-04.15.55:815][  2]LogSlate: Took 0.012613 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2022.12.12-04.15.56:136][  3]LogAssetRegistry: Asset discovery search completed in 69.3366 seconds
-[2022.12.12-04.15.56:183][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2022.12.12-04.15.56:185][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.008654 seconds (updated 0 objects)
-[2022.12.12-04.16.18:285][325]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2022.12.12-04.16.19:215][325]LogSlate: Took 0.000121 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2022.12.12-04.16.19:814][325]LogAIModule: Creating AISystem for world NewMap
-[2022.12.12-04.16.19:959][325]Cmd: MAP LOAD FILE="C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Content/Maps/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2022.12.12-04.16.19:959][325]LightingResults: New page: ライティングのビルド
-[2022.12.12-04.16.19:960][325]LoadErrors: New page: マップをロード中: NewMap.umap
-[2022.12.12-04.16.19:994][325]MapCheck: New page: マップをチェック
-[2022.12.12-04.16.19:994][325]LightingResults: New page: <何も選択されていません>
-[2022.12.12-04.16.20:442][325]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2022.12.12-04.16.20:495][325]Cmd: MAP CHECKDEP NOCLEARLOG
-[2022.12.12-04.16.20:544][325]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 48.514ミリ秒かかりました。
-[2022.12.12-04.16.20:544][325]LogFileHelpers: Loading map 'NewMap' took 0.621
-[2022.12.12-04.16.22:617][441]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.12-04.16.22:687][441]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.12-04.16.22:811][441]PIE: New page: PIEセッション: NewMap (2022/12/12 22:16:22)
-[2022.12.12-04.16.22:823][441]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.12-04.16.22:941][441]LogPlayLevel: PIE: StaticDuplicateObject took: (0.118022s)
-[2022.12.12-04.16.22:941][441]LogAIModule: Creating AISystem for world NewMap
-[2022.12.12-04.16.22:942][441]LogPlayLevel: PIE: World Init took: (0.000984s)
-[2022.12.12-04.16.22:954][441]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.142544s)
-[2022.12.12-04.16.22:985][441]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.12-04.16.23:013][441]LogInit: FAudioDevice initialized.
-[2022.12.12-04.16.23:095][441]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.12-04.16.23:247][441]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.12-13.16.23
-[2022.12.12-04.16.23:275][441]LogWorld: Bringing up level for play took: 0.053089
-[2022.12.12-04.16.23:534][441]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
-[2022.12.12-04.16.23:810][441]PIE: /Game/Maps/UEDPIE_0_NewMap 0.133のプレイ イン エディタの開始時間
-[2022.12.12-04.22.01:924][520]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.12-04.22.01:936][520]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.12-04.22.01:936][520]PIE: New page: PIEセッション: NewMap (2022/12/12 22:22:01)
-[2022.12.12-04.22.01:936][520]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.12-04.22.01:954][520]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017388s)
-[2022.12.12-04.22.01:955][520]LogAIModule: Creating AISystem for world NewMap
-[2022.12.12-04.22.01:955][520]LogPlayLevel: PIE: World Init took: (0.000753s)
-[2022.12.12-04.22.01:955][520]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.018477s)
-[2022.12.12-04.22.01:973][520]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.12-04.22.01:980][520]LogInit: FAudioDevice initialized.
-[2022.12.12-04.22.02:010][520]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.12-04.22.02:023][520]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.12-13.22.02
-[2022.12.12-04.22.02:023][520]LogWorld: Bringing up level for play took: 0.011884
-[2022.12.12-04.22.02:025][520]PIE: /Game/Maps/UEDPIE_0_NewMap 0.349のプレイ イン エディタの開始時間
-[2022.12.12-04.22.52:741][557]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat329)
-[2022.12.12-04.22.58:385][843]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat348)
-[2022.12.12-04.22.59:173][889]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat329)
-[2022.12.12-04.23.02:042][ 60]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.12-04.23.02:054][ 60]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.12-04.23.02:054][ 60]PIE: New page: PIEセッション: NewMap (2022/12/12 22:23:02)
-[2022.12.12-04.23.02:054][ 60]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.12-04.23.02:069][ 60]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016172s)
-[2022.12.12-04.23.02:070][ 60]LogAIModule: Creating AISystem for world NewMap
-[2022.12.12-04.23.02:070][ 60]LogPlayLevel: PIE: World Init took: (0.001127s)
-[2022.12.12-04.23.02:071][ 60]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.017856s)
-[2022.12.12-04.23.02:089][ 60]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.12-04.23.02:096][ 60]LogInit: FAudioDevice initialized.
-[2022.12.12-04.23.02:125][ 60]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.12-04.23.02:134][ 60]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.12-13.23.02
-[2022.12.12-04.23.02:134][ 60]LogWorld: Bringing up level for play took: 0.008173
-[2022.12.12-04.23.02:136][ 60]PIE: /Game/Maps/UEDPIE_0_NewMap 0.459のプレイ イン エディタの開始時間
-[2022.12.12-04.24.03:906][762]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Grass6)
-[2022.12.12-04.24.36:519][690]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.12-04.24.36:530][690]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.12-04.24.36:530][690]PIE: New page: PIEセッション: NewMap (2022/12/12 22:24:36)
-[2022.12.12-04.24.36:530][690]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.12-04.24.36:547][690]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016714s)
-[2022.12.12-04.24.36:548][690]LogAIModule: Creating AISystem for world NewMap
-[2022.12.12-04.24.36:548][690]LogPlayLevel: PIE: World Init took: (0.001260s)
-[2022.12.12-04.24.36:549][690]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.018452s)
-[2022.12.12-04.24.36:566][690]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.12-04.24.36:573][690]LogInit: FAudioDevice initialized.
-[2022.12.12-04.24.36:604][690]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.12-04.24.36:613][690]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.12-13.24.36
-[2022.12.12-04.24.36:613][690]LogWorld: Bringing up level for play took: 0.008160
-[2022.12.12-04.24.36:615][690]PIE: /Game/Maps/UEDPIE_0_NewMap 0.938のプレイ イン エディタの開始時間
-[2022.12.12-04.27.25:102][755]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
-[2022.12.12-04.27.26:034][755]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 113 classes and 0 folders.
-[2022.12.12-04.27.27:698][755]LogSlate: Took 0.035717 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2022.12.12-04.27.28:183][756]LogSlate: Took 0.012491 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2022.12.12-04.27.35:188][155]LogRenderer: Reallocating scene render targets to support 936x684 Format 10 NumSamples 1 (Frame:1).
-[2022.12.12-04.27.52:371][151]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.12-04.27.52:387][151]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.12-04.27.52:387][151]PIE: New page: PIEセッション: NewMap (2022/12/12 22:27:52)
-[2022.12.12-04.27.52:387][151]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.12-04.27.52:406][151]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018763s)
-[2022.12.12-04.27.52:407][151]LogAIModule: Creating AISystem for world NewMap
-[2022.12.12-04.27.52:407][151]LogPlayLevel: PIE: World Init took: (0.001041s)
-[2022.12.12-04.27.52:407][151]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.020362s)
-[2022.12.12-04.27.52:529][151]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.12-04.27.52:536][151]LogInit: FAudioDevice initialized.
-[2022.12.12-04.27.52:569][151]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.12-04.27.52:577][151]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.12-13.27.52
-[2022.12.12-04.27.52:578][151]LogWorld: Bringing up level for play took: 0.008978
-[2022.12.12-04.27.52:581][151]PIE: /Game/Maps/UEDPIE_0_NewMap 0.904のプレイ イン エディタの開始時間
-[2022.12.12-04.27.55:125][299]BlueprintLog: New page: ThirdPersonCharacter をコンパイル
-[2022.12.12-04.27.56:891][375]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.12-04.27.56:903][375]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.12-04.27.56:903][375]PIE: New page: PIEセッション: NewMap (2022/12/12 22:27:56)
-[2022.12.12-04.27.56:903][375]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.12-04.27.56:920][375]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016616s)
-[2022.12.12-04.27.56:921][375]LogAIModule: Creating AISystem for world NewMap
-[2022.12.12-04.27.56:921][375]LogPlayLevel: PIE: World Init took: (0.000763s)
-[2022.12.12-04.27.56:921][375]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.017854s)
-[2022.12.12-04.27.56:943][375]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.12-04.27.56:949][375]LogInit: FAudioDevice initialized.
-[2022.12.12-04.27.56:977][375]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.12-04.27.56:986][375]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.12-13.27.56
-[2022.12.12-04.27.56:986][375]LogWorld: Bringing up level for play took: 0.008280
-[2022.12.12-04.27.56:988][375]PIE: /Game/Maps/UEDPIE_0_NewMap -0.689のプレイ イン エディタの開始時間
-[2022.12.12-04.28.44:958][220]BlueprintLog: New page: ThirdPersonCharacter をコンパイル
-[2022.12.12-04.28.46:889][322]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.12-04.28.46:901][322]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.12-04.28.46:901][322]PIE: New page: PIEセッション: NewMap (2022/12/12 22:28:46)
-[2022.12.12-04.28.46:901][322]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.12-04.28.46:917][322]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015808s)
-[2022.12.12-04.28.46:918][322]LogAIModule: Creating AISystem for world NewMap
-[2022.12.12-04.28.46:918][322]LogPlayLevel: PIE: World Init took: (0.000687s)
-[2022.12.12-04.28.46:918][322]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.016849s)
-[2022.12.12-04.28.46:941][322]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.12-04.28.46:947][322]LogInit: FAudioDevice initialized.
-[2022.12.12-04.28.46:978][322]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.12-04.28.46:987][322]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.12-13.28.46
-[2022.12.12-04.28.46:987][322]LogWorld: Bringing up level for play took: 0.008343
-[2022.12.12-04.28.46:989][322]PIE: /Game/Maps/UEDPIE_0_NewMap -0.688のプレイ イン エディタの開始時間
-[2022.12.12-04.28.58:540][ 10]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat234)
-[2022.12.12-04.28.59:878][ 89]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.12-04.28.59:889][ 89]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.12-04.28.59:889][ 89]PIE: New page: PIEセッション: NewMap (2022/12/12 22:28:59)
-[2022.12.12-04.28.59:889][ 89]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.12-04.28.59:907][ 89]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017176s)
-[2022.12.12-04.28.59:907][ 89]LogAIModule: Creating AISystem for world NewMap
-[2022.12.12-04.28.59:908][ 89]LogPlayLevel: PIE: World Init took: (0.001129s)
-[2022.12.12-04.28.59:908][ 89]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.018773s)
-[2022.12.12-04.28.59:930][ 89]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.12-04.28.59:936][ 89]LogInit: FAudioDevice initialized.
-[2022.12.12-04.28.59:964][ 89]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.12-04.28.59:973][ 89]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.12-13.28.59
-[2022.12.12-04.28.59:974][ 89]LogWorld: Bringing up level for play took: 0.008661
-[2022.12.12-04.28.59:976][ 89]PIE: /Game/Maps/UEDPIE_0_NewMap 0.299のプレイ イン エディタの開始時間
-[2022.12.12-04.29.20:627][323]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat309)
-[2022.12.12-04.29.24:189][535]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.12-04.29.24:202][535]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.12-04.29.24:202][535]PIE: New page: PIEセッション: NewMap (2022/12/12 22:29:24)
-[2022.12.12-04.29.24:202][535]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.12-04.29.24:219][535]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016719s)
-[2022.12.12-04.29.24:220][535]LogAIModule: Creating AISystem for world NewMap
-[2022.12.12-04.29.24:220][535]LogPlayLevel: PIE: World Init took: (0.001390s)
-[2022.12.12-04.29.24:221][535]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.018582s)
-[2022.12.12-04.29.24:243][535]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.12-04.29.24:249][535]LogInit: FAudioDevice initialized.
-[2022.12.12-04.29.24:280][535]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.12-04.29.24:289][535]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.12-13.29.24
-[2022.12.12-04.29.24:289][535]LogWorld: Bringing up level for play took: 0.008371
-[2022.12.12-04.29.24:291][535]PIE: /Game/Maps/UEDPIE_0_NewMap 0.615のプレイ イン エディタの開始時間
-[2022.12.12-04.32.25:267][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Content/Maps/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2022.12.12-04.32.25:920][357]LogSavePackage: Save=548.34ms
-[2022.12.12-04.32.25:920][357]LogSavePackage: Moving 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Saved/NewMap1EA2319B40109DB7541B409161A13F3E.tmp' to 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Content/Maps/NewMap.umap'
-[2022.12.12-04.32.25:954][357]LogSavePackage: Display: Finished SavePackage C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Content/Maps/NewMap.umap
-[2022.12.12-04.32.25:979][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap_BuiltData" FILE="C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Content/Maps/NewMap_BuiltData.uasset" SILENT=true
-[2022.12.12-04.32.27:777][357]LogSavePackage: Save=1711.68ms
-[2022.12.12-04.32.27:777][357]LogSavePackage: Moving 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Saved/NewMap_BuiltDataD13582C54124DB36428B2CA31C8BE7C9.tmp' to 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Content/Maps/NewMap_BuiltData.uasset'
-[2022.12.12-04.32.27:783][357]LogSavePackage: Display: Finished SavePackage C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Content/Maps/NewMap_BuiltData.uasset
-[2022.12.12-04.32.31:013][526]LogSavePackage: Save=117.53ms
-[2022.12.12-04.32.31:013][526]LogSavePackage: Moving 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Saved/ThirdPersonCharacter8BD3310F49ED8C645A223C8A22804F6B.tmp' to 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
-[2022.12.12-04.32.31:016][526]LogSavePackage: Display: Finished SavePackage C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2022.12.12-04.36.41:844][  0]LogInit: Selected Device Profile: [Windows]
+[2022.12.12-04.36.41:844][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.12.12-04.36.41:860][  0]LogInit: Computer: KBC12006038
+[2022.12.12-04.36.41:860][  0]LogInit: User: kbc12006038
+[2022.12.12-04.36.41:860][  0]LogInit: CPU Page size=4096, Cores=6
+[2022.12.12-04.36.41:860][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.12.12-04.36.41:861][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2022.12.12-04.36.41:861][  0]LogMemory: Platform Memory Stats for Windows
+[2022.12.12-04.36.41:861][  0]LogMemory: Process Physical Memory: 280.89 MB used, 280.89 MB peak
+[2022.12.12-04.36.41:861][  0]LogMemory: Process Virtual Memory: 283.03 MB used, 283.03 MB peak
+[2022.12.12-04.36.41:861][  0]LogMemory: Physical Memory: 9782.51 MB used,  6447.41 MB free, 16229.92 MB total
+[2022.12.12-04.36.41:861][  0]LogMemory: Virtual Memory: 4801.80 MB used,  6447.41 MB free, 134217728.00 MB total
+[2022.12.12-04.36.42:058][  0]LogInit: Using OS detected language (ja-JP).
+[2022.12.12-04.36.42:058][  0]LogInit: Using OS detected locale (ja-JP).
+[2022.12.12-04.36.42:060][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
+[2022.12.12-04.36.42:461][  0]LogD3D11RHI: D3D11 adapters:
+[2022.12.12-04.36.42:539][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1650 with Max-Q Design' (Feature Level 11_0)
+[2022.12.12-04.36.42:539][  0]LogD3D11RHI:       3962/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2022.12.12-04.36.42:568][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2022.12.12-04.36.42:568][  0]LogD3D11RHI:       128/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2022.12.12-04.36.42:570][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.12.12-04.36.42:570][  0]LogD3D11RHI:       0/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.12.12-04.36.42:570][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2022.12.12-04.36.42:598][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.12.12-04.36.42:598][  0]LogD3D11RHI:     GPU DeviceId: 0x1f91 (for the marketing name, search the web for "GPU Device Id")
+[2022.12.12-04.36.42:598][  0]LogWindows: EnumDisplayDevices:
+[2022.12.12-04.36.42:599][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2022.12.12-04.36.42:599][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2022.12.12-04.36.42:599][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2022.12.12-04.36.42:599][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2022.12.12-04.36.42:599][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1650 with Max-Q Design
+[2022.12.12-04.36.42:599][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2022.12.12-04.36.42:599][  0]LogD3D11RHI:      Driver Date: Unknown
+[2022.12.12-04.36.42:599][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2022.12.12-04.36.42:667][  0]LogD3D11RHI: Async texture creation enabled
+[2022.12.12-04.36.42:683][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2022.12.12-04.36.42:684][  0]LogShaderCompilers: Guid format shader working directory is -2 characters bigger than the processId version (C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Intermediate/Shaders/WorkingDirectory/15740/).
+[2022.12.12-04.36.42:685][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kbc12006038/AppData/Local/Temp/UnrealShaderWorkingDir/1F05CC934D43B78E156CD881CBF29B73/'.
+[2022.12.12-04.36.42:685][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.12.12-04.36.43:552][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2022.12.12-04.36.43:596][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2022.12.12-04.36.43:640][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2022.12.12-04.36.43:684][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2022.12.12-04.36.43:728][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2022.12.12-04.36.43:772][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2022.12.12-04.36.43:815][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2022.12.12-04.36.43:859][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2022.12.12-04.36.43:897][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2022.12.12-04.36.43:940][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2022.12.12-04.36.43:983][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2022.12.12-04.36.44:025][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2022.12.12-04.36.44:068][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2022.12.12-04.36.44:112][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2022.12.12-04.36.44:156][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2022.12.12-04.36.44:245][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2022.12.12-04.36.44:245][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2022.12.12-04.36.44:279][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2022.12.12-04.36.44:370][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2022.12.12-04.36.44:400][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2022.12.12-04.36.44:448][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2022.12.12-04.36.44:526][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2022.12.12-04.36.44:592][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2022.12.12-04.36.44:639][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2022.12.12-04.36.44:639][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2022.12.12-04.36.45:071][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.12.12-04.36.45:151][  0]LogDerivedDataCache: Loaded boot cache 0.08s 93MB C:/Users/kbc12006038/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2022.12.12-04.36.45:151][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kbc12006038/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2022.12.12-04.36.45:152][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.12.12-04.36.45:152][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.12.12-04.36.45:152][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.12.12-04.36.45:152][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.12.12-04.36.45:164][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.12.12-04.36.45:176][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kbc12006038/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.12.12-04.36.45:185][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2022.12.12-04.36.45:185][  0]LogSlate: Using Freetype 2.6.0
+[2022.12.12-04.36.45:185][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.12.12-04.36.45:185][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.12.12-04.36.45:401][  0]LogAssetRegistry: FAssetRegistry took 0.0262 seconds to start up
+[2022.12.12-04.36.45:499][  0]LogInit: Selected Device Profile: [Windows]
+[2022.12.12-04.36.45:834][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2022.12.12-04.36.45:871][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2022.12.12-04.36.45:871][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.12.12-04.36.45:871][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2022.12.12-04.36.45:871][  0]LogMeshReduction: No automatic mesh merging module available
+[2022.12.12-04.36.45:871][  0]LogMeshMerging: No automatic mesh merging module available
+[2022.12.12-04.36.45:893][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2022.12.12-04.36.46:220][  0]LogNetVersion: MyProject2 , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 237949846)
+[2022.12.12-04.36.46:424][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.063371 seconds
+[2022.12.12-04.36.46:435][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2022.12.12-04.36.46:435][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2022.12.12-04.36.46:435][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.12.12-04.36.46:504][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2022.12.12-04.36.48:874][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.12.12-04.36.48:912][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.12.12-04.36.49:458][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2022.12.12-04.36.49:880][  0]SourceControl: ソースコントロールは無効です
+[2022.12.12-04.36.49:880][  0]SourceControl: ソースコントロールは無効です
+[2022.12.12-04.36.49:921][  0]SourceControl: ソースコントロールは無効です
+[2022.12.12-04.36.49:964][  0]SourceControl: ソースコントロールは無効です
+[2022.12.12-04.36.50:501][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.12.12-04.36.50:720][  0]LogOcInput: OculusInput pre-init called
+[2022.12.12-04.36.50:943][  0]LogEngine: Initializing Engine...
+[2022.12.12-04.36.50:945][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.12.12-04.36.51:116][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2022.12.12-04.36.51:117][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2022.12.12-04.36.51:229][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.12.12-04.36.51:287][  0]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.12.12-04.36.51:404][  0]LogInit: FAudioDevice initialized.
+[2022.12.12-04.36.51:448][  0]LogDerivedDataCache: Saved boot cache 0.04s 93MB C:/Users/kbc12006038/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2022.12.12-04.36.51:452][  0]LogInit: Texture streaming: Enabled
+[2022.12.12-04.36.51:552][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.12.12-04.36.51:756][  0]LogInit: Transaction tracking system initialized
+[2022.12.12-04.36.52:038][  0]BlueprintLog: New page: エディタの読み込み
+[2022.12.12-04.36.52:822][  0]LocalizationService: ローカライズのサービスが無効になりました
+[2022.12.12-04.36.53:438][  0]LogConsoleResponse: Display: 
+[2022.12.12-04.36.53:581][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2022.12.12-04.36.53:581][  0]LogCook: Display: Mobile HDR setting 1
+[2022.12.12-04.36.53:581][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2022.12.12-04.36.53:963][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Content/' took 0.02s
+[2022.12.12-04.36.54:560][  0]SourceControl: ソースコントロールは無効です
+[2022.12.12-04.36.54:560][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.12.12-04.36.54:561][  0]LightingResults: New page: ライティングのビルド
+[2022.12.12-04.36.54:598][  0]MapCheck: New page: マップをチェック
+[2022.12.12-04.36.54:598][  0]LightingResults: New page: <何も選択されていません>
+[2022.12.12-04.36.54:744][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2022.12.12-04.36.54:748][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.12.12-04.36.54:761][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.12.12-04.36.54:797][  0]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 36.232ミリ秒かかりました。
+[2022.12.12-04.36.54:797][  0]LogFileHelpers: Loading map 'Template_Default' took 0.237
+[2022.12.12-04.36.54:881][  0]LogCollectionManager: Loaded 0 collections in 0.000749 seconds
+[2022.12.12-04.36.54:959][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Saved/Collections/' took 0.01s
+[2022.12.12-04.36.54:959][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Content/Developers/kbc12006038/Collections/' took 0.01s
+[2022.12.12-04.36.54:959][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Content/Collections/' took 0.01s
+[2022.12.12-04.36.54:959][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2022.12.12-04.36.54:968][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2386 classes and 500 folders.
+[2022.12.12-04.36.55:026][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2022.12.12-04.36.55:057][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2022.12.12-04.36.55:141][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2022.12.12-04.36.55:213][  0]LogSlate: Took 0.000485 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.12.12-04.36.55:218][  0]LogSlate: Took 0.003468 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2022.12.12-04.36.55:219][  0]LogSlate: Took 0.000281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.12.12-04.36.55:225][  0]LogSlate: Took 0.000721 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.12.12-04.36.55:319][  0]LogRenderer: Reallocating scene render targets to support 860x380 Format 10 NumSamples 1 (Frame:1).
+[2022.12.12-04.36.55:498][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2022.12.12-04.36.55:498][  0]LogLoad: (Engine Initialization) Total time: 15.32 seconds
+[2022.12.12-04.36.55:498][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.12.12-04.36.55:498][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2022.12.12-04.36.55:857][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.12.12-04.36.56:177][  1]LogAssetRegistry: Asset discovery search completed in 10.7985 seconds
+[2022.12.12-04.36.56:178][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2022.12.12-04.36.56:178][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000045 seconds (updated 0 objects)
+[2022.12.12-04.36.56:851][  3]LogSlate: Took 0.000942 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2022.12.12-04.38.18:505][438]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2022.12.12-04.38.18:885][438]LogAIModule: Creating AISystem for world NewMap
+[2022.12.12-04.38.18:918][438]Cmd: MAP LOAD FILE="C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Content/Maps/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.12.12-04.38.18:918][438]LightingResults: New page: ライティングのビルド
+[2022.12.12-04.38.18:919][438]LoadErrors: New page: マップをロード中: NewMap.umap
+[2022.12.12-04.38.18:919][438]MapCheck: New page: マップをチェック
+[2022.12.12-04.38.18:919][438]LightingResults: New page: <何も選択されていません>
+[2022.12.12-04.38.19:135][438]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.12.12-04.38.19:165][438]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.12.12-04.38.19:214][438]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 49.43ミリ秒かかりました。
+[2022.12.12-04.38.19:214][438]LogFileHelpers: Loading map 'NewMap' took 0.297
+[2022.12.12-04.38.20:237][497]LogTemp: Repeating last play command: 選択ビューポート
+[2022.12.12-04.38.20:276][497]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.12-04.38.20:276][497]PIE: New page: PIEセッション: NewMap (2022/12/12 22:38:20)
+[2022.12.12-04.38.20:276][497]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2022.12.12-04.38.20:295][497]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018508s)
+[2022.12.12-04.38.20:295][497]LogAIModule: Creating AISystem for world NewMap
+[2022.12.12-04.38.20:295][497]LogPlayLevel: PIE: World Init took: (0.000606s)
+[2022.12.12-04.38.20:296][497]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.019770s)
+[2022.12.12-04.38.20:313][497]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.12.12-04.38.20:320][497]LogInit: FAudioDevice initialized.
+[2022.12.12-04.38.20:363][497]LogLoad: Game class is 'MyGameMode_C'
+[2022.12.12-04.38.20:374][497]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.12-13.38.20
+[2022.12.12-04.38.20:374][497]LogWorld: Bringing up level for play took: 0.008817
+[2022.12.12-04.38.20:411][497]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2022.12.12-04.38.20:413][497]PIE: /Game/Maps/UEDPIE_0_NewMap 0.737のプレイ イン エディタの開始時間
