@@ -1,4 +1,4 @@
-﻿Log file open, 12/07/22 13:15:42
+﻿Log file open, 01/17/23 14:21:45
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,11 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: MyProject2
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(555396575) SRandInit(555396576).
+LogInit: Display: RandInit(2007547144) SRandInit(2007547144).
 LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.625476
+LogStats: Stats thread started at 0.306068
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
-LogConfig: Warning: Failed to saved backup for config[Paper2D]
 LogPluginManager: Mounting plugin LightPropagationVolume
 LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
 LogPluginManager: Mounting plugin GitSourceControl
@@ -66,7 +65,6 @@ LogPluginManager: Mounting plugin OculusVR
 LogPluginManager: Mounting plugin PhysXVehicles
 LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
-LogConfig: Warning: Failed to saved backup for config[RuntimePhysXCooking]
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
 LogInit: Using libcurl 7.47.1
@@ -111,1224 +109,539 @@ LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.17
 LogInit: Command line:  
-LogInit: Base directory: D:/新しいフォルダー/Epic Games/DirectXRedist/UE_4.17/Engine/Binaries/Win64/
+LogInit: Base directory: D:/school/Unreal/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
-LogFileManager: Warning: Error deleting file: C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Saved/Logs/MyProject2-backup-2022.11.28-11.54.54.log (Error Code 5)
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2022.12.07-04.15.43:536][  0]LogInit: Selected Device Profile: [Windows]
-[2022.12.07-04.15.43:536][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2022.12.07-04.15.43:552][  0]LogConfig: Warning: Failed to saved backup for config[DeviceProfiles]
-[2022.12.07-04.15.43:555][  0]LogInit: Computer: KBC12006038
-[2022.12.07-04.15.43:555][  0]LogInit: User: kbc12006038
-[2022.12.07-04.15.43:555][  0]LogInit: CPU Page size=4096, Cores=6
-[2022.12.07-04.15.43:555][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2022.12.07-04.15.43:555][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
-[2022.12.07-04.15.43:555][  0]LogMemory: Platform Memory Stats for Windows
-[2022.12.07-04.15.43:555][  0]LogMemory: Process Physical Memory: 284.66 MB used, 284.66 MB peak
-[2022.12.07-04.15.43:555][  0]LogMemory: Process Virtual Memory: 280.91 MB used, 280.91 MB peak
-[2022.12.07-04.15.43:555][  0]LogMemory: Physical Memory: 9942.19 MB used,  6287.73 MB free, 16229.92 MB total
-[2022.12.07-04.15.43:555][  0]LogMemory: Virtual Memory: 4800.31 MB used,  6287.73 MB free, 134217728.00 MB total
-[2022.12.07-04.15.44:759][  0]LogInit: Using OS detected language (ja-JP).
-[2022.12.07-04.15.44:759][  0]LogInit: Using OS detected locale (ja-JP).
-[2022.12.07-04.15.45:372][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
-[2022.12.07-04.15.48:100][  0]LogD3D11RHI: D3D11 adapters:
-[2022.12.07-04.15.49:158][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1650 with Max-Q Design' (Feature Level 11_0)
-[2022.12.07-04.15.49:158][  0]LogD3D11RHI:       3962/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2022.12.07-04.15.49:191][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
-[2022.12.07-04.15.49:191][  0]LogD3D11RHI:       128/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2022.12.07-04.15.49:196][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2022.12.07-04.15.49:196][  0]LogD3D11RHI:       0/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2022.12.07-04.15.49:196][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2022.12.07-04.15.49:220][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2022.12.07-04.15.49:220][  0]LogD3D11RHI:     GPU DeviceId: 0x1f91 (for the marketing name, search the web for "GPU Device Id")
-[2022.12.07-04.15.49:220][  0]LogWindows: EnumDisplayDevices:
-[2022.12.07-04.15.49:220][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
-[2022.12.07-04.15.49:221][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2022.12.07-04.15.49:221][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2022.12.07-04.15.49:221][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2022.12.07-04.15.49:221][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1650 with Max-Q Design
-[2022.12.07-04.15.49:221][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2022.12.07-04.15.49:221][  0]LogD3D11RHI:      Driver Date: Unknown
-[2022.12.07-04.15.49:221][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2022.12.07-04.15.49:289][  0]LogD3D11RHI: Async texture creation enabled
-[2022.12.07-04.15.49:306][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2022.12.07-04.15.49:307][  0]LogShaderCompilers: Guid format shader working directory is -2 characters bigger than the processId version (C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Intermediate/Shaders/WorkingDirectory/24848/).
-[2022.12.07-04.15.49:307][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kbc12006038/AppData/Local/Temp/UnrealShaderWorkingDir/016FBF204AADF2B8ED3B3DA0ACFBD251/'.
-[2022.12.07-04.15.49:307][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2022.12.07-04.15.52:317][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2022.12.07-04.15.52:362][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2022.12.07-04.15.52:408][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2022.12.07-04.15.52:453][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2022.12.07-04.15.52:520][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2022.12.07-04.15.52:566][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2022.12.07-04.15.52:613][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2022.12.07-04.15.52:660][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2022.12.07-04.15.52:702][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2022.12.07-04.15.52:774][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2022.12.07-04.15.52:825][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2022.12.07-04.15.52:871][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2022.12.07-04.15.52:919][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2022.12.07-04.15.52:966][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2022.12.07-04.15.53:012][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2022.12.07-04.15.53:103][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2022.12.07-04.15.53:103][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2022.12.07-04.15.53:139][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2022.12.07-04.15.53:282][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2022.12.07-04.15.53:315][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2022.12.07-04.15.53:359][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2022.12.07-04.15.53:404][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2022.12.07-04.15.53:449][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2022.12.07-04.15.53:511][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2022.12.07-04.15.53:511][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2022.12.07-04.15.55:109][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2022.12.07-04.15.55:290][  0]LogDerivedDataCache: Loaded boot cache 0.18s 93MB C:/Users/kbc12006038/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2022.12.07-04.15.55:290][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kbc12006038/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2022.12.07-04.15.55:290][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2022.12.07-04.15.55:290][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2022.12.07-04.15.55:290][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2022.12.07-04.15.55:290][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2022.12.07-04.15.55:377][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2022.12.07-04.15.55:394][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kbc12006038/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2022.12.07-04.15.55:403][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2022.12.07-04.15.55:404][  0]LogSlate: Using Freetype 2.6.0
-[2022.12.07-04.15.55:514][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2022.12.07-04.15.55:514][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2022.12.07-04.15.59:519][  0]LogAssetRegistry: FAssetRegistry took 0.0259 seconds to start up
-[2022.12.07-04.15.59:870][  0]LogInit: Selected Device Profile: [Windows]
-[2022.12.07-04.15.59:921][  0]LogConfig: Warning: Failed to saved backup for config[GameplayTags]
-[2022.12.07-04.16.03:067][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2022.12.07-04.16.04:126][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2022.12.07-04.16.04:179][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2022.12.07-04.16.04:179][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2022.12.07-04.16.04:179][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2022.12.07-04.16.04:179][  0]LogMeshReduction: No automatic mesh merging module available
-[2022.12.07-04.16.04:179][  0]LogMeshMerging: No automatic mesh merging module available
-[2022.12.07-04.16.07:250][  0]LogNetVersion: MyProject2 , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 237949846)
-[2022.12.07-04.16.08:429][  0]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Intermediate/AssetRegistryCache/6de60645.bin.tmp' to 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Intermediate/AssetRegistryCache/6de60645.bin', retrying in .5s...
-[2022.12.07-04.16.08:931][  0]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Intermediate/AssetRegistryCache/6de60645.bin.tmp' to 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Intermediate/AssetRegistryCache/6de60645.bin', retrying in .5s...
-[2022.12.07-04.16.09:432][  0]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Intermediate/AssetRegistryCache/6de60645.bin.tmp' to 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Intermediate/AssetRegistryCache/6de60645.bin', retrying in .5s...
-[2022.12.07-04.16.09:933][  0]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Intermediate/AssetRegistryCache/6de60645.bin.tmp' to 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Intermediate/AssetRegistryCache/6de60645.bin', retrying in .5s...
-[2022.12.07-04.16.10:434][  0]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Intermediate/AssetRegistryCache/6de60645.bin.tmp' to 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Intermediate/AssetRegistryCache/6de60645.bin', retrying in .5s...
-[2022.12.07-04.16.10:935][  0]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Intermediate/AssetRegistryCache/6de60645.bin.tmp' to 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Intermediate/AssetRegistryCache/6de60645.bin', retrying in .5s...
-[2022.12.07-04.16.11:436][  0]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Intermediate/AssetRegistryCache/6de60645.bin.tmp' to 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Intermediate/AssetRegistryCache/6de60645.bin', retrying in .5s...
-[2022.12.07-04.16.11:936][  0]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Intermediate/AssetRegistryCache/6de60645.bin.tmp' to 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Intermediate/AssetRegistryCache/6de60645.bin', retrying in .5s...
-[2022.12.07-04.16.12:437][  0]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Intermediate/AssetRegistryCache/6de60645.bin.tmp' to 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Intermediate/AssetRegistryCache/6de60645.bin', retrying in .5s...
-[2022.12.07-04.16.12:937][  0]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Intermediate/AssetRegistryCache/6de60645.bin.tmp' to 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Intermediate/AssetRegistryCache/6de60645.bin', retrying in .5s...
-[2022.12.07-04.16.13:438][  0]LogFileManager: Error: Error moving file 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Intermediate/AssetRegistryCache/6de60645.bin.tmp' to 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Intermediate/AssetRegistryCache/6de60645.bin'.
-[2022.12.07-04.16.13:473][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 5.049524 seconds
-[2022.12.07-04.16.13:477][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2022.12.07-04.16.13:477][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
-[2022.12.07-04.16.13:477][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2022.12.07-04.16.13:534][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2022.12.07-04.16.21:607][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2022.12.07-04.16.21:644][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2022.12.07-04.16.22:626][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2022.12.07-04.16.23:147][  0]SourceControl: ソースコントロールは無効です
-[2022.12.07-04.16.23:147][  0]SourceControl: ソースコントロールは無効です
-[2022.12.07-04.16.23:192][  0]SourceControl: ソースコントロールは無効です
-[2022.12.07-04.16.23:235][  0]SourceControl: ソースコントロールは無効です
-[2022.12.07-04.16.24:115][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2022.12.07-04.16.24:332][  0]LogOcInput: OculusInput pre-init called
-[2022.12.07-04.16.24:634][  0]LogEngine: Initializing Engine...
-[2022.12.07-04.16.24:636][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2022.12.07-04.16.25:282][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2022.12.07-04.16.25:282][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2022.12.07-04.16.25:513][  0]LogAIModule: Creating AISystem for world Untitled
-[2022.12.07-04.16.25:581][  0]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.07-04.16.25:714][  0]LogInit: FAudioDevice initialized.
-[2022.12.07-04.16.25:764][  0]LogDerivedDataCache: Saved boot cache 0.05s 93MB C:/Users/kbc12006038/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2022.12.07-04.16.25:773][  0]LogInit: Texture streaming: Enabled
-[2022.12.07-04.16.25:886][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2022.12.07-04.16.26:649][  0]LogInit: Transaction tracking system initialized
-[2022.12.07-04.16.26:959][  0]BlueprintLog: New page: エディタの読み込み
-[2022.12.07-04.16.27:841][  0]LogConfig: Warning: Failed to saved backup for config[LocalizationServiceSettings]
-[2022.12.07-04.16.27:841][  0]LocalizationService: ローカライズのサービスが無効になりました
-[2022.12.07-04.16.28:869][  0]LogConsoleResponse: Display: 
-[2022.12.07-04.16.32:084][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2022.12.07-04.16.32:084][  0]LogCook: Display: Mobile HDR setting 1
-[2022.12.07-04.16.32:084][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2022.12.07-04.16.32:218][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Content/' took 0.02s
-[2022.12.07-04.16.34:439][  0]SourceControl: ソースコントロールは無効です
-[2022.12.07-04.16.34:439][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2022.12.07-04.16.34:501][  0]LightingResults: New page: ライティングのビルド
-[2022.12.07-04.16.34:543][  0]MapCheck: New page: マップをチェック
-[2022.12.07-04.16.34:543][  0]LightingResults: New page: <何も選択されていません>
-[2022.12.07-04.16.36:055][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2022.12.07-04.16.36:474][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2022.12.07-04.16.36:529][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2022.12.07-04.16.36:578][  0]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 48.138ミリ秒かかりました。
-[2022.12.07-04.16.36:578][  0]LogFileHelpers: Loading map 'Template_Default' took 2.139
-[2022.12.07-04.16.37:054][  0]LogCollectionManager: Loaded 0 collections in 0.000831 seconds
-[2022.12.07-04.16.37:134][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Saved/Collections/' took 0.01s
-[2022.12.07-04.16.37:134][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Content/Developers/kbc12006038/Collections/' took 0.01s
-[2022.12.07-04.16.37:134][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Content/Collections/' took 0.01s
-[2022.12.07-04.16.37:134][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2022.12.07-04.16.37:144][  0]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2386 classes and 500 folders.
-[2022.12.07-04.16.37:205][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2022.12.07-04.16.45:169][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0015 seconds. Added 0 classes and 0 folders.
-[2022.12.07-04.16.45:418][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2022.12.07-04.16.45:866][  0]LogSlate: Took 0.084748 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2022.12.07-04.16.46:288][  0]LogSlate: Took 0.418098 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
-[2022.12.07-04.16.46:397][  0]LogSlate: Took 0.106342 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2022.12.07-04.16.46:461][  0]LogSlate: Took 0.049480 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2022.12.07-04.16.47:148][  0]LogRenderer: Reallocating scene render targets to support 860x380 Format 10 NumSamples 1 (Frame:1).
-[2022.12.07-04.16.47:366][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2022.12.07-04.16.47:366][  0]LogLoad: (Engine Initialization) Total time: 75.49 seconds
-[2022.12.07-04.16.47:366][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2022.12.07-04.16.47:366][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2022.12.07-04.16.47:725][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2022.12.07-04.16.48:047][  1]LogAssetRegistry: Asset discovery search completed in 48.5497 seconds
-[2022.12.07-04.16.48:049][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2022.12.07-04.16.48:049][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000067 seconds (updated 0 objects)
-[2022.12.07-04.16.48:708][  3]LogSlate: Took 0.000253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2022.12.07-04.16.56:113][235]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2022.12.07-04.16.56:136][235]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
-[2022.12.07-04.16.56:627][235]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 113 classes and 0 folders.
-[2022.12.07-04.17.03:405][516]LogAIModule: Creating AISystem for world NewMap
-[2022.12.07-04.17.03:446][516]Cmd: MAP LOAD FILE="C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Content/Maps/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2022.12.07-04.17.03:446][516]LightingResults: New page: ライティングのビルド
-[2022.12.07-04.17.03:446][516]LoadErrors: New page: マップをロード中: NewMap.umap
-[2022.12.07-04.17.03:447][516]MapCheck: New page: マップをチェック
-[2022.12.07-04.17.03:447][516]LightingResults: New page: <何も選択されていません>
-[2022.12.07-04.17.03:676][516]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2022.12.07-04.17.03:709][516]Cmd: MAP CHECKDEP NOCLEARLOG
-[2022.12.07-04.17.03:758][516]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 49.27ミリ秒かかりました。
-[2022.12.07-04.17.03:758][516]LogFileHelpers: Loading map 'NewMap' took 0.313
-[2022.12.07-04.17.08:677][809]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Plains_Ruin_BuildingLOD3)
-[2022.12.07-04.17.08:824][809]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (StaticMeshComponent0)
-[2022.12.07-04.17.14:479][143]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.07-04.17.14:530][143]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.07-04.17.14:533][143]PIE: New page: PIEセッション: NewMap (2022/12/07 22:17:14)
-[2022.12.07-04.17.14:533][143]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.07-04.17.14:550][143]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017064s)
-[2022.12.07-04.17.14:551][143]LogAIModule: Creating AISystem for world NewMap
-[2022.12.07-04.17.14:551][143]LogPlayLevel: PIE: World Init took: (0.000862s)
-[2022.12.07-04.17.14:551][143]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.018420s)
-[2022.12.07-04.17.14:576][143]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.07-04.17.14:583][143]LogInit: FAudioDevice initialized.
-[2022.12.07-04.17.14:624][143]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.07-04.17.14:736][143]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.07-13.17.14
-[2022.12.07-04.17.14:737][143]LogWorld: Bringing up level for play took: 0.019599
-[2022.12.07-04.17.14:793][143]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
-[2022.12.07-04.17.14:796][143]PIE: /Game/Maps/UEDPIE_0_NewMap -0.112のプレイ イン エディタの開始時間
-[2022.12.07-04.18.32:420][789]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (Player1)
-[2022.12.07-04.18.36:427][ 15]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.07-04.18.36:441][ 15]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.07-04.18.36:441][ 15]PIE: New page: PIEセッション: NewMap (2022/12/07 22:18:36)
-[2022.12.07-04.18.36:441][ 15]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.07-04.18.36:457][ 15]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015814s)
-[2022.12.07-04.18.36:458][ 15]LogAIModule: Creating AISystem for world NewMap
-[2022.12.07-04.18.36:458][ 15]LogPlayLevel: PIE: World Init took: (0.000997s)
-[2022.12.07-04.18.36:458][ 15]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.017278s)
-[2022.12.07-04.18.36:515][ 15]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.07-04.18.36:522][ 15]LogInit: FAudioDevice initialized.
-[2022.12.07-04.18.36:554][ 15]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.07-04.18.36:562][ 15]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.07-13.18.36
-[2022.12.07-04.18.36:562][ 15]LogWorld: Bringing up level for play took: 0.007591
-[2022.12.07-04.18.36:564][ 15]PIE: /Game/Maps/UEDPIE_0_NewMap -0.345のプレイ イン エディタの開始時間
-[2022.12.07-04.18.48:007][692]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat367)
-[2022.12.07-04.18.54:933][103]Cmd: EDIT COPY
-[2022.12.07-04.19.20:988][620]LogRenderer: Reallocating scene render targets to support 1144x708 Format 10 NumSamples 1 (Frame:241).
-[2022.12.07-04.19.42:786][923]LogSavePackage: Save=9.99ms
-[2022.12.07-04.19.42:786][923]LogSavePackage: Moving 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Saved/SM_Plains_Floors_Flat02BD69A98C4D9691E841A56DBDDDB029B9.tmp' to 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Content/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_Flat02.uasset'
-[2022.12.07-04.19.42:790][923]LogSavePackage: Display: Finished SavePackage C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Content/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_Flat02.uasset
-[2022.12.07-04.19.56:335][735]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.07-04.19.56:345][735]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.07-04.19.56:346][735]PIE: New page: PIEセッション: NewMap (2022/12/07 22:19:56)
-[2022.12.07-04.19.56:346][735]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.07-04.19.56:362][735]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017124s)
-[2022.12.07-04.19.56:362][735]LogAIModule: Creating AISystem for world NewMap
-[2022.12.07-04.19.56:363][735]LogPlayLevel: PIE: World Init took: (0.000908s)
-[2022.12.07-04.19.56:363][735]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.018471s)
-[2022.12.07-04.19.56:388][735]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.07-04.19.56:394][735]LogInit: FAudioDevice initialized.
-[2022.12.07-04.19.56:424][735]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.07-04.19.56:432][735]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.07-13.19.56
-[2022.12.07-04.19.56:433][735]LogWorld: Bringing up level for play took: 0.007590
-[2022.12.07-04.19.56:434][735]PIE: /Game/Maps/UEDPIE_0_NewMap -0.474のプレイ イン エディタの開始時間
-[2022.12.07-04.20.07:874][415]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
-[2022.12.07-04.20.22:736][282]LogSlate: Took 0.380935 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2022.12.07-04.20.33:905][952]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat367)
-[2022.12.07-04.20.37:002][136]LogActorFactory: Actor Factory created SM_Plains_Floors_Flat02
-[2022.12.07-04.20.39:538][288]LogActorFactory: Actor Factory created SM_Plains_Floors_Flat02
-[2022.12.07-04.21.39:241][863]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.07-04.21.39:253][863]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.07-04.21.39:253][863]PIE: New page: PIEセッション: NewMap (2022/12/07 22:21:39)
-[2022.12.07-04.21.39:253][863]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.07-04.21.39:270][863]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016654s)
-[2022.12.07-04.21.39:271][863]LogAIModule: Creating AISystem for world NewMap
-[2022.12.07-04.21.39:271][863]LogPlayLevel: PIE: World Init took: (0.001573s)
-[2022.12.07-04.21.39:272][863]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.018663s)
-[2022.12.07-04.21.39:297][863]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.07-04.21.39:302][863]LogInit: FAudioDevice initialized.
-[2022.12.07-04.21.39:331][863]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.07-04.21.39:339][863]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.07-13.21.39
-[2022.12.07-04.21.39:340][863]LogWorld: Bringing up level for play took: 0.007693
-[2022.12.07-04.21.39:342][863]PIE: /Game/Maps/UEDPIE_0_NewMap 0.433のプレイ イン エディタの開始時間
-[2022.12.07-04.22.07:469][541]LogSavePackage: Save=3.04ms
-[2022.12.07-04.22.07:469][541]LogSavePackage: Moving 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Saved/SM_Plains_Floors_Flat02CE2450A442724FDB628054B7E8707CBD.tmp' to 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Content/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_Flat02.uasset'
-[2022.12.07-04.22.07:473][541]LogSavePackage: Display: Finished SavePackage C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Content/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_Flat02.uasset
-[2022.12.07-04.22.11:238][767]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.07-04.22.11:249][767]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.07-04.22.11:249][767]PIE: New page: PIEセッション: NewMap (2022/12/07 22:22:11)
-[2022.12.07-04.22.11:250][767]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.07-04.22.11:266][767]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016686s)
-[2022.12.07-04.22.11:267][767]LogAIModule: Creating AISystem for world NewMap
-[2022.12.07-04.22.11:267][767]LogPlayLevel: PIE: World Init took: (0.000584s)
-[2022.12.07-04.22.11:267][767]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.017584s)
-[2022.12.07-04.22.11:291][767]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.07-04.22.11:297][767]LogInit: FAudioDevice initialized.
-[2022.12.07-04.22.11:324][767]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.07-04.22.11:333][767]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.07-13.22.11
-[2022.12.07-04.22.11:345][767]LogWorld: Bringing up level for play took: 0.020020
-[2022.12.07-04.22.11:347][767]PIE: /Game/Maps/UEDPIE_0_NewMap 0.438のプレイ イン エディタの開始時間
-[2022.12.07-04.22.57:932][555]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
-[2022.12.07-04.24.53:049][459]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat02)
-[2022.12.07-04.24.57:474][722]Cmd: DELETE
-[2022.12.07-04.24.57:474][722]Cmd: ACTOR DELETE
-[2022.12.07-04.24.57:475][722]LogEditorActor: Deleted Actor: StaticMeshActor
-[2022.12.07-04.24.57:494][722]LogEditorActor: Deleted 1 Actors (0.020 secs)
-[2022.12.07-04.25.00:503][903]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.07-04.25.00:514][903]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.07-04.25.00:514][903]PIE: New page: PIEセッション: NewMap (2022/12/07 22:25:00)
-[2022.12.07-04.25.00:514][903]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.07-04.25.00:531][903]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016877s)
-[2022.12.07-04.25.00:532][903]LogAIModule: Creating AISystem for world NewMap
-[2022.12.07-04.25.00:532][903]LogPlayLevel: PIE: World Init took: (0.001153s)
-[2022.12.07-04.25.00:533][903]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.018546s)
-[2022.12.07-04.25.00:560][903]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.07-04.25.00:567][903]LogInit: FAudioDevice initialized.
-[2022.12.07-04.25.00:597][903]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.07-04.25.00:607][903]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.07-13.25.00
-[2022.12.07-04.25.00:608][903]LogWorld: Bringing up level for play took: 0.009520
-[2022.12.07-04.25.00:609][903]PIE: /Game/Maps/UEDPIE_0_NewMap -0.299のプレイ イン エディタの開始時間
-[2022.12.07-04.25.12:859][633]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
-[2022.12.07-04.26.12:859][226]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Plains_Floors_Flat309)
-[2022.12.07-04.26.15:978][407]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
-[2022.12.07-04.28.05:397][970]LogStaticMesh: スタティックメッシュ SM_Plains_Floors_Flat03 をビルド中...
-[2022.12.07-04.28.05:408][970]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_Flat03.SM_Plains_Floors_Flat03
-[2022.12.07-04.29.08:675][710]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Saved/Autosaves/Game/Maps/NewMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2022.12.07-04.29.09:173][710]LogSavePackage: Save=489.43ms
-[2022.12.07-04.29.09:173][710]LogSavePackage: Moving 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Saved/NewMap_Auto110B09E64426D727ED55485B6ACA5DA49.tmp' to 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Saved/Autosaves/Game/Maps/NewMap_Auto1.umap'
-[2022.12.07-04.29.09:175][710]LogSavePackage: Display: Finished SavePackage C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Saved/Autosaves/Game/Maps/NewMap_Auto1.umap
-[2022.12.07-04.29.09:177][710]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/NewMap' took 0.524
-[2022.12.07-04.29.09:177][710]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.524
-[2022.12.07-04.29.46:756][959]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.07-04.29.46:767][959]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.07-04.29.46:767][959]PIE: New page: PIEセッション: NewMap (2022/12/07 22:29:46)
-[2022.12.07-04.29.46:767][959]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.07-04.29.46:783][959]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015935s)
-[2022.12.07-04.29.46:785][959]LogAIModule: Creating AISystem for world NewMap
-[2022.12.07-04.29.46:785][959]LogPlayLevel: PIE: World Init took: (0.001132s)
-[2022.12.07-04.29.46:785][959]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.017649s)
-[2022.12.07-04.29.46:810][959]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.07-04.29.46:817][959]LogInit: FAudioDevice initialized.
-[2022.12.07-04.29.46:849][959]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.07-04.29.46:858][959]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.07-13.29.46
-[2022.12.07-04.29.46:859][959]LogWorld: Bringing up level for play took: 0.008981
-[2022.12.07-04.29.46:861][959]PIE: /Game/Maps/UEDPIE_0_NewMap -0.048のプレイ イン エディタの開始時間
-[2022.12.07-04.29.58:143][633]Cmd: ToggleDebugCamera
-[2022.12.07-04.30.14:219][587]LogEditorActor: Deleted Actor: ThirdPersonCharacter_C
-[2022.12.07-04.30.14:248][587]LogEditorActor: Deleted 1 Actors (0.031 secs)
-[2022.12.07-04.30.17:413][777]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.07-04.30.17:426][777]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.07-04.30.17:426][777]PIE: New page: PIEセッション: NewMap (2022/12/07 22:30:17)
-[2022.12.07-04.30.17:426][777]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.07-04.30.17:443][777]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016815s)
-[2022.12.07-04.30.17:444][777]LogAIModule: Creating AISystem for world NewMap
-[2022.12.07-04.30.17:444][777]LogPlayLevel: PIE: World Init took: (0.001323s)
-[2022.12.07-04.30.17:445][777]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.018553s)
-[2022.12.07-04.30.17:469][777]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.07-04.30.17:475][777]LogInit: FAudioDevice initialized.
-[2022.12.07-04.30.17:505][777]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.07-04.30.17:514][777]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.07-13.30.17
-[2022.12.07-04.30.17:514][777]LogWorld: Bringing up level for play took: 0.007818
-[2022.12.07-04.30.17:516][777]PIE: /Game/Maps/UEDPIE_0_NewMap 0.607のプレイ イン エディタの開始時間
-[2022.12.07-04.32.04:780][ 37]LogSlate: Took 0.398713 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2022.12.07-04.33.52:420][434]BlueprintLog: New page: ThirdPersonCharacter をコンパイル
-[2022.12.07-04.33.55:778][620]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.07-04.33.55:794][620]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.07-04.33.55:794][620]PIE: New page: PIEセッション: NewMap (2022/12/07 22:33:55)
-[2022.12.07-04.33.55:794][620]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.07-04.33.55:811][620]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017098s)
-[2022.12.07-04.33.55:812][620]LogAIModule: Creating AISystem for world NewMap
-[2022.12.07-04.33.55:812][620]LogPlayLevel: PIE: World Init took: (0.000858s)
-[2022.12.07-04.33.55:812][620]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.018276s)
-[2022.12.07-04.33.55:837][620]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.07-04.33.55:843][620]LogInit: FAudioDevice initialized.
-[2022.12.07-04.33.55:872][620]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.07-04.33.55:881][620]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.07-13.33.55
-[2022.12.07-04.33.55:881][620]LogWorld: Bringing up level for play took: 0.008070
-[2022.12.07-04.33.55:883][620]PIE: /Game/Maps/UEDPIE_0_NewMap 0.974のプレイ イン エディタの開始時間
-[2022.12.07-04.34.15:897][756]BlueprintLog: New page: ThirdPersonCharacter をコンパイル
-[2022.12.07-04.34.17:931][863]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.07-04.34.17:944][863]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.07-04.34.17:945][863]PIE: New page: PIEセッション: NewMap (2022/12/07 22:34:17)
-[2022.12.07-04.34.17:945][863]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.07-04.34.17:961][863]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016175s)
-[2022.12.07-04.34.17:961][863]LogAIModule: Creating AISystem for world NewMap
-[2022.12.07-04.34.17:962][863]LogPlayLevel: PIE: World Init took: (0.000667s)
-[2022.12.07-04.34.17:962][863]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.017162s)
-[2022.12.07-04.34.17:988][863]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.07-04.34.17:994][863]LogInit: FAudioDevice initialized.
-[2022.12.07-04.34.18:022][863]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.07-04.34.18:030][863]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.07-13.34.18
-[2022.12.07-04.34.18:030][863]LogWorld: Bringing up level for play took: 0.007770
-[2022.12.07-04.34.18:032][863]PIE: /Game/Maps/UEDPIE_0_NewMap -0.877のプレイ イン エディタの開始時間
-[2022.12.07-04.34.40:947][193]BlueprintLog: New page: ThirdPersonCharacter をコンパイル
-[2022.12.07-04.34.43:278][318]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.07-04.34.43:292][318]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.07-04.34.43:292][318]PIE: New page: PIEセッション: NewMap (2022/12/07 22:34:43)
-[2022.12.07-04.34.43:292][318]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.07-04.34.43:308][318]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016112s)
-[2022.12.07-04.34.43:309][318]LogAIModule: Creating AISystem for world NewMap
-[2022.12.07-04.34.43:309][318]LogPlayLevel: PIE: World Init took: (0.000643s)
-[2022.12.07-04.34.43:309][318]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.017143s)
-[2022.12.07-04.34.43:334][318]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.07-04.34.43:340][318]LogInit: FAudioDevice initialized.
-[2022.12.07-04.34.43:372][318]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.07-04.34.43:381][318]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.07-13.34.43
-[2022.12.07-04.34.43:381][318]LogWorld: Bringing up level for play took: 0.008056
-[2022.12.07-04.34.43:383][318]PIE: /Game/Maps/UEDPIE_0_NewMap 0.475のプレイ イン エディタの開始時間
-[2022.12.07-04.36.42:013][356]BlueprintLog: New page: ThirdPersonCharacter をコンパイル
-[2022.12.07-04.36.44:224][473]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.07-04.36.44:239][473]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.07-04.36.44:239][473]PIE: New page: PIEセッション: NewMap (2022/12/07 22:36:44)
-[2022.12.07-04.36.44:239][473]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.07-04.36.44:255][473]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016964s)
-[2022.12.07-04.36.44:256][473]LogAIModule: Creating AISystem for world NewMap
-[2022.12.07-04.36.44:256][473]LogPlayLevel: PIE: World Init took: (0.000722s)
-[2022.12.07-04.36.44:256][473]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.018008s)
-[2022.12.07-04.36.44:282][473]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.07-04.36.44:290][473]LogInit: FAudioDevice initialized.
-[2022.12.07-04.36.44:320][473]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.07-04.36.44:329][473]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.07-13.36.44
-[2022.12.07-04.36.44:329][473]LogWorld: Bringing up level for play took: 0.008506
-[2022.12.07-04.36.44:331][473]PIE: /Game/Maps/UEDPIE_0_NewMap -0.577のプレイ イン エディタの開始時間
-[2022.12.07-04.41.28:365][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Saved/Autosaves/Game/Maps/NewMap_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2022.12.07-04.41.28:853][473]LogSavePackage: Save=479.84ms
-[2022.12.07-04.41.28:853][473]LogSavePackage: Moving 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Saved/NewMap_Auto21ABB084C45662B12C77DE6BEF6EB8397.tmp' to 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Saved/Autosaves/Game/Maps/NewMap_Auto2.umap'
-[2022.12.07-04.41.28:864][473]LogSavePackage: Display: Finished SavePackage C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Saved/Autosaves/Game/Maps/NewMap_Auto2.umap
-[2022.12.07-04.41.28:866][473]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/NewMap' took 0.539
-[2022.12.07-04.41.28:866][473]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.539
-[2022.12.07-04.41.28:869][473]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
-[2022.12.07-04.41.28:891][473]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
-[2022.12.07-04.41.28:891][473]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
-[2022.12.07-04.41.28:957][473]LogSavePackage: Save=57.44ms
-[2022.12.07-04.41.28:957][473]LogSavePackage: Moving 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Saved/ThirdPersonCharacter_Auto2C0BC1EB44C116CA65CDFF5854901837D.tmp' to 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto2.uasset'
-[2022.12.07-04.41.28:966][473]LogSavePackage: Display: Finished SavePackage C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto2.uasset
-[2022.12.07-04.41.28:966][473]LogFileHelpers: Auto-saving content packages took 0.099
-[2022.12.07-04.51.29:515][878]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/NewMap' took 0.038
-[2022.12.07-04.51.29:518][878]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
-[2022.12.07-04.51.29:518][878]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
-[2022.12.07-04.51.29:580][878]LogSavePackage: Save=51.98ms
-[2022.12.07-04.51.29:580][878]LogSavePackage: Moving 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Saved/ThirdPersonCharacter_Auto3A6F2B05D4E19998041A6C586D347C6DD.tmp' to 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto3.uasset'
-[2022.12.07-04.51.29:582][878]LogSavePackage: Display: Finished SavePackage C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto3.uasset
-[2022.12.07-04.51.29:582][878]LogFileHelpers: Auto-saving content packages took 0.066
-[2022.12.07-04.52.03:392][147]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MyProject2
-[2022.12.07-04.52.03:392][147]LogTemp: CWD: D:\?V?????t?H???_?[\Epic Games\DirectXRedist\UE_4.17\Engine\Binaries\DotNET\IOS
-[2022.12.07-04.52.03:392][147]LogTemp: Initial Dir: D:\?V?????t?H???_?[\Epic Games\DirectXRedist\UE_4.17
-[2022.12.07-04.52.03:392][147]LogTemp: Env CWD: D:\?V?????t?H???_?[\Epic Games\DirectXRedist\UE_4.17\Engine\Binaries\DotNET\IOS
-[2022.12.07-04.52.03:392][147]LogTemp: BranchPath = KBC12006038/D/?V?????t?H???_?[/Epic Games/DirectXRedist/UE_4.17/Engine/Binaries --- GameBranchPath = KBC12006038/D/?V?????t?H???_?[/Epic Games/DirectXRedist/UE_4.17/Engine/Binaries
-[2022.12.07-04.52.03:422][148]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\kbc12006038\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2022.12.07-04.56.03:953][208]BlueprintLog: New page: ThirdPersonCharacter をコンパイル
-[2022.12.07-04.56.06:834][367]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.07-04.56.06:849][367]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.07-04.56.06:849][367]PIE: New page: PIEセッション: NewMap (2022/12/07 22:56:06)
-[2022.12.07-04.56.06:849][367]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.07-04.56.06:866][367]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016845s)
-[2022.12.07-04.56.06:868][367]LogAIModule: Creating AISystem for world NewMap
-[2022.12.07-04.56.06:868][367]LogPlayLevel: PIE: World Init took: (0.001558s)
-[2022.12.07-04.56.06:868][367]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.018995s)
-[2022.12.07-04.56.06:895][367]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.07-04.56.06:902][367]LogInit: FAudioDevice initialized.
-[2022.12.07-04.56.06:930][367]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.07-04.56.06:939][367]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.07-13.56.06
-[2022.12.07-04.56.06:940][367]LogWorld: Bringing up level for play took: 0.008149
-[2022.12.07-04.56.06:942][367]PIE: /Game/Maps/UEDPIE_0_NewMap 0.033のプレイ イン エディタの開始時間
-[2022.12.07-04.56.32:250][785]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MyProject2
-[2022.12.07-04.56.32:250][785]LogTemp: CWD: D:\?V?????t?H???_?[\Epic Games\DirectXRedist\UE_4.17\Engine\Binaries\DotNET\IOS
-[2022.12.07-04.56.32:250][785]LogTemp: Initial Dir: D:\?V?????t?H???_?[\Epic Games\DirectXRedist\UE_4.17
-[2022.12.07-04.56.32:250][785]LogTemp: Env CWD: D:\?V?????t?H???_?[\Epic Games\DirectXRedist\UE_4.17\Engine\Binaries\DotNET\IOS
-[2022.12.07-04.56.32:250][785]LogTemp: BranchPath = KBC12006038/D/?V?????t?H???_?[/Epic Games/DirectXRedist/UE_4.17/Engine/Binaries --- GameBranchPath = KBC12006038/D/?V?????t?H???_?[/Epic Games/DirectXRedist/UE_4.17/Engine/Binaries
-[2022.12.07-04.56.32:267][786]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\kbc12006038\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2022.12.07-05.01.47:793][333]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/NewMap' took 0.021
-[2022.12.07-05.01.47:795][333]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
-[2022.12.07-05.01.47:817][333]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
-[2022.12.07-05.01.47:817][333]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
-[2022.12.07-05.01.47:885][333]LogSavePackage: Save=57.75ms
-[2022.12.07-05.01.47:885][333]LogSavePackage: Moving 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Saved/ThirdPersonCharacter_Auto48BB3711547138DA44589BDB2D512EEEE.tmp' to 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto4.uasset'
-[2022.12.07-05.01.47:887][333]LogSavePackage: Display: Finished SavePackage C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto4.uasset
-[2022.12.07-05.01.47:887][333]LogFileHelpers: Auto-saving content packages took 0.094
-[2022.12.07-05.05.21:414][672]BlueprintLog: New page: ThirdPersonCharacter をコンパイル
-[2022.12.07-05.05.28:085][860]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.07-05.05.28:100][860]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.07-05.05.28:100][860]PIE: New page: PIEセッション: NewMap (2022/12/07 23:05:28)
-[2022.12.07-05.05.28:100][860]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.07-05.05.28:118][860]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017216s)
-[2022.12.07-05.05.28:119][860]LogAIModule: Creating AISystem for world NewMap
-[2022.12.07-05.05.28:119][860]LogPlayLevel: PIE: World Init took: (0.001419s)
-[2022.12.07-05.05.28:120][860]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.019178s)
-[2022.12.07-05.05.28:146][860]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.07-05.05.28:153][860]LogInit: FAudioDevice initialized.
-[2022.12.07-05.05.28:184][860]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.07-05.05.28:193][860]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.07-14.05.28
-[2022.12.07-05.05.28:194][860]LogWorld: Bringing up level for play took: 0.008438
-[2022.12.07-05.05.28:195][860]PIE: /Game/Maps/UEDPIE_0_NewMap -0.713のプレイ イン エディタの開始時間
-[2022.12.07-05.06.44:122][173]BlueprintLog: New page: ThirdPersonCharacter をコンパイル
-[2022.12.07-05.06.46:366][293]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.07-05.06.46:381][293]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.07-05.06.46:381][293]PIE: New page: PIEセッション: NewMap (2022/12/07 23:06:46)
-[2022.12.07-05.06.46:381][293]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.07-05.06.46:398][293]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016482s)
-[2022.12.07-05.06.46:398][293]LogAIModule: Creating AISystem for world NewMap
-[2022.12.07-05.06.46:399][293]LogPlayLevel: PIE: World Init took: (0.000667s)
-[2022.12.07-05.06.46:399][293]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.017514s)
-[2022.12.07-05.06.46:424][293]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.07-05.06.46:431][293]LogInit: FAudioDevice initialized.
-[2022.12.07-05.06.46:460][293]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.07-05.06.46:469][293]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.07-14.06.46
-[2022.12.07-05.06.46:470][293]LogWorld: Bringing up level for play took: 0.008218
-[2022.12.07-05.06.46:472][293]PIE: /Game/Maps/UEDPIE_0_NewMap -0.437のプレイ イン エディタの開始時間
-[2022.12.07-05.08.04:853][967]Cmd: SELECT NONE
-[2022.12.07-05.08.18:465][783]Cmd: SELECT NONE
-[2022.12.07-05.10.24:614][349]BlueprintLog: New page: ThirdPersonCharacter をコンパイル
-[2022.12.07-05.10.30:259][671]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.07-05.10.30:274][671]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.07-05.10.30:275][671]PIE: New page: PIEセッション: NewMap (2022/12/07 23:10:30)
-[2022.12.07-05.10.30:275][671]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.07-05.10.30:291][671]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015983s)
-[2022.12.07-05.10.30:292][671]LogAIModule: Creating AISystem for world NewMap
-[2022.12.07-05.10.30:292][671]LogPlayLevel: PIE: World Init took: (0.001310s)
-[2022.12.07-05.10.30:293][671]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.017935s)
-[2022.12.07-05.10.30:319][671]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.07-05.10.30:326][671]LogInit: FAudioDevice initialized.
-[2022.12.07-05.10.30:357][671]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.07-05.10.30:366][671]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.07-14.10.30
-[2022.12.07-05.10.30:367][671]LogWorld: Bringing up level for play took: 0.008690
-[2022.12.07-05.10.30:368][671]PIE: /Game/Maps/UEDPIE_0_NewMap -0.54のプレイ イン エディタの開始時間
-[2022.12.07-05.11.11:301][121]BlueprintLog: New page: ThirdPersonCharacter をコンパイル
-[2022.12.07-05.11.13:155][217]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.07-05.11.13:172][217]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.07-05.11.13:172][217]PIE: New page: PIEセッション: NewMap (2022/12/07 23:11:13)
-[2022.12.07-05.11.13:172][217]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.07-05.11.13:188][217]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016342s)
-[2022.12.07-05.11.13:190][217]LogAIModule: Creating AISystem for world NewMap
-[2022.12.07-05.11.13:190][217]LogPlayLevel: PIE: World Init took: (0.001562s)
-[2022.12.07-05.11.13:190][217]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.018328s)
-[2022.12.07-05.11.13:216][217]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.07-05.11.13:222][217]LogInit: FAudioDevice initialized.
-[2022.12.07-05.11.13:249][217]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.07-05.11.13:261][217]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.07-14.11.13
-[2022.12.07-05.11.13:262][217]LogWorld: Bringing up level for play took: 0.011096
-[2022.12.07-05.11.13:264][217]PIE: /Game/Maps/UEDPIE_0_NewMap 0.355のプレイ イン エディタの開始時間
-[2022.12.07-05.13.43:465][143]BlueprintLog: New page: ThirdPersonCharacter をコンパイル
-[2022.12.07-05.13.45:489][249]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.07-05.13.45:504][249]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.07-05.13.45:504][249]PIE: New page: PIEセッション: NewMap (2022/12/07 23:13:45)
-[2022.12.07-05.13.45:504][249]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.07-05.13.45:521][249]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016133s)
-[2022.12.07-05.13.45:521][249]LogAIModule: Creating AISystem for world NewMap
-[2022.12.07-05.13.45:522][249]LogPlayLevel: PIE: World Init took: (0.000844s)
-[2022.12.07-05.13.45:522][249]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.017304s)
-[2022.12.07-05.13.45:550][249]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.07-05.13.45:557][249]LogInit: FAudioDevice initialized.
-[2022.12.07-05.13.45:588][249]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.07-05.13.45:600][249]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.07-14.13.45
-[2022.12.07-05.13.45:600][249]LogWorld: Bringing up level for play took: 0.010989
-[2022.12.07-05.13.45:603][249]PIE: /Game/Maps/UEDPIE_0_NewMap 0.694のプレイ イン エディタの開始時間
-[2022.12.07-05.13.54:680][789]Cmd: SELECT NONE
-[2022.12.07-05.13.54:784][795]Cmd: SELECT NONE
-[2022.12.07-05.14.11:826][738]BlueprintLog: New page: ThirdPersonCharacter をコンパイル
-[2022.12.07-05.14.14:128][861]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.07-05.14.14:144][861]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.07-05.14.14:144][861]PIE: New page: PIEセッション: NewMap (2022/12/07 23:14:14)
-[2022.12.07-05.14.14:144][861]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.07-05.14.14:161][861]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017042s)
-[2022.12.07-05.14.14:162][861]LogAIModule: Creating AISystem for world NewMap
-[2022.12.07-05.14.14:162][861]LogPlayLevel: PIE: World Init took: (0.000713s)
-[2022.12.07-05.14.14:162][861]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.018106s)
-[2022.12.07-05.14.14:189][861]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.07-05.14.14:195][861]LogInit: FAudioDevice initialized.
-[2022.12.07-05.14.14:227][861]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.07-05.14.14:236][861]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.07-14.14.14
-[2022.12.07-05.14.14:236][861]LogWorld: Bringing up level for play took: 0.008072
-[2022.12.07-05.14.14:238][861]PIE: /Game/Maps/UEDPIE_0_NewMap -0.67のプレイ イン エディタの開始時間
-[2022.12.07-05.16.17:356][237]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/NewMap' took 0.020
-[2022.12.07-05.16.17:358][237]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
-[2022.12.07-05.16.17:368][237]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
-[2022.12.07-05.16.17:368][237]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
-[2022.12.07-05.16.17:436][237]LogSavePackage: Save=61.15ms
-[2022.12.07-05.16.17:436][237]LogSavePackage: Moving 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Saved/ThirdPersonCharacter_Auto5140953294715E60B17DC0690E73CC75E.tmp' to 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto5.uasset'
-[2022.12.07-05.16.17:438][237]LogSavePackage: Display: Finished SavePackage C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto5.uasset
-[2022.12.07-05.16.17:438][237]LogFileHelpers: Auto-saving content packages took 0.082
-[2022.12.07-05.17.46:342][567]BlueprintLog: New page: ThirdPersonCharacter をコンパイル
-[2022.12.07-05.24.37:948][960]BlueprintLog: New page: ThirdPersonCharacter をコンパイル
-[2022.12.07-05.24.41:549][ 83]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.07-05.24.41:565][ 83]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.07-05.24.41:565][ 83]PIE: New page: PIEセッション: NewMap (2022/12/07 23:24:41)
-[2022.12.07-05.24.41:566][ 83]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.07-05.24.41:582][ 83]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016344s)
-[2022.12.07-05.24.41:583][ 83]LogAIModule: Creating AISystem for world NewMap
-[2022.12.07-05.24.41:583][ 83]LogPlayLevel: PIE: World Init took: (0.000763s)
-[2022.12.07-05.24.41:583][ 83]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.017433s)
-[2022.12.07-05.24.41:609][ 83]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.07-05.24.41:616][ 83]LogInit: FAudioDevice initialized.
-[2022.12.07-05.24.41:650][ 83]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.07-05.24.41:659][ 83]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.07-14.24.41
-[2022.12.07-05.24.41:659][ 83]LogWorld: Bringing up level for play took: 0.008167
-[2022.12.07-05.24.41:661][ 83]PIE: /Game/Maps/UEDPIE_0_NewMap 0.752のプレイ イン エディタの開始時間
-[2022.12.07-05.24.51:049][487]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.07-05.24.51:065][487]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.07-05.24.51:066][487]PIE: New page: PIEセッション: NewMap (2022/12/07 23:24:51)
-[2022.12.07-05.24.51:066][487]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.07-05.24.51:082][487]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015937s)
-[2022.12.07-05.24.51:082][487]LogAIModule: Creating AISystem for world NewMap
-[2022.12.07-05.24.51:082][487]LogPlayLevel: PIE: World Init took: (0.000575s)
-[2022.12.07-05.24.51:083][487]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.016816s)
-[2022.12.07-05.24.51:107][487]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.07-05.24.51:114][487]LogInit: FAudioDevice initialized.
-[2022.12.07-05.24.51:142][487]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.07-05.24.51:150][487]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.07-14.24.51
-[2022.12.07-05.24.51:151][487]LogWorld: Bringing up level for play took: 0.008054
-[2022.12.07-05.24.51:152][487]PIE: /Game/Maps/UEDPIE_0_NewMap 0.244のプレイ イン エディタの開始時間
-[2022.12.07-05.25.36:053][863]BlueprintLog: New page: ThirdPersonCharacter をコンパイル
-[2022.12.07-05.25.38:241][980]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.07-05.25.38:257][980]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.07-05.25.38:257][980]PIE: New page: PIEセッション: NewMap (2022/12/07 23:25:38)
-[2022.12.07-05.25.38:257][980]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.07-05.25.38:274][980]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016337s)
-[2022.12.07-05.25.38:275][980]LogAIModule: Creating AISystem for world NewMap
-[2022.12.07-05.25.38:276][980]LogPlayLevel: PIE: World Init took: (0.001730s)
-[2022.12.07-05.25.38:276][980]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.018642s)
-[2022.12.07-05.25.38:300][980]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.07-05.25.38:307][980]LogInit: FAudioDevice initialized.
-[2022.12.07-05.25.38:338][980]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.07-05.25.38:347][980]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.07-14.25.38
-[2022.12.07-05.25.38:347][980]LogWorld: Bringing up level for play took: 0.008334
-[2022.12.07-05.25.38:349][980]PIE: /Game/Maps/UEDPIE_0_NewMap -0.56のプレイ イン エディタの開始時間
-[2022.12.07-05.26.09:645][814]BlueprintLog: New page: ThirdPersonCharacter をコンパイル
-[2022.12.07-05.26.13:591][ 35]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.07-05.26.13:606][ 35]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.07-05.26.13:606][ 35]PIE: New page: PIEセッション: NewMap (2022/12/07 23:26:13)
-[2022.12.07-05.26.13:607][ 35]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.07-05.26.13:623][ 35]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016470s)
-[2022.12.07-05.26.13:624][ 35]LogAIModule: Creating AISystem for world NewMap
-[2022.12.07-05.26.13:624][ 35]LogPlayLevel: PIE: World Init took: (0.000982s)
-[2022.12.07-05.26.13:625][ 35]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.018166s)
-[2022.12.07-05.26.13:648][ 35]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.07-05.26.13:653][ 35]LogInit: FAudioDevice initialized.
-[2022.12.07-05.26.13:685][ 35]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.07-05.26.13:696][ 35]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.07-14.26.13
-[2022.12.07-05.26.13:697][ 35]LogWorld: Bringing up level for play took: 0.010019
-[2022.12.07-05.26.13:699][ 35]PIE: /Game/Maps/UEDPIE_0_NewMap 0.79のプレイ イン エディタの開始時間
-[2022.12.07-05.27.12:966][186]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/NewMap' took 0.039
-[2022.12.07-05.27.12:968][186]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
-[2022.12.07-05.27.12:991][186]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
-[2022.12.07-05.27.12:991][186]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
-[2022.12.07-05.27.13:056][186]LogSavePackage: Save=57.26ms
-[2022.12.07-05.27.13:056][186]LogSavePackage: Moving 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Saved/ThirdPersonCharacter_Auto6FBA5281849913FBC1B7841B6C040914C.tmp' to 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto6.uasset'
-[2022.12.07-05.27.13:058][186]LogSavePackage: Display: Finished SavePackage C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto6.uasset
-[2022.12.07-05.27.13:058][186]LogFileHelpers: Auto-saving content packages took 0.091
-[2022.12.07-05.29.38:763][532]BlueprintLog: New page: ThirdPersonCharacter をコンパイル
-[2022.12.07-05.29.52:975][197]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.07-05.29.52:996][197]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.07-05.29.52:996][197]PIE: New page: PIEセッション: NewMap (2022/12/07 23:29:52)
-[2022.12.07-05.29.52:996][197]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.07-05.29.53:013][197]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016721s)
-[2022.12.07-05.29.53:013][197]LogAIModule: Creating AISystem for world NewMap
-[2022.12.07-05.29.53:013][197]LogPlayLevel: PIE: World Init took: (0.000723s)
-[2022.12.07-05.29.53:014][197]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.017816s)
-[2022.12.07-05.29.53:039][197]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.07-05.29.53:046][197]LogInit: FAudioDevice initialized.
-[2022.12.07-05.29.53:076][197]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.07-05.29.53:085][197]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.07-14.29.53
-[2022.12.07-05.29.53:085][197]LogWorld: Bringing up level for play took: 0.008045
-[2022.12.07-05.29.53:087][197]PIE: /Game/Maps/UEDPIE_0_NewMap 0.178のプレイ イン エディタの開始時間
-[2022.12.07-05.32.09:168][136]BlueprintLog: New page: ThirdPersonCharacter をコンパイル
-[2022.12.07-05.32.14:282][292]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.07-05.32.14:298][292]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.07-05.32.14:298][292]PIE: New page: PIEセッション: NewMap (2022/12/07 23:32:14)
-[2022.12.07-05.32.14:299][292]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.07-05.32.14:316][292]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017495s)
-[2022.12.07-05.32.14:317][292]LogAIModule: Creating AISystem for world NewMap
-[2022.12.07-05.32.14:317][292]LogPlayLevel: PIE: World Init took: (0.000891s)
-[2022.12.07-05.32.14:318][292]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.018894s)
-[2022.12.07-05.32.14:343][292]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.07-05.32.14:349][292]LogInit: FAudioDevice initialized.
-[2022.12.07-05.32.14:378][292]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.07-05.32.14:387][292]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.07-14.32.14
-[2022.12.07-05.32.14:387][292]LogWorld: Bringing up level for play took: 0.007959
-[2022.12.07-05.32.14:389][292]PIE: /Game/Maps/UEDPIE_0_NewMap -0.52のプレイ イン エディタの開始時間
-[2022.12.07-05.33.20:498][157]BlueprintLog: New page: ThirdPersonCharacter をコンパイル
-[2022.12.07-05.33.20:971][171]BlueprintLog: New page: ThirdPersonCharacter をコンパイル
-[2022.12.07-05.33.23:153][288]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.07-05.33.23:168][288]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.07-05.33.23:168][288]PIE: New page: PIEセッション: NewMap (2022/12/07 23:33:23)
-[2022.12.07-05.33.23:168][288]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.07-05.33.23:184][288]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015753s)
-[2022.12.07-05.33.23:185][288]LogAIModule: Creating AISystem for world NewMap
-[2022.12.07-05.33.23:185][288]LogPlayLevel: PIE: World Init took: (0.001099s)
-[2022.12.07-05.33.23:186][288]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.017356s)
-[2022.12.07-05.33.23:209][288]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.07-05.33.23:216][288]LogInit: FAudioDevice initialized.
-[2022.12.07-05.33.23:246][288]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.07-05.33.23:255][288]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.07-14.33.23
-[2022.12.07-05.33.23:256][288]LogWorld: Bringing up level for play took: 0.008507
-[2022.12.07-05.33.23:257][288]PIE: /Game/Maps/UEDPIE_0_NewMap 0.349のプレイ イン エディタの開始時間
-[2022.12.07-05.35.12:429][504]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.07-05.35.12:445][504]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.07-05.35.12:445][504]PIE: New page: PIEセッション: NewMap (2022/12/07 23:35:12)
-[2022.12.07-05.35.12:445][504]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.07-05.35.12:462][504]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016251s)
-[2022.12.07-05.35.12:462][504]LogAIModule: Creating AISystem for world NewMap
-[2022.12.07-05.35.12:462][504]LogPlayLevel: PIE: World Init took: (0.000615s)
-[2022.12.07-05.35.12:463][504]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.017210s)
-[2022.12.07-05.35.12:486][504]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.07-05.35.12:493][504]LogInit: FAudioDevice initialized.
-[2022.12.07-05.35.12:523][504]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.07-05.35.12:532][504]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.07-14.35.12
-[2022.12.07-05.35.12:532][504]LogWorld: Bringing up level for play took: 0.008090
-[2022.12.07-05.35.12:534][504]PIE: /Game/Maps/UEDPIE_0_NewMap -0.375のプレイ イン エディタの開始時間
-[2022.12.07-05.35.16:469][736]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
-[2022.12.07-05.35.19:981][946]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2022.12.07-05.35.24:704][229]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2022.12.07-05.35.25:993][306]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.07-05.35.26:008][306]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.07-05.35.26:009][306]PIE: New page: PIEセッション: NewMap (2022/12/07 23:35:26)
-[2022.12.07-05.35.26:009][306]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.07-05.35.26:025][306]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016456s)
-[2022.12.07-05.35.26:025][306]LogAIModule: Creating AISystem for world NewMap
-[2022.12.07-05.35.26:025][306]LogPlayLevel: PIE: World Init took: (0.000795s)
-[2022.12.07-05.35.26:027][306]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.017855s)
-[2022.12.07-05.35.26:050][306]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.07-05.35.26:056][306]LogInit: FAudioDevice initialized.
-[2022.12.07-05.35.26:090][306]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.07-05.35.26:103][306]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.07-14.35.26
-[2022.12.07-05.35.26:103][306]LogWorld: Bringing up level for play took: 0.012520
-[2022.12.07-05.35.26:106][306]PIE: /Game/Maps/UEDPIE_0_NewMap -0.803のプレイ イン エディタの開始時間
-[2022.12.07-05.35.34:437][801]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
-[2022.12.07-05.35.38:374][ 37]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2022.12.07-05.35.39:444][101]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.07-05.35.39:461][101]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.07-05.35.39:461][101]PIE: New page: PIEセッション: NewMap (2022/12/07 23:35:39)
-[2022.12.07-05.35.39:461][101]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.07-05.35.39:477][101]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016203s)
-[2022.12.07-05.35.39:478][101]LogAIModule: Creating AISystem for world NewMap
-[2022.12.07-05.35.39:479][101]LogPlayLevel: PIE: World Init took: (0.001297s)
-[2022.12.07-05.35.39:479][101]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.018003s)
-[2022.12.07-05.35.39:503][101]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.07-05.35.39:509][101]LogInit: FAudioDevice initialized.
-[2022.12.07-05.35.39:542][101]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.07-05.35.39:551][101]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.07-14.35.39
-[2022.12.07-05.35.39:551][101]LogWorld: Bringing up level for play took: 0.008143
-[2022.12.07-05.35.39:553][101]PIE: /Game/Maps/UEDPIE_0_NewMap 0.645のプレイ イン エディタの開始時間
-[2022.12.07-05.35.57:705][185]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.07-05.35.57:721][185]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.07-05.35.57:721][185]PIE: New page: PIEセッション: NewMap (2022/12/07 23:35:57)
-[2022.12.07-05.35.57:721][185]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.07-05.35.57:737][185]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015988s)
-[2022.12.07-05.35.57:738][185]LogAIModule: Creating AISystem for world NewMap
-[2022.12.07-05.35.57:738][185]LogPlayLevel: PIE: World Init took: (0.000934s)
-[2022.12.07-05.35.57:738][185]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.017362s)
-[2022.12.07-05.35.57:762][185]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.07-05.35.57:768][185]LogInit: FAudioDevice initialized.
-[2022.12.07-05.35.57:797][185]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.07-05.35.57:806][185]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.07-14.35.57
-[2022.12.07-05.35.57:806][185]LogWorld: Bringing up level for play took: 0.008165
-[2022.12.07-05.35.57:808][185]PIE: /Game/Maps/UEDPIE_0_NewMap 0.9のプレイ イン エディタの開始時間
-[2022.12.07-05.36.04:323][454]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat367)
-[2022.12.07-05.36.05:346][514]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
-[2022.12.07-05.36.07:208][625]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2022.12.07-05.36.07:899][666]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.07-05.36.07:913][666]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.07-05.36.07:914][666]PIE: New page: PIEセッション: NewMap (2022/12/07 23:36:07)
-[2022.12.07-05.36.07:914][666]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.07-05.36.07:931][666]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017141s)
-[2022.12.07-05.36.07:932][666]LogAIModule: Creating AISystem for world NewMap
-[2022.12.07-05.36.07:932][666]LogPlayLevel: PIE: World Init took: (0.001388s)
-[2022.12.07-05.36.07:933][666]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.019247s)
-[2022.12.07-05.36.07:956][666]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.07-05.36.07:962][666]LogInit: FAudioDevice initialized.
-[2022.12.07-05.36.07:990][666]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.07-05.36.07:999][666]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.07-14.36.07
-[2022.12.07-05.36.07:999][666]LogWorld: Bringing up level for play took: 0.008359
-[2022.12.07-05.36.08:001][666]PIE: /Game/Maps/UEDPIE_0_NewMap -0.908のプレイ イン エディタの開始時間
-[2022.12.07-05.36.14:349][ 39]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
-[2022.12.07-05.36.16:122][145]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2022.12.07-05.36.22:273][513]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2022.12.07-05.36.22:313][515]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat366)
-[2022.12.07-05.36.23:753][600]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.07-05.36.23:769][600]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.07-05.36.23:769][600]PIE: New page: PIEセッション: NewMap (2022/12/07 23:36:23)
-[2022.12.07-05.36.23:769][600]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.07-05.36.23:786][600]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016467s)
-[2022.12.07-05.36.23:786][600]LogAIModule: Creating AISystem for world NewMap
-[2022.12.07-05.36.23:787][600]LogPlayLevel: PIE: World Init took: (0.001046s)
-[2022.12.07-05.36.23:787][600]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.018205s)
-[2022.12.07-05.36.23:811][600]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.07-05.36.23:818][600]LogInit: FAudioDevice initialized.
-[2022.12.07-05.36.23:848][600]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.07-05.36.23:857][600]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.07-14.36.23
-[2022.12.07-05.36.23:857][600]LogWorld: Bringing up level for play took: 0.008314
-[2022.12.07-05.36.23:859][600]PIE: /Game/Maps/UEDPIE_0_NewMap 0.951のプレイ イン エディタの開始時間
-[2022.12.07-05.37.33:605][778]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
-[2022.12.07-05.37.44:584][964]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Content/Maps/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2022.12.07-05.37.45:080][964]LogSavePackage: Save=468.53ms
-[2022.12.07-05.37.45:080][964]LogSavePackage: Moving 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Saved/NewMapF85554AC4D4E575730C1D783C552942D.tmp' to 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Content/Maps/NewMap.umap'
-[2022.12.07-05.37.45:084][964]LogSavePackage: Display: Finished SavePackage C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Content/Maps/NewMap.umap
-[2022.12.07-05.37.45:103][964]LogFileHelpers: Saving map 'NewMap' took 0.573
-[2022.12.07-05.37.45:180][964]LogSavePackage: Save=55.62ms
-[2022.12.07-05.37.45:180][964]LogSavePackage: Moving 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Saved/ThirdPersonCharacter837ADCDF4D1B1EE0077C248AE49FA152.tmp' to 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
-[2022.12.07-05.37.45:184][964]LogSavePackage: Display: Finished SavePackage C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
-[2022.12.07-05.37.53:862][190]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.07-05.37.53:878][190]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.07-05.37.53:878][190]PIE: New page: PIEセッション: NewMap (2022/12/07 23:37:53)
-[2022.12.07-05.37.53:878][190]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.07-05.37.53:895][190]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016707s)
-[2022.12.07-05.37.53:895][190]LogAIModule: Creating AISystem for world NewMap
-[2022.12.07-05.37.53:896][190]LogPlayLevel: PIE: World Init took: (0.001168s)
-[2022.12.07-05.37.53:896][190]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.018507s)
-[2022.12.07-05.37.53:923][190]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.07-05.37.53:928][190]LogInit: FAudioDevice initialized.
-[2022.12.07-05.37.53:961][190]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.07-05.37.53:970][190]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.07-14.37.53
-[2022.12.07-05.37.53:971][190]LogWorld: Bringing up level for play took: 0.008741
-[2022.12.07-05.37.53:972][190]PIE: /Game/Maps/UEDPIE_0_NewMap 1.064のプレイ イン エディタの開始時間
-[2022.12.07-05.38.24:957][ 42]BlueprintLog: New page: ThirdPersonCharacter をコンパイル
-[2022.12.07-05.38.27:992][210]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.07-05.38.28:008][210]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.07-05.38.28:008][210]PIE: New page: PIEセッション: NewMap (2022/12/07 23:38:28)
-[2022.12.07-05.38.28:008][210]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.07-05.38.28:024][210]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016120s)
-[2022.12.07-05.38.28:025][210]LogAIModule: Creating AISystem for world NewMap
-[2022.12.07-05.38.28:025][210]LogPlayLevel: PIE: World Init took: (0.000716s)
-[2022.12.07-05.38.28:025][210]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.017160s)
-[2022.12.07-05.38.28:050][210]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.07-05.38.28:056][210]LogInit: FAudioDevice initialized.
-[2022.12.07-05.38.28:086][210]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.07-05.38.28:095][210]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.07-14.38.28
-[2022.12.07-05.38.28:095][210]LogWorld: Bringing up level for play took: 0.008203
-[2022.12.07-05.38.28:097][210]PIE: /Game/Maps/UEDPIE_0_NewMap -0.811のプレイ イン エディタの開始時間
-[2022.12.07-05.39.00:538][151]BlueprintLog: New page: ThirdPersonCharacter をコンパイル
-[2022.12.07-05.39.02:728][268]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.07-05.39.02:744][268]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.07-05.39.02:744][268]PIE: New page: PIEセッション: NewMap (2022/12/07 23:39:02)
-[2022.12.07-05.39.02:744][268]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.07-05.39.02:761][268]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016318s)
-[2022.12.07-05.39.02:761][268]LogAIModule: Creating AISystem for world NewMap
-[2022.12.07-05.39.02:761][268]LogPlayLevel: PIE: World Init took: (0.000703s)
-[2022.12.07-05.39.02:762][268]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.017344s)
-[2022.12.07-05.39.02:787][268]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.07-05.39.02:793][268]LogInit: FAudioDevice initialized.
-[2022.12.07-05.39.02:824][268]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.07-05.39.02:834][268]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.07-14.39.02
-[2022.12.07-05.39.02:834][268]LogWorld: Bringing up level for play took: 0.009154
-[2022.12.07-05.39.02:836][268]PIE: /Game/Maps/UEDPIE_0_NewMap -0.072のプレイ イン エディタの開始時間
-[2022.12.07-05.44.33:586][712]BlueprintLog: New page: ThirdPersonCharacter をコンパイル
-[2022.12.07-05.44.35:350][803]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.07-05.44.35:365][803]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.07-05.44.35:365][803]PIE: New page: PIEセッション: NewMap (2022/12/07 23:44:35)
-[2022.12.07-05.44.35:365][803]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.07-05.44.35:383][803]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017278s)
-[2022.12.07-05.44.35:383][803]LogAIModule: Creating AISystem for world NewMap
-[2022.12.07-05.44.35:383][803]LogPlayLevel: PIE: World Init took: (0.000680s)
-[2022.12.07-05.44.35:384][803]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.018287s)
-[2022.12.07-05.44.35:407][803]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.07-05.44.35:415][803]LogInit: FAudioDevice initialized.
-[2022.12.07-05.44.35:444][803]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.07-05.44.35:453][803]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.07-14.44.35
-[2022.12.07-05.44.35:453][803]LogWorld: Bringing up level for play took: 0.008128
-[2022.12.07-05.44.35:455][803]PIE: /Game/Maps/UEDPIE_0_NewMap 0.546のプレイ イン エディタの開始時間
-[2022.12.07-05.45.12:854][632]BlueprintLog: New page: ThirdPersonCharacter をコンパイル
-[2022.12.07-05.45.16:183][815]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.07-05.45.16:199][815]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.07-05.45.16:200][815]PIE: New page: PIEセッション: NewMap (2022/12/07 23:45:16)
-[2022.12.07-05.45.16:200][815]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.07-05.45.16:216][815]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015942s)
-[2022.12.07-05.45.16:216][815]LogAIModule: Creating AISystem for world NewMap
-[2022.12.07-05.45.16:216][815]LogPlayLevel: PIE: World Init took: (0.000709s)
-[2022.12.07-05.45.16:217][815]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.017039s)
-[2022.12.07-05.45.16:241][815]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.07-05.45.16:247][815]LogInit: FAudioDevice initialized.
-[2022.12.07-05.45.16:280][815]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.07-05.45.16:292][815]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.07-14.45.16
-[2022.12.07-05.45.16:292][815]LogWorld: Bringing up level for play took: 0.009792
-[2022.12.07-05.45.16:294][815]PIE: /Game/Maps/UEDPIE_0_NewMap -0.615のプレイ イン エディタの開始時間
-[2022.12.07-05.45.37:847][ 19]BlueprintLog: New page: ThirdPersonCharacter をコンパイル
-[2022.12.07-05.45.39:654][111]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.07-05.45.39:671][111]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.07-05.45.39:671][111]PIE: New page: PIEセッション: NewMap (2022/12/07 23:45:39)
-[2022.12.07-05.45.39:671][111]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.07-05.45.39:687][111]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016100s)
-[2022.12.07-05.45.39:688][111]LogAIModule: Creating AISystem for world NewMap
-[2022.12.07-05.45.39:688][111]LogPlayLevel: PIE: World Init took: (0.000760s)
-[2022.12.07-05.45.39:688][111]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.017204s)
-[2022.12.07-05.45.39:712][111]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.07-05.45.39:718][111]LogInit: FAudioDevice initialized.
-[2022.12.07-05.45.39:748][111]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.07-05.45.39:756][111]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.07-14.45.39
-[2022.12.07-05.45.39:757][111]LogWorld: Bringing up level for play took: 0.008060
-[2022.12.07-05.45.39:759][111]PIE: /Game/Maps/UEDPIE_0_NewMap 0.851のプレイ イン エディタの開始時間
-[2022.12.07-05.45.56:752][ 49]BlueprintLog: New page: ThirdPersonCharacter をコンパイル
-[2022.12.07-05.45.58:593][143]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.07-05.45.58:609][143]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.07-05.45.58:609][143]PIE: New page: PIEセッション: NewMap (2022/12/07 23:45:58)
-[2022.12.07-05.45.58:609][143]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.07-05.45.58:626][143]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016391s)
-[2022.12.07-05.45.58:626][143]LogAIModule: Creating AISystem for world NewMap
-[2022.12.07-05.45.58:626][143]LogPlayLevel: PIE: World Init took: (0.000658s)
-[2022.12.07-05.45.58:627][143]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.017382s)
-[2022.12.07-05.45.58:651][143]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.07-05.45.58:657][143]LogInit: FAudioDevice initialized.
-[2022.12.07-05.45.58:687][143]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.07-05.45.58:699][143]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.07-14.45.58
-[2022.12.07-05.45.58:700][143]LogWorld: Bringing up level for play took: 0.011097
-[2022.12.07-05.45.58:702][143]PIE: /Game/Maps/UEDPIE_0_NewMap -0.207のプレイ イン エディタの開始時間
-[2022.12.07-05.47.05:730][  8]BlueprintLog: New page: ThirdPersonCharacter をコンパイル
-[2022.12.07-05.47.08:203][137]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.07-05.47.08:218][137]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.07-05.47.08:219][137]PIE: New page: PIEセッション: NewMap (2022/12/07 23:47:08)
-[2022.12.07-05.47.08:219][137]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.07-05.47.08:235][137]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016312s)
-[2022.12.07-05.47.08:236][137]LogAIModule: Creating AISystem for world NewMap
-[2022.12.07-05.47.08:236][137]LogPlayLevel: PIE: World Init took: (0.000638s)
-[2022.12.07-05.47.08:236][137]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.017279s)
-[2022.12.07-05.47.08:260][137]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.07-05.47.08:265][137]LogInit: FAudioDevice initialized.
-[2022.12.07-05.47.08:295][137]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.07-05.47.08:304][137]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.07-14.47.08
-[2022.12.07-05.47.08:304][137]LogWorld: Bringing up level for play took: 0.008065
-[2022.12.07-05.47.08:306][137]PIE: /Game/Maps/UEDPIE_0_NewMap -0.603のプレイ イン エディタの開始時間
-[2022.12.07-05.50.03:549][554]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/NewMap' took 0.034
-[2022.12.07-05.50.03:552][554]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
-[2022.12.07-05.50.03:574][554]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
-[2022.12.07-05.50.03:574][554]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
-[2022.12.07-05.50.03:639][554]LogSavePackage: Save=56.61ms
-[2022.12.07-05.50.03:639][554]LogSavePackage: Moving 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Saved/ThirdPersonCharacter_Auto71B9D58D645205F4E42F3CDA554A11E1E.tmp' to 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto7.uasset'
-[2022.12.07-05.50.03:642][554]LogSavePackage: Display: Finished SavePackage C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto7.uasset
-[2022.12.07-05.50.03:642][554]LogFileHelpers: Auto-saving content packages took 0.092
-[2022.12.07-05.56.08:879][351]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.07-05.56.08:897][351]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.07-05.56.08:897][351]PIE: New page: PIEセッション: NewMap (2022/12/07 23:56:08)
-[2022.12.07-05.56.08:897][351]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.07-05.56.08:913][351]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016107s)
-[2022.12.07-05.56.08:913][351]LogAIModule: Creating AISystem for world NewMap
-[2022.12.07-05.56.08:914][351]LogPlayLevel: PIE: World Init took: (0.001426s)
-[2022.12.07-05.56.08:914][351]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.018158s)
-[2022.12.07-05.56.08:940][351]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.07-05.56.08:947][351]LogInit: FAudioDevice initialized.
-[2022.12.07-05.56.08:979][351]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.07-05.56.08:988][351]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.07-14.56.08
-[2022.12.07-05.56.08:988][351]LogWorld: Bringing up level for play took: 0.008281
-[2022.12.07-05.56.08:990][351]PIE: /Game/Maps/UEDPIE_0_NewMap 0.081のプレイ イン エディタの開始時間
-[2022.12.07-05.57.50:084][410]BlueprintLog: New page: ThirdPersonCharacter をコンパイル
-[2022.12.07-05.57.52:428][536]LogTemp: Repeating last play command: 選択ビューポート
-[2022.12.07-05.57.52:452][536]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.12.07-05.57.52:452][536]PIE: New page: PIEセッション: NewMap (2022/12/07 23:57:52)
-[2022.12.07-05.57.52:452][536]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2022.12.07-05.57.52:481][536]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028190s)
-[2022.12.07-05.57.52:481][536]LogAIModule: Creating AISystem for world NewMap
-[2022.12.07-05.57.52:482][536]LogPlayLevel: PIE: World Init took: (0.000783s)
-[2022.12.07-05.57.52:482][536]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.029532s)
-[2022.12.07-05.57.52:515][536]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.12.07-05.57.52:524][536]LogInit: FAudioDevice initialized.
-[2022.12.07-05.57.52:558][536]LogLoad: Game class is 'MyGameMode_C'
-[2022.12.07-05.57.52:570][536]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.12.07-14.57.52
-[2022.12.07-05.57.52:570][536]LogWorld: Bringing up level for play took: 0.011068
-[2022.12.07-05.57.52:574][536]PIE: /Game/Maps/UEDPIE_0_NewMap -0.335のプレイ イン エディタの開始時間
-[2022.12.07-05.59.29:588][851]LogSavePackage: Save=60.31ms
-[2022.12.07-05.59.29:588][851]LogSavePackage: Moving 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Saved/ThirdPersonCharacter7203A58B431FB8C9F99552AF96BC1944.tmp' to 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
-[2022.12.07-05.59.29:592][851]LogSavePackage: Display: Finished SavePackage C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
-[2022.12.07-05.59.29:753][851]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2022.12.07-05.59.29:987][851]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2022.12.07-05.59.30:390][852]Cmd: QUIT_EDITOR
-[2022.12.07-05.59.31:232][852]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
-[2022.12.07-05.59.31:270][852]LogExit: Preparing to exit.
-[2022.12.07-05.59.31:991][852]LogExit: Editor shut down
-[2022.12.07-05.59.32:018][852]LogExit: Transaction tracking system shut down
-[2022.12.07-05.59.32:272][852]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2022.12.07-05.59.32:272][852]LogDirectoryWatcher: A directory notification for 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Content/' was aborted.
-[2022.12.07-05.59.32:272][852]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2022.12.07-05.59.32:272][852]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2022.12.07-05.59.32:272][852]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2022.12.07-05.59.32:416][852]LogExit: Object subsystem successfully closed.
-[2022.12.07-05.59.32:436][852]LogD3D11RHI: Shutdown
-[2022.12.07-05.59.32:436][852]LogD3D11RHI: CleanupD3DDevice
-[2022.12.07-05.59.32:776][852]LogD3D11RHI: ~FD3D11DynamicRHI
-[2022.12.07-05.59.32:783][852]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (540)
-[2022.12.07-05.59.32:783][852]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (538)
-[2022.12.07-05.59.32:784][852]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (536)
-[2022.12.07-05.59.32:784][852]LogModuleManager: Shutting down and abandoning module BlueprintGraph (534)
-[2022.12.07-05.59.32:784][852]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (532)
-[2022.12.07-05.59.32:784][852]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
-[2022.12.07-05.59.32:784][852]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
-[2022.12.07-05.59.32:784][852]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
-[2022.12.07-05.59.32:784][852]LogDirectoryWatcher: A directory notification for 'D:/新しいフォルダー/Epic Games/DirectXRedist/UE_4.17/FeaturePacks/' was aborted.
-[2022.12.07-05.59.32:789][852]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
-[2022.12.07-05.59.32:789][852]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
-[2022.12.07-05.59.32:789][852]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
-[2022.12.07-05.59.32:789][852]LogDirectoryWatcher: A directory notification for 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Content/Collections/' was aborted.
-[2022.12.07-05.59.32:789][852]LogDirectoryWatcher: A directory notification for 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Content/Developers/kbc12006038/Collections/' was aborted.
-[2022.12.07-05.59.32:790][852]LogDirectoryWatcher: A directory notification for 'C:/Users/kbc12006038/Documents/Team_Unreal/MyProject2/Saved/Collections/' was aborted.
-[2022.12.07-05.59.32:790][852]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
-[2022.12.07-05.59.32:790][852]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
-[2022.12.07-05.59.32:790][852]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
-[2022.12.07-05.59.32:790][852]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
-[2022.12.07-05.59.32:790][852]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
-[2022.12.07-05.59.32:790][852]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
-[2022.12.07-05.59.32:790][852]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
-[2022.12.07-05.59.32:790][852]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
-[2022.12.07-05.59.32:790][852]LogModuleManager: Shutting down and abandoning module BspMode (502)
-[2022.12.07-05.59.32:790][852]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
-[2022.12.07-05.59.32:790][852]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
-[2022.12.07-05.59.32:790][852]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
-[2022.12.07-05.59.32:790][852]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
-[2022.12.07-05.59.32:790][852]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
-[2022.12.07-05.59.32:790][852]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
-[2022.12.07-05.59.32:790][852]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
-[2022.12.07-05.59.32:790][852]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
-[2022.12.07-05.59.32:790][852]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
-[2022.12.07-05.59.32:790][852]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
-[2022.12.07-05.59.32:790][852]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
-[2022.12.07-05.59.32:790][852]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
-[2022.12.07-05.59.32:790][852]LogModuleManager: Shutting down and abandoning module Media (477)
-[2022.12.07-05.59.32:790][852]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
-[2022.12.07-05.59.32:790][852]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
-[2022.12.07-05.59.32:790][852]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
-[2022.12.07-05.59.32:790][852]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
-[2022.12.07-05.59.32:790][852]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
-[2022.12.07-05.59.32:790][852]LogModuleManager: Shutting down and abandoning module SessionServices (464)
-[2022.12.07-05.59.32:790][852]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
-[2022.12.07-05.59.32:790][852]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
-[2022.12.07-05.59.32:790][852]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
-[2022.12.07-05.59.32:791][852]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
-[2022.12.07-05.59.32:791][852]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
-[2022.12.07-05.59.32:791][852]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
-[2022.12.07-05.59.32:791][852]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
-[2022.12.07-05.59.32:791][852]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
-[2022.12.07-05.59.32:791][852]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
-[2022.12.07-05.59.32:791][852]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
-[2022.12.07-05.59.33:600][852]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
-[2022.12.07-05.59.33:600][852]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
-[2022.12.07-05.59.33:600][852]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
-[2022.12.07-05.59.33:600][852]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
-[2022.12.07-05.59.33:600][852]LogModuleManager: Shutting down and abandoning module MergeActors (434)
-[2022.12.07-05.59.33:600][852]LogModuleManager: Shutting down and abandoning module SizeMap (432)
-[2022.12.07-05.59.33:600][852]LogModuleManager: Shutting down and abandoning module TreeMap (430)
-[2022.12.07-05.59.33:600][852]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
-[2022.12.07-05.59.33:600][852]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
-[2022.12.07-05.59.33:600][852]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
-[2022.12.07-05.59.33:600][852]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
-[2022.12.07-05.59.33:600][852]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
-[2022.12.07-05.59.33:600][852]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
-[2022.12.07-05.59.33:600][852]LogModuleManager: Shutting down and abandoning module XmlParser (416)
-[2022.12.07-05.59.33:600][852]LogModuleManager: Shutting down and abandoning module Blutility (414)
-[2022.12.07-05.59.33:600][852]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
-[2022.12.07-05.59.33:600][852]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
-[2022.12.07-05.59.33:600][852]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
-[2022.12.07-05.59.33:600][852]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
-[2022.12.07-05.59.33:600][852]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
-[2022.12.07-05.59.33:600][852]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
-[2022.12.07-05.59.33:600][852]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
-[2022.12.07-05.59.33:600][852]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
-[2022.12.07-05.59.33:600][852]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
-[2022.12.07-05.59.33:653][852]LogModuleManager: Shutting down and abandoning module AutomationController (394)
-[2022.12.07-05.59.33:653][852]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
-[2022.12.07-05.59.33:653][852]LogModuleManager: Shutting down and abandoning module Layers (390)
-[2022.12.07-05.59.33:653][852]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
-[2022.12.07-05.59.33:653][852]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
-[2022.12.07-05.59.33:653][852]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
-[2022.12.07-05.59.33:654][852]LogModuleManager: Shutting down and abandoning module Persona (382)
-[2022.12.07-05.59.33:654][852]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
-[2022.12.07-05.59.33:654][852]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
-[2022.12.07-05.59.33:654][852]LogModuleManager: Shutting down and abandoning module Kismet (376)
-[2022.12.07-05.59.33:673][852]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
-[2022.12.07-05.59.33:677][852]LogModuleManager: Shutting down and abandoning module Toolbox (372)
-[2022.12.07-05.59.33:677][852]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
-[2022.12.07-05.59.33:677][852]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
-[2022.12.07-05.59.33:678][852]LogModuleManager: Shutting down and abandoning module OutputLog (366)
-[2022.12.07-05.59.33:678][852]LogModuleManager: Shutting down and abandoning module GammaUI (364)
-[2022.12.07-05.59.33:678][852]LogModuleManager: Shutting down and abandoning module Documentation (362)
-[2022.12.07-05.59.33:678][852]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
-[2022.12.07-05.59.33:678][852]LogModuleManager: Shutting down and abandoning module MovieScene (358)
-[2022.12.07-05.59.33:678][852]LogModuleManager: Shutting down and abandoning module Niagara (356)
-[2022.12.07-05.59.33:678][852]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
-[2022.12.07-05.59.33:679][852]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
-[2022.12.07-05.59.33:679][852]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
-[2022.12.07-05.59.33:679][852]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
-[2022.12.07-05.59.33:679][852]LogModuleManager: Shutting down and abandoning module PortalServices (346)
-[2022.12.07-05.59.33:679][852]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
-[2022.12.07-05.59.33:679][852]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
-[2022.12.07-05.59.33:679][852]LogModuleManager: Shutting down and abandoning module AIModule (340)
-[2022.12.07-05.59.33:679][852]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
-[2022.12.07-05.59.33:681][852]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
-[2022.12.07-05.59.33:681][852]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
-[2022.12.07-05.59.33:702][852]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
-[2022.12.07-05.59.33:702][852]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
-[2022.12.07-05.59.33:702][852]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
-[2022.12.07-05.59.33:702][852]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
-[2022.12.07-05.59.33:702][852]LogModuleManager: Shutting down and abandoning module OculusInput (324)
-[2022.12.07-05.59.33:702][852]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
-[2022.12.07-05.59.33:702][852]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
-[2022.12.07-05.59.33:702][852]LogModuleManager: Shutting down and abandoning module CableComponent (318)
-[2022.12.07-05.59.33:702][852]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
-[2022.12.07-05.59.33:702][852]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
-[2022.12.07-05.59.33:702][852]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
-[2022.12.07-05.59.33:702][852]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
-[2022.12.07-05.59.33:702][852]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
-[2022.12.07-05.59.33:702][852]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
-[2022.12.07-05.59.33:702][852]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
-[2022.12.07-05.59.33:702][852]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
-[2022.12.07-05.59.33:702][852]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
-[2022.12.07-05.59.33:702][852]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
-[2022.12.07-05.59.33:703][852]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
-[2022.12.07-05.59.33:703][852]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
-[2022.12.07-05.59.33:703][852]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
-[2022.12.07-05.59.33:703][852]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
-[2022.12.07-05.59.33:703][852]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
-[2022.12.07-05.59.33:703][852]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
-[2022.12.07-05.59.33:703][852]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
-[2022.12.07-05.59.33:703][852]LogModuleManager: Shutting down and abandoning module SourceControl (281)
-[2022.12.07-05.59.33:703][852]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
-[2022.12.07-05.59.33:703][852]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
-[2022.12.07-05.59.33:703][852]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
-[2022.12.07-05.59.33:703][852]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
-[2022.12.07-05.59.33:703][852]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
-[2022.12.07-05.59.33:704][852]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
-[2022.12.07-05.59.33:706][852]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
-[2022.12.07-05.59.33:706][852]LogModuleManager: Shutting down and abandoning module MainFrame (266)
-[2022.12.07-05.59.33:706][852]LogModuleManager: Shutting down and abandoning module HotReload (265)
-[2022.12.07-05.59.33:706][852]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
-[2022.12.07-05.59.33:707][852]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
-[2022.12.07-05.59.33:707][852]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
-[2022.12.07-05.59.33:707][852]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
-[2022.12.07-05.59.33:707][852]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
-[2022.12.07-05.59.33:707][852]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
-[2022.12.07-05.59.33:707][852]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
-[2022.12.07-05.59.33:707][852]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
-[2022.12.07-05.59.33:808][852]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
-[2022.12.07-05.59.33:909][852]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
-[2022.12.07-05.59.33:909][852]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
-[2022.12.07-05.59.33:909][852]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
-[2022.12.07-05.59.33:909][852]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
-[2022.12.07-05.59.33:909][852]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
-[2022.12.07-05.59.33:909][852]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
-[2022.12.07-05.59.33:912][852]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
-[2022.12.07-05.59.33:913][852]LogModuleManager: Shutting down and abandoning module Paper2D (228)
-[2022.12.07-05.59.33:913][852]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
-[2022.12.07-05.59.33:913][852]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
-[2022.12.07-05.59.33:915][852]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
-[2022.12.07-05.59.33:915][852]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
-[2022.12.07-05.59.33:915][852]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
-[2022.12.07-05.59.33:916][852]LogModuleManager: Shutting down and abandoning module Overlay (216)
-[2022.12.07-05.59.33:916][852]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
-[2022.12.07-05.59.33:916][852]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
-[2022.12.07-05.59.33:916][852]LogModuleManager: Shutting down and abandoning module VREditor (210)
-[2022.12.07-05.59.33:916][852]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
-[2022.12.07-05.59.33:916][852]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
-[2022.12.07-05.59.33:916][852]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
-[2022.12.07-05.59.33:916][852]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
-[2022.12.07-05.59.33:916][852]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
-[2022.12.07-05.59.33:916][852]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
-[2022.12.07-05.59.33:916][852]LogModuleManager: Shutting down and abandoning module UMG (196)
-[2022.12.07-05.59.33:917][852]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
-[2022.12.07-05.59.33:917][852]LogModuleManager: Shutting down and abandoning module Sequencer (194)
-[2022.12.07-05.59.33:917][852]LogModuleManager: Shutting down and abandoning module MessageLog (191)
-[2022.12.07-05.59.33:917][852]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
-[2022.12.07-05.59.33:917][852]LogModuleManager: Shutting down and abandoning module Slate (184)
-[2022.12.07-05.59.33:917][852]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
-[2022.12.07-05.59.33:922][852]LogModuleManager: Shutting down and abandoning module MRMesh (180)
-[2022.12.07-05.59.33:922][852]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
-[2022.12.07-05.59.33:922][852]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
-[2022.12.07-05.59.33:922][852]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
-[2022.12.07-05.59.33:922][852]LogModuleManager: Shutting down and abandoning module Networking (172)
-[2022.12.07-05.59.33:922][852]LogModuleManager: Shutting down and abandoning module Core (168)
-[2022.12.07-05.59.33:922][852]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2022.12.07-05.59.33:922][852]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
-[2022.12.07-05.59.33:922][852]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
-[2022.12.07-05.59.33:922][852]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
-[2022.12.07-05.59.33:922][852]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
-[2022.12.07-05.59.33:923][852]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
-[2022.12.07-05.59.33:923][852]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
-[2022.12.07-05.59.33:923][852]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
-[2022.12.07-05.59.33:923][852]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
-[2022.12.07-05.59.33:923][852]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
-[2022.12.07-05.59.33:928][852]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
-[2022.12.07-05.59.34:009][852]LogDerivedDataCache: Shutdown
-[2022.12.07-05.59.34:009][852]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
-[2022.12.07-05.59.34:009][852]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
-[2022.12.07-05.59.34:009][852]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
-[2022.12.07-05.59.34:009][852]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
-[2022.12.07-05.59.34:009][852]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
-[2022.12.07-05.59.34:009][852]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
-[2022.12.07-05.59.34:009][852]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
-[2022.12.07-05.59.34:009][852]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
-[2022.12.07-05.59.34:009][852]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
-[2022.12.07-05.59.34:009][852]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
-[2022.12.07-05.59.34:009][852]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
-[2022.12.07-05.59.34:009][852]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
-[2022.12.07-05.59.34:009][852]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
-[2022.12.07-05.59.34:009][852]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
-[2022.12.07-05.59.34:009][852]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
-[2022.12.07-05.59.34:009][852]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
-[2022.12.07-05.59.34:009][852]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
-[2022.12.07-05.59.34:009][852]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
-[2022.12.07-05.59.34:009][852]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
-[2022.12.07-05.59.34:009][852]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
-[2022.12.07-05.59.34:009][852]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
-[2022.12.07-05.59.34:009][852]LogModuleManager: Shutting down and abandoning module Messaging (101)
-[2022.12.07-05.59.34:009][852]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
-[2022.12.07-05.59.34:009][852]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
-[2022.12.07-05.59.34:009][852]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
-[2022.12.07-05.59.34:009][852]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
-[2022.12.07-05.59.34:009][852]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
-[2022.12.07-05.59.34:010][852]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
-[2022.12.07-05.59.34:010][852]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
-[2022.12.07-05.59.34:010][852]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
-[2022.12.07-05.59.34:010][852]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
-[2022.12.07-05.59.34:010][852]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
-[2022.12.07-05.59.34:010][852]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
-[2022.12.07-05.59.34:010][852]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
-[2022.12.07-05.59.34:010][852]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
-[2022.12.07-05.59.34:010][852]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
-[2022.12.07-05.59.34:010][852]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
-[2022.12.07-05.59.34:010][852]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
-[2022.12.07-05.59.34:010][852]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
-[2022.12.07-05.59.34:010][852]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
-[2022.12.07-05.59.34:010][852]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
-[2022.12.07-05.59.34:010][852]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2022.12.07-05.59.34:010][852]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2022.12.07-05.59.34:010][852]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
-[2022.12.07-05.59.34:010][852]LogModuleManager: Shutting down and abandoning module SteamVR (54)
-[2022.12.07-05.59.34:010][852]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
-[2022.12.07-05.59.34:010][852]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2022.12.07-05.59.34:010][852]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2022.12.07-05.59.34:010][852]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2022.12.07-05.59.34:010][852]LogOnline: Display: Unloading online subsystem: NULL
-[2022.12.07-05.59.34:010][852]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2022.12.07-05.59.34:010][852]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2022.12.07-05.59.34:010][852]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2022.12.07-05.59.34:010][852]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2F4F431E-4346-D025-B0D3-48A7A40AA77F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=be8597fa482c6af2dbb49ca0fd8078a0%7Ce398a5851cc049aea417db2de1dac9e4%7Cecaf4c60-73a7-48da-acc3-e504180407b1&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2022.12.07-05.59.34:018][852]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2022.12.07-05.59.34:020][852]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2022.12.07-05.59.34:020][852]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2022.12.07-05.59.34:020][852]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2022.12.07-05.59.34:020][852]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2022.12.07-05.59.34:020][852]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2022.12.07-05.59.34:020][852]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2022.12.07-05.59.34:020][852]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2022.12.07-05.59.34:029][852]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2022.12.07-05.59.34:029][852]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2022.12.07-05.59.34:029][852]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2022.12.07-05.59.34:029][852]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2022.12.07-05.59.34:029][852]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2022.12.07-05.59.34:029][852]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2022.12.07-05.59.34:029][852]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2022.12.07-05.59.34:029][852]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2022.12.07-05.59.34:029][852]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2022.12.07-05.59.34:029][852]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2022.12.07-05.59.34:029][852]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2022.12.07-05.59.34:033][852]LogExit: Exiting.
-[2022.12.07-05.59.34:044][852]Log file closed, 12/07/22 14:59:34
+[2023.01.17-05.21.45:960][  0]LogInit: Selected Device Profile: [Windows]
+[2023.01.17-05.21.45:961][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2023.01.17-05.21.45:968][  0]LogInit: Computer: KBC12006040
+[2023.01.17-05.21.45:968][  0]LogInit: User: kbc12006040
+[2023.01.17-05.21.45:968][  0]LogInit: CPU Page size=4096, Cores=6
+[2023.01.17-05.21.45:968][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.01.17-05.21.45:968][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2023.01.17-05.21.45:968][  0]LogMemory: Platform Memory Stats for Windows
+[2023.01.17-05.21.45:968][  0]LogMemory: Process Physical Memory: 280.90 MB used, 280.91 MB peak
+[2023.01.17-05.21.45:968][  0]LogMemory: Process Virtual Memory: 282.89 MB used, 282.89 MB peak
+[2023.01.17-05.21.45:968][  0]LogMemory: Physical Memory: 9082.32 MB used,  7147.59 MB free, 16229.91 MB total
+[2023.01.17-05.21.45:968][  0]LogMemory: Virtual Memory: 4801.86 MB used,  7147.59 MB free, 134217728.00 MB total
+[2023.01.17-05.21.46:196][  0]LogInit: Using OS detected language (ja-JP).
+[2023.01.17-05.21.46:196][  0]LogInit: Using OS detected locale (ja-JP).
+[2023.01.17-05.21.46:352][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
+[2023.01.17-05.21.47:736][  0]LogD3D11RHI: D3D11 adapters:
+[2023.01.17-05.21.47:874][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1650 with Max-Q Design' (Feature Level 11_0)
+[2023.01.17-05.21.47:874][  0]LogD3D11RHI:       3949/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2023.01.17-05.21.47:921][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2023.01.17-05.21.47:921][  0]LogD3D11RHI:       128/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2023.01.17-05.21.47:924][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2023.01.17-05.21.47:924][  0]LogD3D11RHI:       0/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2023.01.17-05.21.47:924][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2023.01.17-05.21.47:932][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2023.01.17-05.21.47:932][  0]LogD3D11RHI:     GPU DeviceId: 0x1f91 (for the marketing name, search the web for "GPU Device Id")
+[2023.01.17-05.21.47:932][  0]LogWindows: EnumDisplayDevices:
+[2023.01.17-05.21.47:932][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2023.01.17-05.21.47:932][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2023.01.17-05.21.47:933][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2023.01.17-05.21.47:933][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2023.01.17-05.21.47:933][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1650 with Max-Q Design
+[2023.01.17-05.21.47:933][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2023.01.17-05.21.47:933][  0]LogD3D11RHI:      Driver Date: Unknown
+[2023.01.17-05.21.47:933][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2023.01.17-05.21.48:011][  0]LogD3D11RHI: Async texture creation enabled
+[2023.01.17-05.21.48:029][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2023.01.17-05.21.48:030][  0]LogShaderCompilers: Guid format shader working directory is 17 characters bigger than the processId version (../../../../Team_Unreal/MyProject2/Intermediate/Shaders/WorkingDirectory/25668/).
+[2023.01.17-05.21.48:030][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kbc12006040/AppData/Local/Temp/UnrealShaderWorkingDir/36D2B63D4D57C2C4D8B98885D42E2FF2/'.
+[2023.01.17-05.21.48:031][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2023.01.17-05.21.48:938][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2023.01.17-05.21.48:986][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2023.01.17-05.21.49:034][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2023.01.17-05.21.49:083][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2023.01.17-05.21.49:153][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2023.01.17-05.21.49:207][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2023.01.17-05.21.49:257][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2023.01.17-05.21.49:305][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2023.01.17-05.21.49:352][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2023.01.17-05.21.49:407][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.01.17-05.21.49:455][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2023.01.17-05.21.49:503][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2023.01.17-05.21.49:554][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2023.01.17-05.21.49:605][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2023.01.17-05.21.49:656][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2023.01.17-05.21.49:754][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2023.01.17-05.21.49:754][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2023.01.17-05.21.49:796][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2023.01.17-05.21.49:891][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2023.01.17-05.21.49:918][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2023.01.17-05.21.49:965][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2023.01.17-05.21.50:016][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2023.01.17-05.21.50:066][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2023.01.17-05.21.50:117][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2023.01.17-05.21.50:117][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2023.01.17-05.21.50:562][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2023.01.17-05.21.50:646][  0]LogDerivedDataCache: Loaded boot cache 0.08s 93MB C:/Users/kbc12006040/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2023.01.17-05.21.50:647][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kbc12006040/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2023.01.17-05.21.50:647][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Team_Unreal/MyProject2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.01.17-05.21.50:647][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2023.01.17-05.21.50:647][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Team_Unreal/MyProject2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.01.17-05.21.50:647][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2023.01.17-05.21.50:660][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2023.01.17-05.21.50:672][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kbc12006040/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2023.01.17-05.21.50:680][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2023.01.17-05.21.50:681][  0]LogSlate: Using Freetype 2.6.0
+[2023.01.17-05.21.50:687][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.01.17-05.21.50:687][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.01.17-05.21.51:487][  0]LogAssetRegistry: FAssetRegistry took 0.0264 seconds to start up
+[2023.01.17-05.21.51:594][  0]LogInit: Selected Device Profile: [Windows]
+[2023.01.17-05.21.51:740][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2023.01.17-05.21.52:064][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2023.01.17-05.21.52:105][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2023.01.17-05.21.52:105][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2023.01.17-05.21.52:105][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2023.01.17-05.21.52:105][  0]LogMeshReduction: No automatic mesh merging module available
+[2023.01.17-05.21.52:105][  0]LogMeshMerging: No automatic mesh merging module available
+[2023.01.17-05.21.52:794][  0]LogNetVersion: MyProject2 , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 237949846)
+[2023.01.17-05.21.53:014][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.055488 seconds
+[2023.01.17-05.21.53:019][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2023.01.17-05.21.53:019][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2023.01.17-05.21.53:019][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.01.17-05.21.53:072][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2023.01.17-05.21.55:532][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2023.01.17-05.21.55:570][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2023.01.17-05.21.56:220][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2023.01.17-05.21.56:627][  0]SourceControl: ソースコントロールは無効です
+[2023.01.17-05.21.56:627][  0]SourceControl: ソースコントロールは無効です
+[2023.01.17-05.21.56:677][  0]SourceControl: ソースコントロールは無効です
+[2023.01.17-05.21.56:727][  0]SourceControl: ソースコントロールは無効です
+[2023.01.17-05.21.57:316][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2023.01.17-05.21.57:559][  0]LogOcInput: OculusInput pre-init called
+[2023.01.17-05.21.57:808][  0]LogEngine: Initializing Engine...
+[2023.01.17-05.21.57:810][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.01.17-05.21.57:995][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2023.01.17-05.21.57:996][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2023.01.17-05.21.58:119][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.01.17-05.21.58:191][  0]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2023.01.17-05.21.58:318][  0]LogInit: FAudioDevice initialized.
+[2023.01.17-05.21.58:367][  0]LogDerivedDataCache: Saved boot cache 0.05s 93MB C:/Users/kbc12006040/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2023.01.17-05.21.58:378][  0]LogInit: Texture streaming: Enabled
+[2023.01.17-05.21.58:478][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2023.01.17-05.21.58:689][  0]LogInit: Transaction tracking system initialized
+[2023.01.17-05.21.58:986][  0]BlueprintLog: New page: エディタの読み込み
+[2023.01.17-05.21.59:827][  0]LocalizationService: ローカライズのサービスが無効になりました
+[2023.01.17-05.22.00:491][  0]LogConsoleResponse: Display: 
+[2023.01.17-05.22.00:662][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2023.01.17-05.22.00:662][  0]LogCook: Display: Mobile HDR setting 1
+[2023.01.17-05.22.00:662][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2023.01.17-05.22.01:008][  0]LogFileCache: Scanning file cache for directory 'D:/school/Unreal/Team_Unreal/MyProject2/Content/' took 0.03s
+[2023.01.17-05.22.01:685][  0]SourceControl: ソースコントロールは無効です
+[2023.01.17-05.22.01:686][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.01.17-05.22.01:686][  0]LightingResults: New page: ライティングのビルド
+[2023.01.17-05.22.01:727][  0]MapCheck: New page: マップをチェック
+[2023.01.17-05.22.01:727][  0]LightingResults: New page: <何も選択されていません>
+[2023.01.17-05.22.01:874][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2023.01.17-05.22.01:879][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.01.17-05.22.01:892][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.01.17-05.22.01:949][  0]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 56.807ミリ秒かかりました。
+[2023.01.17-05.22.01:949][  0]LogFileHelpers: Loading map 'Template_Default' took 0.263
+[2023.01.17-05.22.02:042][  0]LogCollectionManager: Loaded 0 collections in 0.000931 seconds
+[2023.01.17-05.22.02:123][  0]LogFileCache: Scanning file cache for directory 'D:/school/Unreal/Team_Unreal/MyProject2/Saved/Collections/' took 0.01s
+[2023.01.17-05.22.02:123][  0]LogFileCache: Scanning file cache for directory 'D:/school/Unreal/Team_Unreal/MyProject2/Content/Developers/kbc12006040/Collections/' took 0.01s
+[2023.01.17-05.22.02:123][  0]LogFileCache: Scanning file cache for directory 'D:/school/Unreal/Team_Unreal/MyProject2/Content/Collections/' took 0.01s
+[2023.01.17-05.22.02:123][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2023.01.17-05.22.02:130][  0]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 2386 classes and 500 folders.
+[2023.01.17-05.22.02:189][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2023.01.17-05.22.02:246][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2023.01.17-05.22.02:331][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2023.01.17-05.22.03:157][  0]LogSlate: Took 0.000441 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.01.17-05.22.03:162][  0]LogSlate: Took 0.003366 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2023.01.17-05.22.03:163][  0]LogSlate: Took 0.000365 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.01.17-05.22.03:166][  0]LogSlate: Took 0.000292 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.01.17-05.22.03:278][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MyProject2
+[2023.01.17-05.22.03:278][  0]LogTemp: CWD: D:\school\Unreal\UE_4.17\Engine\Binaries\DotNET\IOS
+[2023.01.17-05.22.03:278][  0]LogTemp: Initial Dir: D:\school\Unreal\UE_4.17
+[2023.01.17-05.22.03:278][  0]LogTemp: Env CWD: D:\school\Unreal\UE_4.17\Engine\Binaries\DotNET\IOS
+[2023.01.17-05.22.03:278][  0]LogTemp: BranchPath = KBC12006040/D/school/Unreal/UE_4.17/Engine/Binaries --- GameBranchPath = KBC12006040/D/school/Unreal/UE_4.17/Engine/Binaries
+[2023.01.17-05.22.03:278][  0]LogRenderer: Reallocating scene render targets to support 736x348 Format 10 NumSamples 1 (Frame:1).
+[2023.01.17-05.22.03:413][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\kbc12006040\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2023.01.17-05.22.03:470][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2023.01.17-05.22.03:470][  0]LogLoad: (Engine Initialization) Total time: 19.92 seconds
+[2023.01.17-05.22.03:470][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.01.17-05.22.03:470][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2023.01.17-05.22.03:831][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2023.01.17-05.22.04:148][  1]LogAssetRegistry: Asset discovery search completed in 12.6844 seconds
+[2023.01.17-05.22.04:150][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2023.01.17-05.22.04:150][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000037 seconds (updated 0 objects)
+[2023.01.17-05.22.14:774][525]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2023.01.17-05.22.15:122][525]LogTexture: Display: Building textures: HQ_Lightmap1_10 (AutoDXT, 128X128)
+[2023.01.17-05.22.15:122][525]LogTexture: Display: Building textures: HQ_Lightmap1_15 (AutoDXT, 64X64)
+[2023.01.17-05.22.15:123][525]LogTexture: Display: Building textures: HQ_Lightmap1_11 (AutoDXT, 128X128)
+[2023.01.17-05.22.15:123][525]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 128X128)
+[2023.01.17-05.22.15:123][525]LogTexture: Display: Building textures: HQ_Lightmap1_14 (AutoDXT, 128X128)
+[2023.01.17-05.22.15:123][525]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 128X128)
+[2023.01.17-05.22.15:123][525]LogTexture: Display: Building textures: HQ_Lightmap1_13 (AutoDXT, 128X128)
+[2023.01.17-05.22.15:123][525]LogTexture: Display: Building textures: HQ_Lightmap1_12 (AutoDXT, 128X128)
+[2023.01.17-05.22.15:123][525]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 128X128)
+[2023.01.17-05.22.15:123][525]LogTexture: Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 128X128)
+[2023.01.17-05.22.15:123][525]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 256X256)
+[2023.01.17-05.22.15:123][525]LogTexture: Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 128X128)
+[2023.01.17-05.22.15:123][525]LogTexture: Display: Building textures: HQ_Lightmap1_9 (AutoDXT, 128X128)
+[2023.01.17-05.22.15:123][525]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 128X128)
+[2023.01.17-05.22.15:123][525]LogTexture: Display: Building textures: LQ_Lightmap_1_10 (DXT1, 128X128)
+[2023.01.17-05.22.15:123][525]LogTexture: Display: Building textures: HQ_Lightmap1_8 (AutoDXT, 512X512)
+[2023.01.17-05.22.15:123][525]LogTexture: Display: Building textures: LQ_Lightmap_1_11 (DXT1, 128X128)
+[2023.01.17-05.22.15:123][525]LogTexture: Display: Building textures: LQ_Lightmap_1_12 (DXT1, 128X128)
+[2023.01.17-05.22.15:123][525]LogTexture: Display: Building textures: LQ_Lightmap_1_13 (DXT1, 128X128)
+[2023.01.17-05.22.15:123][525]LogTexture: Display: Building textures: LQ_Lightmap_1_14 (DXT1, 128X128)
+[2023.01.17-05.22.15:123][525]LogTexture: Display: Building textures: LQ_Lightmap_1_15 (DXT1, 64X64)
+[2023.01.17-05.22.15:123][525]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 128X128)
+[2023.01.17-05.22.15:123][525]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 128X128)
+[2023.01.17-05.22.15:123][525]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 256X256)
+[2023.01.17-05.22.15:123][525]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (DXT1, 128X128)
+[2023.01.17-05.22.15:123][525]LogTexture: Display: Building textures: HQ_Lightmap1_7 (AutoDXT, 1024X1024)
+[2023.01.17-05.22.15:123][525]LogTexture: Display: Building textures: LQ_Lightmap_1_6 (DXT1, 128X128)
+[2023.01.17-05.22.15:123][525]LogTexture: Display: Building textures: LQ_Lightmap_1_9 (DXT1, 128X128)
+[2023.01.17-05.22.15:123][525]LogTexture: Display: Building textures: LQ_Lightmap_1_8 (DXT1, 512X512)
+[2023.01.17-05.22.15:186][525]LogTexture: Display: Building textures: LQ_Lightmap_1_7 (DXT1, 1024X1024)
+[2023.01.17-05.22.15:424][525]LogAIModule: Creating AISystem for world NewMap
+[2023.01.17-05.22.15:455][525]Cmd: MAP LOAD FILE="../../../../Team_Unreal/MyProject2/Content/Maps/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.01.17-05.22.15:455][525]LightingResults: New page: ライティングのビルド
+[2023.01.17-05.22.15:456][525]LoadErrors: New page: マップをロード中: NewMap.umap
+[2023.01.17-05.22.15:456][525]MapCheck: New page: マップをチェック
+[2023.01.17-05.22.15:457][525]LightingResults: New page: <何も選択されていません>
+[2023.01.17-05.22.15:546][525]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.01.17-05.22.15:577][525]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.01.17-05.22.15:648][525]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 71.104ミリ秒かかりました。
+[2023.01.17-05.22.15:649][525]LogFileHelpers: Loading map 'NewMap' took 0.194
+[2023.01.17-05.22.32:225][157]LogSlate: Took 0.000236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2023.01.17-05.22.32:320][158]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
+[2023.01.17-05.25.44:001][822]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.01.17-05.26.09:454][249]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 113 classes and 0 folders.
+[2023.01.17-05.26.10:272][249]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.01.17-05.26.17:141][637]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2023.01.17-05.26.30:554][422]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.01.17-05.26.46:461][346]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: 'Engine/Tutorial/Installation/InstallingVisualStudioTutorial' is not a standard unreal filename or a long path name. Reason: パスは '/' で開始しなくてはいけません
+[2023.01.17-05.26.46:461][346]LogLinker: Warning: ファイル 'Engine/Tutorial/Installation/InstallingVisualStudioTutorial' が見つかりません
+[2023.01.17-05.26.46:461][346]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: 'Engine/Tutorial/Installation/InstallingVisualStudioTutorial' is not a standard unreal filename or a long path name. Reason: パスは '/' で開始しなくてはいけません
+[2023.01.17-05.26.46:461][346]LogLinker: Warning: ファイル 'Engine/Tutorial/Installation/InstallingVisualStudioTutorial' が見つかりません
+[2023.01.17-05.26.46:462][346]LogUObjectGlobals: Warning: オブジェクト 'Blueprint Engine/Tutorial/Installation/InstallingVisualStudioTutorial.InstallingVisualStudioTutorial' が見つかりませんでした
+[2023.01.17-05.26.48:851][488]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: 'Engine/Tutorial/Installation/InstallingVisualStudioTutorial' is not a standard unreal filename or a long path name. Reason: パスは '/' で開始しなくてはいけません
+[2023.01.17-05.26.49:656][535]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: 'Engine/Tutorial/Installation/InstallingVisualStudioTutorial' is not a standard unreal filename or a long path name. Reason: パスは '/' で開始しなくてはいけません
+[2023.01.17-05.29.15:663][816]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.01.17-05.32.52:822][610]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/NewMap' took 0.112
+[2023.01.17-05.32.52:825][610]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/NewInstans] ([1] browsable assets)...
+[2023.01.17-05.32.52:825][610]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/NewInstans]
+[2023.01.17-05.32.52:825][610]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/NewInstans" FILE="../../../../Team_Unreal/MyProject2/Saved/Autosaves/Game/BP/NewInstans_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2023.01.17-05.32.52:833][610]LogSavePackage: Save=5.25ms
+[2023.01.17-05.32.52:833][610]LogSavePackage: Moving '../../../../Team_Unreal/MyProject2/Saved/NewInstans_Auto15719FF394ACF1FD947B195A0F4240098.tmp' to '../../../../Team_Unreal/MyProject2/Saved/Autosaves/Game/BP/NewInstans_Auto1.uasset'
+[2023.01.17-05.32.52:834][610]LogSavePackage: Display: Finished SavePackage ../../../../Team_Unreal/MyProject2/Saved/Autosaves/Game/BP/NewInstans_Auto1.uasset
+[2023.01.17-05.32.52:835][610]LogFileHelpers: Auto-saving content packages took 0.012
+[2023.01.17-05.42.53:482][953]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/NewMap' took 0.019
+[2023.01.17-05.42.53:485][953]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/NewInstans] ([1] browsable assets)...
+[2023.01.17-05.42.53:485][953]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/NewInstans]
+[2023.01.17-05.42.53:485][953]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/NewInstans" FILE="../../../../Team_Unreal/MyProject2/Saved/Autosaves/Game/BP/NewInstans_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2023.01.17-05.42.53:491][953]LogSavePackage: Save=4.34ms
+[2023.01.17-05.42.53:491][953]LogSavePackage: Moving '../../../../Team_Unreal/MyProject2/Saved/NewInstans_Auto2FE5BBE704546DEABFCEAC48540A9A293.tmp' to '../../../../Team_Unreal/MyProject2/Saved/Autosaves/Game/BP/NewInstans_Auto2.uasset'
+[2023.01.17-05.42.53:492][953]LogSavePackage: Display: Finished SavePackage ../../../../Team_Unreal/MyProject2/Saved/Autosaves/Game/BP/NewInstans_Auto2.uasset
+[2023.01.17-05.42.53:492][953]LogFileHelpers: Auto-saving content packages took 0.009
+[2023.01.17-05.58.29:739][586]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/NewMap' took 0.018
+[2023.01.17-05.58.29:741][586]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/NewInstans] ([1] browsable assets)...
+[2023.01.17-05.58.29:742][586]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/NewInstans]
+[2023.01.17-05.58.29:742][586]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/NewInstans" FILE="../../../../Team_Unreal/MyProject2/Saved/Autosaves/Game/BP/NewInstans_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2023.01.17-05.58.29:746][586]LogSavePackage: Save=3.00ms
+[2023.01.17-05.58.29:746][586]LogSavePackage: Moving '../../../../Team_Unreal/MyProject2/Saved/NewInstans_Auto30601CC994E695954C16703A4095A7B18.tmp' to '../../../../Team_Unreal/MyProject2/Saved/Autosaves/Game/BP/NewInstans_Auto3.uasset'
+[2023.01.17-05.58.29:748][586]LogSavePackage: Display: Finished SavePackage ../../../../Team_Unreal/MyProject2/Saved/Autosaves/Game/BP/NewInstans_Auto3.uasset
+[2023.01.17-05.58.29:748][586]LogFileHelpers: Auto-saving content packages took 0.008
+[2023.01.17-05.59.29:436][823]LogSlate: Took 0.015765 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.01.17-05.59.47:539][906]BlueprintLog: New page: NewInstans をコンパイル
+[2023.01.17-06.00.30:540][946]BlueprintLog: New page: NewInstans をコンパイル
+[2023.01.17-06.00.39:268][108]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/NewInstans" FILE="../../../../Team_Unreal/MyProject2/Content/BP/NewInstans.uasset" SILENT=true
+[2023.01.17-06.00.39:370][108]LogSavePackage: Save=99.73ms
+[2023.01.17-06.00.39:370][108]LogSavePackage: Moving '../../../../Team_Unreal/MyProject2/Saved/NewInstans1EA3BCA04E402F5149F8FF9ABBD04497.tmp' to '../../../../Team_Unreal/MyProject2/Content/BP/NewInstans.uasset'
+[2023.01.17-06.00.39:374][108]LogSavePackage: Display: Finished SavePackage ../../../../Team_Unreal/MyProject2/Content/BP/NewInstans.uasset
+[2023.01.17-06.00.39:632][109]Cmd: QUIT_EDITOR
+[2023.01.17-06.00.39:653][109]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
+[2023.01.17-06.00.39:664][109]LogExit: Preparing to exit.
+[2023.01.17-06.00.40:829][109]LogDirectoryWatcher: A directory notification for 'D:/school/Unreal/Team_Unreal/MyProject2/Content/' was aborted.
+[2023.01.17-06.00.40:873][109]LogExit: Editor shut down
+[2023.01.17-06.00.40:887][109]LogExit: Transaction tracking system shut down
+[2023.01.17-06.00.41:036][109]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2023.01.17-06.00.41:036][109]LogDirectoryWatcher: A directory notification for '../../../../Team_Unreal/MyProject2/Content/' was aborted.
+[2023.01.17-06.00.41:036][109]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2023.01.17-06.00.41:036][109]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2023.01.17-06.00.41:036][109]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2023.01.17-06.00.41:100][109]LogExit: Object subsystem successfully closed.
+[2023.01.17-06.00.41:116][109]LogD3D11RHI: Shutdown
+[2023.01.17-06.00.41:116][109]LogD3D11RHI: CleanupD3DDevice
+[2023.01.17-06.00.41:247][109]LogD3D11RHI: ~FD3D11DynamicRHI
+[2023.01.17-06.00.41:253][109]LogModuleManager: Shutting down and abandoning module BlueprintGraph (536)
+[2023.01.17-06.00.41:253][109]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (534)
+[2023.01.17-06.00.41:253][109]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
+[2023.01.17-06.00.41:253][109]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (530)
+[2023.01.17-06.00.41:253][109]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2023.01.17-06.00.41:253][109]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2023.01.17-06.00.41:253][109]LogDirectoryWatcher: A directory notification for 'D:/school/Unreal/UE_4.17/FeaturePacks/' was aborted.
+[2023.01.17-06.00.41:255][109]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2023.01.17-06.00.41:255][109]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2023.01.17-06.00.41:255][109]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2023.01.17-06.00.41:255][109]LogDirectoryWatcher: A directory notification for 'D:/school/Unreal/Team_Unreal/MyProject2/Content/Collections/' was aborted.
+[2023.01.17-06.00.41:255][109]LogDirectoryWatcher: A directory notification for 'D:/school/Unreal/Team_Unreal/MyProject2/Content/Developers/kbc12006040/Collections/' was aborted.
+[2023.01.17-06.00.41:255][109]LogDirectoryWatcher: A directory notification for 'D:/school/Unreal/Team_Unreal/MyProject2/Saved/Collections/' was aborted.
+[2023.01.17-06.00.41:255][109]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2023.01.17-06.00.41:255][109]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2023.01.17-06.00.41:255][109]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2023.01.17-06.00.41:255][109]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2023.01.17-06.00.41:255][109]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2023.01.17-06.00.41:255][109]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2023.01.17-06.00.41:255][109]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2023.01.17-06.00.41:255][109]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2023.01.17-06.00.41:255][109]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2023.01.17-06.00.41:255][109]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2023.01.17-06.00.41:255][109]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2023.01.17-06.00.41:255][109]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2023.01.17-06.00.41:255][109]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2023.01.17-06.00.41:255][109]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2023.01.17-06.00.41:255][109]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2023.01.17-06.00.41:255][109]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2023.01.17-06.00.41:255][109]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2023.01.17-06.00.41:255][109]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2023.01.17-06.00.41:255][109]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2023.01.17-06.00.41:255][109]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2023.01.17-06.00.41:255][109]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2023.01.17-06.00.41:256][109]LogModuleManager: Shutting down and abandoning module Media (477)
+[2023.01.17-06.00.41:256][109]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2023.01.17-06.00.41:256][109]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2023.01.17-06.00.41:256][109]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2023.01.17-06.00.41:256][109]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2023.01.17-06.00.41:256][109]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2023.01.17-06.00.41:256][109]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2023.01.17-06.00.41:256][109]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2023.01.17-06.00.41:256][109]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2023.01.17-06.00.41:256][109]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2023.01.17-06.00.41:256][109]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2023.01.17-06.00.41:256][109]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2023.01.17-06.00.41:256][109]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2023.01.17-06.00.41:256][109]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2023.01.17-06.00.41:256][109]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2023.01.17-06.00.41:256][109]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2023.01.17-06.00.41:256][109]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2023.01.17-06.00.41:403][109]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2023.01.17-06.00.41:403][109]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2023.01.17-06.00.41:403][109]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2023.01.17-06.00.41:403][109]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2023.01.17-06.00.41:403][109]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2023.01.17-06.00.41:404][109]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2023.01.17-06.00.41:404][109]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2023.01.17-06.00.41:404][109]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2023.01.17-06.00.41:404][109]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2023.01.17-06.00.41:404][109]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2023.01.17-06.00.41:404][109]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2023.01.17-06.00.41:404][109]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2023.01.17-06.00.41:404][109]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2023.01.17-06.00.41:404][109]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2023.01.17-06.00.41:404][109]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2023.01.17-06.00.41:404][109]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2023.01.17-06.00.41:404][109]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2023.01.17-06.00.41:404][109]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2023.01.17-06.00.41:404][109]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2023.01.17-06.00.41:404][109]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2023.01.17-06.00.41:404][109]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2023.01.17-06.00.41:404][109]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2023.01.17-06.00.41:404][109]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2023.01.17-06.00.41:404][109]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2023.01.17-06.00.41:466][109]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2023.01.17-06.00.41:466][109]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2023.01.17-06.00.41:466][109]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2023.01.17-06.00.41:466][109]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2023.01.17-06.00.41:466][109]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2023.01.17-06.00.41:466][109]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2023.01.17-06.00.41:466][109]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2023.01.17-06.00.41:466][109]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2023.01.17-06.00.41:466][109]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2023.01.17-06.00.41:466][109]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2023.01.17-06.00.41:471][109]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2023.01.17-06.00.41:472][109]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2023.01.17-06.00.41:472][109]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2023.01.17-06.00.41:472][109]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2023.01.17-06.00.41:472][109]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2023.01.17-06.00.41:472][109]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2023.01.17-06.00.41:472][109]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2023.01.17-06.00.41:472][109]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2023.01.17-06.00.41:472][109]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2023.01.17-06.00.41:472][109]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2023.01.17-06.00.41:472][109]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2023.01.17-06.00.41:472][109]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2023.01.17-06.00.41:472][109]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2023.01.17-06.00.41:472][109]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2023.01.17-06.00.41:472][109]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2023.01.17-06.00.41:472][109]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2023.01.17-06.00.41:472][109]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2023.01.17-06.00.41:472][109]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2023.01.17-06.00.41:472][109]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2023.01.17-06.00.41:472][109]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2023.01.17-06.00.41:472][109]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2023.01.17-06.00.41:690][109]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2023.01.17-06.00.41:690][109]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2023.01.17-06.00.41:690][109]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2023.01.17-06.00.41:690][109]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2023.01.17-06.00.41:690][109]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2023.01.17-06.00.41:690][109]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2023.01.17-06.00.41:690][109]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2023.01.17-06.00.41:690][109]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2023.01.17-06.00.41:690][109]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2023.01.17-06.00.41:690][109]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2023.01.17-06.00.41:691][109]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2023.01.17-06.00.41:691][109]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2023.01.17-06.00.41:691][109]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2023.01.17-06.00.41:691][109]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2023.01.17-06.00.41:691][109]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2023.01.17-06.00.41:691][109]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2023.01.17-06.00.41:691][109]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2023.01.17-06.00.41:691][109]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2023.01.17-06.00.41:691][109]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2023.01.17-06.00.41:691][109]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2023.01.17-06.00.41:691][109]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2023.01.17-06.00.41:691][109]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2023.01.17-06.00.41:691][109]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2023.01.17-06.00.41:691][109]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2023.01.17-06.00.41:691][109]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2023.01.17-06.00.41:691][109]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2023.01.17-06.00.41:691][109]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2023.01.17-06.00.41:691][109]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2023.01.17-06.00.41:691][109]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2023.01.17-06.00.41:691][109]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2023.01.17-06.00.41:691][109]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2023.01.17-06.00.41:691][109]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2023.01.17-06.00.41:692][109]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2023.01.17-06.00.41:692][109]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2023.01.17-06.00.41:693][109]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2023.01.17-06.00.41:693][109]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2023.01.17-06.00.41:693][109]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2023.01.17-06.00.41:693][109]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2023.01.17-06.00.41:693][109]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2023.01.17-06.00.41:693][109]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2023.01.17-06.00.41:693][109]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2023.01.17-06.00.41:693][109]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2023.01.17-06.00.41:693][109]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2023.01.17-06.00.41:794][109]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2023.01.17-06.00.41:894][109]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2023.01.17-06.00.41:894][109]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2023.01.17-06.00.41:894][109]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2023.01.17-06.00.41:894][109]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2023.01.17-06.00.41:894][109]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2023.01.17-06.00.41:894][109]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2023.01.17-06.00.41:895][109]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2023.01.17-06.00.41:895][109]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2023.01.17-06.00.41:895][109]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2023.01.17-06.00.41:895][109]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2023.01.17-06.00.41:896][109]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2023.01.17-06.00.41:896][109]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2023.01.17-06.00.41:896][109]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2023.01.17-06.00.41:896][109]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2023.01.17-06.00.41:896][109]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2023.01.17-06.00.41:896][109]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2023.01.17-06.00.41:896][109]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2023.01.17-06.00.41:896][109]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2023.01.17-06.00.41:896][109]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2023.01.17-06.00.41:896][109]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2023.01.17-06.00.41:896][109]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2023.01.17-06.00.41:896][109]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2023.01.17-06.00.41:896][109]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2023.01.17-06.00.41:897][109]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2023.01.17-06.00.41:897][109]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2023.01.17-06.00.41:897][109]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2023.01.17-06.00.41:897][109]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2023.01.17-06.00.41:897][109]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2023.01.17-06.00.41:897][109]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2023.01.17-06.00.41:897][109]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2023.01.17-06.00.41:899][109]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2023.01.17-06.00.41:899][109]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2023.01.17-06.00.41:899][109]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2023.01.17-06.00.41:899][109]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2023.01.17-06.00.41:899][109]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2023.01.17-06.00.41:899][109]LogModuleManager: Shutting down and abandoning module Core (168)
+[2023.01.17-06.00.41:899][109]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2023.01.17-06.00.41:899][109]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2023.01.17-06.00.41:899][109]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2023.01.17-06.00.41:899][109]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2023.01.17-06.00.41:899][109]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2023.01.17-06.00.41:899][109]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2023.01.17-06.00.41:899][109]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2023.01.17-06.00.41:899][109]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2023.01.17-06.00.41:899][109]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2023.01.17-06.00.41:899][109]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2023.01.17-06.00.41:901][109]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2023.01.17-06.00.41:922][109]LogDerivedDataCache: Shutdown
+[2023.01.17-06.00.41:922][109]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2023.01.17-06.00.41:922][109]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2023.01.17-06.00.41:922][109]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2023.01.17-06.00.41:922][109]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2023.01.17-06.00.41:922][109]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2023.01.17-06.00.41:922][109]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2023.01.17-06.00.41:922][109]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2023.01.17-06.00.41:922][109]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2023.01.17-06.00.41:922][109]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2023.01.17-06.00.41:922][109]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2023.01.17-06.00.41:923][109]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2023.01.17-06.00.41:923][109]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2023.01.17-06.00.41:923][109]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2023.01.17-06.00.41:923][109]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2023.01.17-06.00.41:923][109]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2023.01.17-06.00.41:923][109]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2023.01.17-06.00.41:923][109]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2023.01.17-06.00.41:923][109]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2023.01.17-06.00.41:923][109]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2023.01.17-06.00.41:923][109]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2023.01.17-06.00.41:923][109]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2023.01.17-06.00.41:923][109]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2023.01.17-06.00.41:923][109]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2023.01.17-06.00.41:923][109]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2023.01.17-06.00.41:923][109]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2023.01.17-06.00.41:923][109]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2023.01.17-06.00.41:923][109]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2023.01.17-06.00.41:923][109]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2023.01.17-06.00.41:923][109]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2023.01.17-06.00.41:923][109]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2023.01.17-06.00.41:923][109]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2023.01.17-06.00.41:923][109]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2023.01.17-06.00.41:923][109]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2023.01.17-06.00.41:923][109]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2023.01.17-06.00.41:923][109]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2023.01.17-06.00.41:923][109]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2023.01.17-06.00.41:923][109]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2023.01.17-06.00.41:923][109]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2023.01.17-06.00.41:923][109]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2023.01.17-06.00.41:923][109]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2023.01.17-06.00.41:924][109]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2023.01.17-06.00.41:924][109]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2023.01.17-06.00.41:924][109]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2023.01.17-06.00.41:924][109]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2023.01.17-06.00.41:924][109]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2023.01.17-06.00.41:924][109]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2023.01.17-06.00.41:924][109]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2023.01.17-06.00.41:924][109]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2023.01.17-06.00.41:924][109]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2023.01.17-06.00.41:924][109]LogOnline: Display: Unloading online subsystem: NULL
+[2023.01.17-06.00.41:924][109]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2023.01.17-06.00.41:924][109]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2023.01.17-06.00.41:924][109]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2023.01.17-06.00.41:924][109]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B454BBF1C-4EE1-0477-DE9E-2B9266249603%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=ea2c3102465571ac8674c18b46ca9428%7C13a763a1247c43cabf4d5e0d482ef43a%7Cd03405d0-8f5c-42d6-b8cb-ef9b49d4cc7f&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2023.01.17-06.00.41:940][109]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2023.01.17-06.00.41:941][109]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2023.01.17-06.00.41:941][109]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2023.01.17-06.00.41:941][109]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2023.01.17-06.00.41:941][109]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2023.01.17-06.00.41:941][109]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2023.01.17-06.00.41:941][109]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2023.01.17-06.00.41:941][109]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2023.01.17-06.00.41:945][109]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2023.01.17-06.00.41:945][109]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2023.01.17-06.00.41:945][109]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2023.01.17-06.00.41:945][109]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2023.01.17-06.00.41:945][109]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2023.01.17-06.00.41:945][109]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2023.01.17-06.00.41:945][109]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2023.01.17-06.00.41:945][109]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2023.01.17-06.00.41:945][109]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2023.01.17-06.00.41:945][109]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2023.01.17-06.00.41:945][109]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2023.01.17-06.00.41:949][109]LogExit: Exiting.
+[2023.01.17-06.00.41:959][109]Log file closed, 01/17/23 15:00:41
