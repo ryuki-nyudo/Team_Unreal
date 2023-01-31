@@ -1,0 +1,445 @@
+﻿Log file open, 01/30/23 14:19:29
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: MyProject2
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1542059087) SRandInit(-1542059086).
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.300708
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: D:/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2023.01.30-05.19.29:673][  0]LogInit: Selected Device Profile: [Windows]
+[2023.01.30-05.19.29:673][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2023.01.30-05.19.29:680][  0]LogInit: Computer: KBC12006034
+[2023.01.30-05.19.29:680][  0]LogInit: User: kbc12006034
+[2023.01.30-05.19.29:680][  0]LogInit: CPU Page size=4096, Cores=6
+[2023.01.30-05.19.29:680][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.01.30-05.19.29:681][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2023.01.30-05.19.29:681][  0]LogMemory: Platform Memory Stats for Windows
+[2023.01.30-05.19.29:681][  0]LogMemory: Process Physical Memory: 280.73 MB used, 280.73 MB peak
+[2023.01.30-05.19.29:681][  0]LogMemory: Process Virtual Memory: 282.82 MB used, 282.82 MB peak
+[2023.01.30-05.19.29:681][  0]LogMemory: Physical Memory: 10466.21 MB used,  5763.70 MB free, 16229.92 MB total
+[2023.01.30-05.19.29:681][  0]LogMemory: Virtual Memory: 4801.86 MB used,  5763.70 MB free, 134217728.00 MB total
+[2023.01.30-05.19.29:907][  0]LogInit: Using OS detected language (ja-JP).
+[2023.01.30-05.19.29:907][  0]LogInit: Using OS detected locale (ja-JP).
+[2023.01.30-05.19.29:909][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
+[2023.01.30-05.19.30:307][  0]LogD3D11RHI: D3D11 adapters:
+[2023.01.30-05.19.30:451][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1650 with Max-Q Design' (Feature Level 11_0)
+[2023.01.30-05.19.30:451][  0]LogD3D11RHI:       3949/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2023.01.30-05.19.30:482][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2023.01.30-05.19.30:482][  0]LogD3D11RHI:       128/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2023.01.30-05.19.30:484][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2023.01.30-05.19.30:484][  0]LogD3D11RHI:       0/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2023.01.30-05.19.30:484][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2023.01.30-05.19.30:492][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2023.01.30-05.19.30:492][  0]LogD3D11RHI:     GPU DeviceId: 0x1f91 (for the marketing name, search the web for "GPU Device Id")
+[2023.01.30-05.19.30:492][  0]LogWindows: EnumDisplayDevices:
+[2023.01.30-05.19.30:492][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2023.01.30-05.19.30:492][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2023.01.30-05.19.30:492][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2023.01.30-05.19.30:492][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2023.01.30-05.19.30:492][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1650 with Max-Q Design
+[2023.01.30-05.19.30:492][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2023.01.30-05.19.30:492][  0]LogD3D11RHI:      Driver Date: Unknown
+[2023.01.30-05.19.30:492][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2023.01.30-05.19.30:560][  0]LogD3D11RHI: Async texture creation enabled
+[2023.01.30-05.19.30:575][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2023.01.30-05.19.30:576][  0]LogShaderCompilers: Guid format shader working directory is -2 characters bigger than the processId version (C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Intermediate/Shaders/WorkingDirectory/13716/).
+[2023.01.30-05.19.30:576][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kbc12006034/AppData/Local/Temp/UnrealShaderWorkingDir/689C67AA4C8EEB36DE067BA1ABEDC69A/'.
+[2023.01.30-05.19.30:576][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2023.01.30-05.19.31:341][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2023.01.30-05.19.31:382][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2023.01.30-05.19.31:424][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2023.01.30-05.19.31:465][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2023.01.30-05.19.31:509][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2023.01.30-05.19.31:553][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2023.01.30-05.19.31:601][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2023.01.30-05.19.31:644][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2023.01.30-05.19.31:682][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2023.01.30-05.19.31:724][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.01.30-05.19.31:765][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2023.01.30-05.19.31:807][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2023.01.30-05.19.31:849][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2023.01.30-05.19.31:891][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2023.01.30-05.19.31:935][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2023.01.30-05.19.32:023][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2023.01.30-05.19.32:023][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2023.01.30-05.19.32:057][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2023.01.30-05.19.32:177][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2023.01.30-05.19.32:204][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2023.01.30-05.19.32:248][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2023.01.30-05.19.32:291][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2023.01.30-05.19.32:334][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2023.01.30-05.19.32:376][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2023.01.30-05.19.32:376][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2023.01.30-05.19.32:900][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2023.01.30-05.19.32:983][  0]LogDerivedDataCache: Loaded boot cache 0.08s 93MB C:/Users/kbc12006034/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2023.01.30-05.19.32:983][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kbc12006034/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2023.01.30-05.19.32:983][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.01.30-05.19.32:983][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2023.01.30-05.19.32:983][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.01.30-05.19.32:983][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2023.01.30-05.19.33:000][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2023.01.30-05.19.33:013][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kbc12006034/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2023.01.30-05.19.33:021][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2023.01.30-05.19.33:022][  0]LogSlate: Using Freetype 2.6.0
+[2023.01.30-05.19.33:022][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.01.30-05.19.33:022][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.01.30-05.19.33:266][  0]LogAssetRegistry: FAssetRegistry took 0.0257 seconds to start up
+[2023.01.30-05.19.33:363][  0]LogInit: Selected Device Profile: [Windows]
+[2023.01.30-05.19.33:491][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2023.01.30-05.19.33:736][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2023.01.30-05.19.33:769][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2023.01.30-05.19.33:769][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2023.01.30-05.19.33:769][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2023.01.30-05.19.33:769][  0]LogMeshReduction: No automatic mesh merging module available
+[2023.01.30-05.19.33:769][  0]LogMeshMerging: No automatic mesh merging module available
+[2023.01.30-05.19.34:049][  0]LogNetVersion: MyProject2 , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 237949846)
+[2023.01.30-05.19.34:217][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.032762 seconds
+[2023.01.30-05.19.34:221][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2023.01.30-05.19.34:221][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2023.01.30-05.19.34:221][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.01.30-05.19.34:271][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2023.01.30-05.19.36:354][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2023.01.30-05.19.36:387][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2023.01.30-05.19.36:933][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2023.01.30-05.19.37:288][  0]SourceControl: ソースコントロールは無効です
+[2023.01.30-05.19.37:288][  0]SourceControl: ソースコントロールは無効です
+[2023.01.30-05.19.37:331][  0]SourceControl: ソースコントロールは無効です
+[2023.01.30-05.19.37:377][  0]SourceControl: ソースコントロールは無効です
+[2023.01.30-05.19.37:847][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2023.01.30-05.19.38:065][  0]LogOcInput: OculusInput pre-init called
+[2023.01.30-05.19.38:329][  0]LogEngine: Initializing Engine...
+[2023.01.30-05.19.38:331][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.01.30-05.19.38:528][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2023.01.30-05.19.38:529][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2023.01.30-05.19.38:644][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.01.30-05.19.38:705][  0]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2023.01.30-05.19.38:834][  0]LogInit: FAudioDevice initialized.
+[2023.01.30-05.19.38:921][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/kbc12006034/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2023.01.30-05.19.38:933][  0]LogInit: Texture streaming: Enabled
+[2023.01.30-05.19.39:046][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2023.01.30-05.19.39:225][  0]LogInit: Transaction tracking system initialized
+[2023.01.30-05.19.39:504][  0]BlueprintLog: New page: エディタの読み込み
+[2023.01.30-05.19.40:246][  0]LocalizationService: ローカライズのサービスが無効になりました
+[2023.01.30-05.19.40:804][  0]LogConsoleResponse: Display: 
+[2023.01.30-05.19.40:948][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2023.01.30-05.19.40:948][  0]LogCook: Display: Mobile HDR setting 1
+[2023.01.30-05.19.40:948][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2023.01.30-05.19.41:791][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Content/' took 0.02s
+[2023.01.30-05.19.41:791][  0]SourceControl: ソースコントロールは無効です
+[2023.01.30-05.19.41:791][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.01.30-05.19.41:792][  0]LightingResults: New page: ライティングのビルド
+[2023.01.30-05.19.41:826][  0]MapCheck: New page: マップをチェック
+[2023.01.30-05.19.41:826][  0]LightingResults: New page: <何も選択されていません>
+[2023.01.30-05.19.41:972][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2023.01.30-05.19.41:977][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.01.30-05.19.41:989][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.01.30-05.19.42:024][  0]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 34.374ミリ秒かかりました。
+[2023.01.30-05.19.42:024][  0]LogFileHelpers: Loading map 'Template_Default' took 0.233
+[2023.01.30-05.19.42:111][  0]LogCollectionManager: Loaded 0 collections in 0.000753 seconds
+[2023.01.30-05.19.42:183][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Saved/Collections/' took 0.01s
+[2023.01.30-05.19.42:183][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Content/Developers/kbc12006034/Collections/' took 0.01s
+[2023.01.30-05.19.42:183][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Content/Collections/' took 0.01s
+[2023.01.30-05.19.42:183][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2023.01.30-05.19.42:190][  0]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 2386 classes and 500 folders.
+[2023.01.30-05.19.42:242][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2023.01.30-05.19.42:275][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2023.01.30-05.19.42:353][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2023.01.30-05.19.42:407][  0]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.01.30-05.19.42:410][  0]LogSlate: Took 0.001821 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2023.01.30-05.19.42:411][  0]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.01.30-05.19.42:413][  0]LogSlate: Took 0.000112 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.01.30-05.19.42:492][  0]LogRenderer: Reallocating scene render targets to support 968x404 Format 10 NumSamples 1 (Frame:1).
+[2023.01.30-05.19.42:656][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2023.01.30-05.19.42:657][  0]LogLoad: (Engine Initialization) Total time: 14.62 seconds
+[2023.01.30-05.19.42:657][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.01.30-05.19.42:657][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2023.01.30-05.19.43:015][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2023.01.30-05.19.43:343][  1]LogAssetRegistry: Asset discovery search completed in 10.0981 seconds
+[2023.01.30-05.19.43:345][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2023.01.30-05.19.43:345][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000042 seconds (updated 0 objects)
+[2023.01.30-05.19.43:998][  3]LogSlate: Took 0.000374 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2023.01.30-05.19.54:306][298]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2023.01.30-05.19.54:897][298]LogAIModule: Creating AISystem for world NewMap
+[2023.01.30-05.19.54:939][298]Cmd: MAP LOAD FILE="C:/Users/kbc12006034/Documents/Team_Unreal/MyProject2/Content/Maps/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.01.30-05.19.54:939][298]LightingResults: New page: ライティングのビルド
+[2023.01.30-05.19.54:939][298]LoadErrors: New page: マップをロード中: NewMap.umap
+[2023.01.30-05.19.54:940][298]MapCheck: New page: マップをチェック
+[2023.01.30-05.19.54:940][298]LightingResults: New page: <何も選択されていません>
+[2023.01.30-05.19.55:015][298]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.01.30-05.19.55:047][298]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.01.30-05.19.55:098][298]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 50.93ミリ秒かかりました。
+[2023.01.30-05.19.55:098][298]LogFileHelpers: Loading map 'NewMap' took 0.159
+[2023.01.30-05.20.05:356][911]LogEditorViewport: Clicking on Actor (LMB): Fire_C (Fire)
+[2023.01.30-05.20.58:819][ 85]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
+[2023.01.30-05.20.59:082][ 85]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 113 classes and 0 folders.
+[2023.01.30-05.20.59:573][ 85]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.01.30-05.20.59:622][ 85]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.01.30-05.21.04:475][351]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.01.30-05.25.10:238][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:238][983]Warning: OutputDelegate: Parse error while importing property values (PinName = OutputDelegate).
+[2023.01.30-05.25.10:238][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:238][983]Warning: then: Parse error while importing property values (PinName = then).
+[2023.01.30-05.25.10:238][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:238][983]Warning: Damage: Parse error while importing property values (PinName = Damage).
+[2023.01.30-05.25.10:238][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:238][983]Warning: DamageType: Parse error while importing property values (PinName = DamageType).
+[2023.01.30-05.25.10:238][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:239][983]Warning: InstigatedBy: Parse error while importing property values (PinName = InstigatedBy).
+[2023.01.30-05.25.10:239][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:239][983]Warning: DamageCauser: Parse error while importing property values (PinName = DamageCauser).
+[2023.01.30-05.25.10:239][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:239][983]Warning: HP: Parse error while importing property values (PinName = HP).
+[2023.01.30-05.25.10:240][983]LogLinker: ファイル '/Game/UnrealQuest3/Blueprints/BP_Player' が見つかりません
+[2023.01.30-05.25.10:240][983]LogLinker: ファイル '/Game/UnrealQuest3/Blueprints/BP_Player' が見つかりません
+[2023.01.30-05.25.10:240][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:240][983]Warning: self: Parse error while importing property values (PinName = self).
+[2023.01.30-05.25.10:241][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:241][983]Warning: self: Parse error while importing property values (PinName = self).
+[2023.01.30-05.25.10:241][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:241][983]Warning: A: Parse error while importing property values (PinName = A).
+[2023.01.30-05.25.10:241][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:241][983]Warning: B: Parse error while importing property values (PinName = B).
+[2023.01.30-05.25.10:241][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:241][983]Warning: ReturnValue: Parse error while importing property values (PinName = ReturnValue).
+[2023.01.30-05.25.10:241][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:241][983]Warning: execute: Parse error while importing property values (PinName = execute).
+[2023.01.30-05.25.10:241][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:241][983]Warning: then: Parse error while importing property values (PinName = then).
+[2023.01.30-05.25.10:241][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:241][983]Warning: HP: Parse error while importing property values (PinName = HP).
+[2023.01.30-05.25.10:241][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:241][983]Warning: Output_Get: Parse error while importing property values (PinName = Output_Get).
+[2023.01.30-05.25.10:242][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:242][983]Warning: self: Parse error while importing property values (PinName = self).
+[2023.01.30-05.25.10:242][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:242][983]Warning: execute: Parse error while importing property values (PinName = execute).
+[2023.01.30-05.25.10:242][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:242][983]Warning: then: Parse error while importing property values (PinName = then).
+[2023.01.30-05.25.10:242][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:242][983]Warning: self: Parse error while importing property values (PinName = self).
+[2023.01.30-05.25.10:242][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:242][983]Warning: WorldContextObject: Parse error while importing property values (PinName = WorldContextObject).
+[2023.01.30-05.25.10:242][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:242][983]Warning: InString: Parse error while importing property values (PinName = InString).
+[2023.01.30-05.25.10:242][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:242][983]Warning: bPrintToScreen: Parse error while importing property values (PinName = bPrintToScreen).
+[2023.01.30-05.25.10:243][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:243][983]Warning: bPrintToLog: Parse error while importing property values (PinName = bPrintToLog).
+[2023.01.30-05.25.10:243][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:243][983]Warning: TextColor: Parse error while importing property values (PinName = TextColor).
+[2023.01.30-05.25.10:243][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:243][983]Warning: Duration: Parse error while importing property values (PinName = Duration).
+[2023.01.30-05.25.10:243][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:243][983]Warning: HP: Parse error while importing property values (PinName = HP).
+[2023.01.30-05.25.10:243][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:243][983]Warning: self: Parse error while importing property values (PinName = self).
+[2023.01.30-05.25.10:243][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:243][983]Warning: self: Parse error while importing property values (PinName = self).
+[2023.01.30-05.25.10:243][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:243][983]Warning: A: Parse error while importing property values (PinName = A).
+[2023.01.30-05.25.10:243][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:243][983]Warning: B: Parse error while importing property values (PinName = B).
+[2023.01.30-05.25.10:244][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:244][983]Warning: ReturnValue: Parse error while importing property values (PinName = ReturnValue).
+[2023.01.30-05.25.10:244][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:244][983]Warning: execute: Parse error while importing property values (PinName = execute).
+[2023.01.30-05.25.10:244][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:244][983]Warning: Condition: Parse error while importing property values (PinName = Condition).
+[2023.01.30-05.25.10:244][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:244][983]Warning: then: Parse error while importing property values (PinName = then).
+[2023.01.30-05.25.10:244][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:244][983]Warning: else: Parse error while importing property values (PinName = else).
+[2023.01.30-05.25.10:244][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:244][983]Warning: Mesh: Parse error while importing property values (PinName = Mesh).
+[2023.01.30-05.25.10:244][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:244][983]Warning: self: Parse error while importing property values (PinName = self).
+[2023.01.30-05.25.10:244][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:244][983]Warning: execute: Parse error while importing property values (PinName = execute).
+[2023.01.30-05.25.10:244][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:244][983]Warning: then: Parse error while importing property values (PinName = then).
+[2023.01.30-05.25.10:244][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:244][983]Warning: self: Parse error while importing property values (PinName = self).
+[2023.01.30-05.25.10:244][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:244][983]Warning: bNewSimulate: Parse error while importing property values (PinName = bNewSimulate).
+[2023.01.30-05.25.10:245][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:245][983]Warning: execute: Parse error while importing property values (PinName = execute).
+[2023.01.30-05.25.10:245][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:245][983]Warning: then: Parse error while importing property values (PinName = then).
+[2023.01.30-05.25.10:245][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:245][983]Warning: self: Parse error while importing property values (PinName = self).
+[2023.01.30-05.25.10:245][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:245][983]Warning: NewType: Parse error while importing property values (PinName = NewType).
+[2023.01.30-05.25.10:245][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:245][983]Warning: InputPin: Parse error while importing property values (PinName = InputPin).
+[2023.01.30-05.25.10:245][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:245][983]Warning: OutputPin: Parse error while importing property values (PinName = OutputPin).
+[2023.01.30-05.25.10:245][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:245][983]Warning: execute: Parse error while importing property values (PinName = execute).
+[2023.01.30-05.25.10:245][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:245][983]Warning: then: Parse error while importing property values (PinName = then).
+[2023.01.30-05.25.10:245][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:245][983]Warning: self: Parse error while importing property values (PinName = self).
+[2023.01.30-05.25.10:245][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:245][983]Warning: PlayerController: Parse error while importing property values (PinName = PlayerController).
+[2023.01.30-05.25.10:245][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:245][983]Warning: self: Parse error while importing property values (PinName = self).
+[2023.01.30-05.25.10:246][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:246][983]Warning: WorldContextObject: Parse error while importing property values (PinName = WorldContextObject).
+[2023.01.30-05.25.10:246][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:246][983]Warning: PlayerIndex: Parse error while importing property values (PinName = PlayerIndex).
+[2023.01.30-05.25.10:246][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:246][983]Warning: ReturnValue: Parse error while importing property values (PinName = ReturnValue).
+[2023.01.30-05.25.10:246][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:246][983]Warning: execute: Parse error while importing property values (PinName = execute).
+[2023.01.30-05.25.10:246][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:246][983]Warning: Reset: Parse error while importing property values (PinName = Reset).
+[2023.01.30-05.25.10:246][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:246][983]Warning: Start Closed: Parse error while importing property values (PinName = Start Closed).
+[2023.01.30-05.25.10:246][983]Warning: Unknown pin type member: bIsUObjectWrapper.
+[2023.01.30-05.25.10:246][983]Warning: Completed: Parse error while importing property values (PinName = Completed).
+[2023.01.30-05.25.10:586][983]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.339 s
+[2023.01.30-05.25.10:586][983]LogOutputDevice: Error: === Handled ensure: ===
+[2023.01.30-05.25.10:586][983]LogOutputDevice: Error: 
+[2023.01.30-05.25.10:586][983]LogOutputDevice: Error: Ensure condition failed: ThisPin [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\EdGraphUtilities.cpp] [Line: 142]
+[2023.01.30-05.25.10:586][983]LogOutputDevice: Error: 
+[2023.01.30-05.25.10:586][983]LogOutputDevice: Error: Stack: 
+[2023.01.30-05.25.10:586][983]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000D5573E36
+[2023.01.30-05.25.10:586][983]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000D52FC2D2
+[2023.01.30-05.25.10:586][983]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000D5314746
+[2023.01.30-05.25.10:586][983]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000D06CAC78
+[2023.01.30-05.25.10:586][983]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000D06B3300
+[2023.01.30-05.25.10:586][983]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000CF4E08CD
+[2023.01.30-05.25.10:586][983]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000CF4E06AF
+[2023.01.30-05.25.10:586][983]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000CF469451
+[2023.01.30-05.25.10:586][983]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000CF46E1B6
+[2023.01.30-05.25.10:586][983]LogOutputDevice: Error: UE4Editor-Slate.dll!0x0000000035C07DD0
+[2023.01.30-05.25.10:586][983]LogOutputDevice: Error: UE4Editor-Slate.dll!0x0000000035C46850
+[2023.01.30-05.25.10:586][983]LogOutputDevice: Error: UE4Editor-GraphEditor.dll!0x00000000D808FFAD
+[2023.01.30-05.25.10:586][983]LogOutputDevice: Error: UE4Editor-Slate.dll!0x0000000035BF4761
+[2023.01.30-05.25.10:586][983]LogOutputDevice: Error: UE4Editor-Slate.dll!0x0000000035BC60BE
+[2023.01.30-05.25.10:586][983]LogOutputDevice: Error: UE4Editor-Slate.dll!0x0000000035BC7CC6
+[2023.01.30-05.25.10:587][983]LogOutputDevice: Error: UE4Editor-Slate.dll!0x0000000035C480B7
+[2023.01.30-05.25.10:587][983]LogOutputDevice: Error: UE4Editor-Slate.dll!0x0000000035C39B18
+[2023.01.30-05.25.10:587][983]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000D554B498
+[2023.01.30-05.25.10:587][983]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000D5533EE1
+[2023.01.30-05.25.10:587][983]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000D554D5BB
+[2023.01.30-05.25.10:587][983]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000D552F042
+[2023.01.30-05.25.10:587][983]LogOutputDevice: Error: USER32.dll!0x000000009E17E7E8
+[2023.01.30-05.25.10:587][983]LogOutputDevice: Error: USER32.dll!0x000000009E17E229
+[2023.01.30-05.25.10:587][983]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000D554DCC6
+[2023.01.30-05.25.10:587][983]LogOutputDevice: Error: UE4Editor.exe!0x0000000030CF4BE2
+[2023.01.30-05.25.10:587][983]LogOutputDevice: Error: UE4Editor.exe!0x0000000030D03970
+[2023.01.30-05.25.10:587][983]LogOutputDevice: Error: UE4Editor.exe!0x0000000030D039EA
+[2023.01.30-05.25.10:587][983]LogOutputDevice: Error: UE4Editor.exe!0x0000000030D102D9
+[2023.01.30-05.25.10:587][983]LogOutputDevice: Error: UE4Editor.exe!0x0000000030D11C47
+[2023.01.30-05.25.10:587][983]LogOutputDevice: Error: KERNEL32.DLL!0x000000009EE87614
+[2023.01.30-05.25.10:587][983]LogOutputDevice: Error: ntdll.dll!0x000000009F0226A1
+[2023.01.30-05.25.10:587][983]LogOutputDevice: Error: 
+[2023.01.30-05.25.10:589][983]LogStats:                SubmitErrorReport -  0.000 s
